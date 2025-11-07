@@ -44,9 +44,9 @@ This diagram shows the main user-goal use cases.
 4.	The Student submits a query (e.g., "What are the prerequisite courses for CSE 3063?").
 5.	The System analyzes the query.
 6.	The System searches the knowledge base using the specified retrieval hierarchy:
-a. It searches the "Computer Engineering" (CompE) document store.
-b. If relevant information is not found (or below a confidence threshold), it expands the search to the "Faculty of Engineering" (FoE) document store.
-c. If relevant information is still not found, it expands the search to the "University Policies" (MU) document store.
+- a. It searches the "Computer Engineering" (CompE) document store.
+- b. If relevant information is not found (or below a confidence threshold), it expands the search to the "Faculty of Engineering" (FoE) document store.
+- c. If relevant information is still not found, it expands the search to the "University Policies" (MU) document store.
 7.	The System retrieves the most relevant text chunk(s) from the documents (the "Retrieval" step).
 8.	The System passes the original query and the retrieved text chunk(s) to the generation component (the "Generation" step).
 9.	The System generates a concise, natural language answer based only on the retrieved context.
