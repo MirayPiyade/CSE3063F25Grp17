@@ -1,0 +1,87 @@
+CSE3063F25GrpX/
+│
+├── README.md
+│
+├── config/
+│   ├── config.yaml
+│   ├── intents.yaml
+│   ├── stopwords.yaml
+│   ├── reranker.yaml
+│   └── modules.yaml
+│
+├── data/
+│   ├── raw/               # downloaded + manual cleaned text
+│   ├── processed/         # normalized txt
+│   ├── chunks.json        # output of Chunker
+│   └── keyword_index.json # output of IndexBuilder
+│
+├── logs/
+│   └── run-*.jsonl        # TraceBus -> JsonlTraceSink outputs
+│
+├── docs/
+│   ├── RAD.pdf
+│   ├── DomainModel.pdf
+│   ├── SSDs.pdf
+│   ├── DCD.pdf
+│   ├── DSDs.pdf
+│   ├── LLM_Usage.pdf
+│   └── Report.tex         # optional
+│
+└── src/
+    ├── main/
+    │   ├── java/          # Iteration 1 implementation
+    │   │   └── rag/
+    │   │       ├── app/
+    │   │       │   ├── RagCli.java
+    │   │       │   ├── RagOrchestrator.java
+    │   │       │   ├── DefaultPipeline.java
+    │   │       │   ├── Context.java
+    │   │       │   ├── StrategyRegistry.java
+    │   │       │   └── stages/
+    │   │       │       ├── PipelineStage.java
+    │   │       │       ├── IntentDetectionStage.java
+    │   │       │       ├── QueryWritingStage.java
+    │   │       │       ├── RetrievalStage.java
+    │   │       │       ├── RerankingStage.java
+    │   │       │       ├── AnswerStage.java
+    │   │       │       └── FinalizeStage.java
+    │   │       │
+    │   │       ├── intents/
+    │   │       ├── query/
+    │   │       ├── retrieval/
+    │   │       ├── rerank/
+    │   │       ├── answer/
+    │   │       ├── trace/
+    │   │       ├── preprocess/
+    │   │       └── utils/
+    │   │
+    │   └── python/        # Iteration 2 re-implementation
+    │       └── rag/
+    │           ├── app/
+    │           │   ├── orchestrator.py
+    │           │   ├── default_pipeline.py
+    │           │   ├── context.py
+    │           │   ├── registry.py
+    │           │   └── stages/
+    │           ├── intents/
+    │           ├── query/
+    │           ├── retrieval/
+    │           ├── rerank/
+    │           ├── answer/
+    │           ├── trace/
+    │           ├── preprocess/
+    │           └── utils/
+    │
+    └── test/
+        ├── java/
+        │   ├── RuleIntentDetectorTest.java
+        │   ├── HeuristicQueryWriterTest.java
+        │   ├── KeywordRetrieverTest.java
+        │   └── SimpleRerankerTest.java
+        │
+        └── python/
+            ├── test_intents.py
+            ├── test_query.py
+            ├── test_retriever.py
+            ├── test_reranker.py
+            └── test_answer.py
