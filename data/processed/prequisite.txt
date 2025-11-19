@@ -1,0 +1,125 @@
+MARMARA UNIVERSITY - FACULTY OF ENGINEERING
+COMPUTER ENGINEERING DEPARTMENT - PREREQUISITE TREE (Version 2020_v1)
+-----------------------------------------------------------------------
+
+=== FRESHMAN YEAR ===
+
+[Semester 1]
+* MATH1001 - Calculus I (ECTS: 6)
+* CSE1200  - Introduction to Computer Eng. (ECTS: 4)
+* CSE1241  - Computer Programming I (ECTS: 6)
+* PHYS1101 - Physics I (ECTS: 4)
+* PHYS1103 - Physics Lab I (ECTS: 2)
+* ATA121   - Ataturk's Prin. & History I (ECTS: 2)
+* MBG1201  - Introduction to Modern Biology (ECTS: 5)
+* TRD121   - Turkish Language I (ECTS: 2)
+
+[Semester 2]
+* MATH1002 - Calculus II (ECTS: 6) 
+  <-- Prerequisite: MATH1001
+* PHYS1104 - Physics Lab II (ECTS: 2) 
+  <-- Prerequisite: PHYS1103
+* CSE1242  - Computer Programming II (ECTS: 6) 
+  <-- Prerequisite: CSE1241
+* PHYS1102 - Physics II (ECTS: 4) 
+  <-- Prerequisite: PHYS1101
+* NTE I    - Nontechnical Elective I (ECTS: 3)
+* ATA122   - Ataturk's Prin. & History II (ECTS: 2)
+* MATH2256 - Linear Algebra for Comp. Eng. (ECTS: 5)
+* TRD122   - Turkish Language II (ECTS: 2)
+
+
+=== SOPHOMORE YEAR ===
+
+[Semester 3]
+* MATH2059 - Numerical Methods (ECTS: 4) 
+  <-- Prerequisite: MATH1001
+* CSE2225  - Data Structures (ECTS: 7) 
+  <-- Prerequisite: CSE1242
+* CSE2023  - Discrete Comp. Structures (ECTS: 6) 
+  <-- Prerequisite: CSE1241
+* EE2031   - Electric Circuits (ECTS: 5) 
+  <-- Prerequisite: PHYS1102
+* ECON2004 - Engineering Economy (ECTS: 4)
+* MATH2055 - Differential Equations (ECTS: 4) 
+  <-- Prerequisite: MATH1002
+
+[Semester 4]
+* CSE2246  - Analysis of Algorithms (ECTS: 6) 
+  <-- Prerequisite: CSE2225, CSE2023
+* CSE2260  - Principles of Prog. Languages (ECTS: 6) 
+  <-- Prerequisite: CSE2225
+* EE2032   - Electronics (ECTS: 5) 
+  <-- Prerequisite: EE2031
+* CSE2138  - Systems Programming (ECTS: 7) 
+  <-- Prerequisite: CSE1242
+* STAT2253 - Prob. and Stat. for Comp. Eng. (ECTS: 5) 
+  <-- Prerequisite: MATH1002
+
+
+=== JUNIOR YEAR ===
+
+[Semester 5]
+* CSE3000  - Summer Practice (ECTS: 10)
+* CSE3055  - Database Systems (ECTS: 7) 
+  <-- Prerequisite: CSE2225
+* CSE3033  - Operating Systems (ECTS: 7) 
+  <-- Prerequisite: CSE2138, CSE2225
+* CSE3063  - Object-Oriented Software Desg. (ECTS: 5) 
+  <-- Prerequisite: CSE1242
+* CSE3215  - Digital Logic Design (ECTS: 6) 
+  <-- Prerequisite: EE2032
+* IE3081   - Modeling and Disc. Simulation (ECTS: 4) 
+  <-- Prerequisite: STAT2253
+
+[Semester 6]
+* COM2276  - Tech. Comm. & Entrepreneurship (ECTS: 2)
+* CSE3044  - Software Engineering (ECTS: 7) 
+  <-- Prerequisite: CSE3055
+* CSE3264  - Formal Lang. & Auto. Theory (ECTS: 5) 
+  <-- Prerequisite: CSE2023
+* CSE3038  - Computer Organization (ECTS: 7) 
+  <-- Prerequisite: CSE3215
+* CSE3048  - Int. to Signals and Systems (ECTS: 5) 
+  <-- Prerequisite: MATH2256
+* IE3235   - Operations Research (ECTS: 4) 
+  <-- Prerequisite: MATH2256
+
+
+=== SENIOR YEAR ===
+
+[Semester 7]
+* CSE4297  - Engineering Project I (ECTS: 5) 
+  <-- Prerequisite: CSE3044
+* CSE4074  - Computer Networks (ECTS: 5) 
+  <-- Prerequisite: CSE3033
+* TE I     - Technical Elective I (ECTS: 5)
+* UE       - University Elective (ECTS: 3)
+* CSE4219  - Prin. of Embed. System Design (ECTS: 6) 
+  <-- Prerequisite: CSE3038
+* ISG121   - Work Safety I (ECTS: 2)
+* CSE4288  - Int. to Machine Learning (ECTS: 5) 
+  <-- Prerequisite: STAT2253
+
+[Semester 8]
+* CSE4298  - Engineering Project II (ECTS: 5) 
+  <-- Prerequisite: CSE4297
+* TE II    - Technical Elective II (ECTS: 5)
+* TE III   - Technical Elective III (ECTS: 5)
+* TE IV    - Technical Elective IV (ECTS: 5)
+* FTE      - Faculty Technical Elective (ECTS: 5)
+* ISG122   - Work Safety II (ECTS: 2)
+* NTE II   - Nontechnical Elective II (ECTS: 3)
+* CSE4000  - Summer Practice (ECTS: 10)
+
+
+=== TECHNICAL ELECTIVE PREREQUISITES ===
+
+* TE: CSE4075 - Wireless & Mobile Networks (ECTS: 5) 
+  <-- Prerequisite: CSE4074 (Computer Networks)
+* TE: CSE4034 - Advanced Unix Programming (ECTS: 5) 
+  <-- Prerequisite: CSE3033 (Operating Systems)
+* TE: CSE4061 - Compiler Design (ECTS: 5) 
+  <-- Prerequisite: CSE3264 (Formal Lang.)
+* TE: CSE4217 - Microprocessors (ECTS: 5) 
+  <-- Prerequisite: CSE4219 (Embedded Systems)
