@@ -1,17 +1,29 @@
 package rag.app;
 
-import java.util.HashMap;
-import java.util.Map;
+import rag.intents.*;
+import rag.query.*;
+import rag.retrieval.*;
+import rag.rerank.*;
 
 public class StrategyRegistry {
 
-    private static final Map<String, Class<?>> registry = new HashMap<>();
-
-    public static void register(String key, Class<?> clazz) {
-        registry.put(key, clazz);
+    public IntentDetector getIntentDetector() {
+        return new RuleIntentDetector();
     }
 
-    public static Class<?> resolve(String key) {
-        return registry.get(key);
+    public QueryWriter getQueryWriter() {
+        return new HeuristicQueryWriter();
+    }
+
+    public Retriever getRetriever() {
+        return new KeywordRetriever();
+    }
+
+    public Reranker getReranker() {
+        return new SimpleReranker();
+    }
+
+    public KeywordIndex getIndex() {
+        return KeywordIndex.load("data/keyword_index.json");
     }
 }

@@ -3,20 +3,23 @@ package rag.app.stages;
 import rag.app.Context;
 import rag.trace.TraceBus;
 import rag.trace.TraceEvent;
-import rag.rerank.Reranker;
+import rag.retrieval.Retriever;
+import rag.retrieval.KeywordIndex;
 import rag.app.StrategyRegistry;
 
-public class RerankingStage implements PipelineStage {
+public class RetrievalStage implements PipelineStage {
 
-    private final Reranker reranker;
+    private final Retriever retriever;
+    private final KeywordIndex index;
 
-    public RerankingStage(StrategyRegistry registry) {
-        this.reranker = registry.getReranker();
+    public RetrievalStage(StrategyRegistry registry) {
+        this.retriever = registry.getRetriever();
+        this.index = registry.getIndex();
     }
 
     @Override
     public String getName() {
-        return "RerankingStage";
+        return "RetrievalStage";
     }
 
     @Override
@@ -24,19 +27,14 @@ public class RerankingStage implements PipelineStage {
 
         long start = System.currentTimeMillis();
 
-        var reranked = reranker.rerank(
-                context.getTerms(),
-                context.getHits(),
-                null
-        );
-
-        context.setHits(reranked);
+        var hits = retriever.retrieve(context.getTerms(), index);
+        context.setHits(hits);
 
         long duration = System.currentTimeMillis() - start;
 
         traceBus.publish(new TraceEvent(
             getName(),
-            "topHit=" + (reranked.isEmpty() ? "none" : reranked.get(0)),
+            "hits=" + hits.size(),
             duration,
             null
         ));

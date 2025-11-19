@@ -1,18 +1,31 @@
 package rag.app;
 
-import rag.app.stages.PipelineStage;
+import rag.app.stages.*;
+import rag.trace.*;
+
+import java.util.List;
 
 public class RagOrchestrator {
-    private PipelineStage[] stages;
 
-    public RagOrchestrator(PipelineStage[] stages) {
-        this.stages = stages;
-    }
+    private final StrategyRegistry registry = new StrategyRegistry();
 
-    public rag.answer.Answer run(String question) {
+    public void run(String question) throws Exception {
+
         Context ctx = new Context(question);
-        for (PipelineStage stage : stages)
-            stage.run(ctx);
-        return ctx.getAnswer();
+
+        TraceBus bus = new TraceBus();
+        bus.addSink(new JsonlTraceSink("logs/run.jsonl"));
+
+        var pipeline = new DefaultPipeline(List.of(
+                new IntentDetectionStage(registry),
+                new QueryWritingStage(registry),
+                new RetrievalStage(registry),
+                new RerankingStage(registry),
+                new AnswerStage() // teammate
+        ));
+
+        pipeline.run(ctx, bus);
+
+        System.out.println(ctx.getAnswer().getText());
     }
 }
