@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e7d92c7-ea60-45ad-82e3-d2faa21372ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/ChunkStoreBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/ChunkStoreBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/Chunker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/Chunker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/IndexBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/TextNormalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/TextNormalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/retrieval/KeywordIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/retrieval/KeywordIndex.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="35fGnDetVpKXwORSIechAHfRuHL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PreprocessTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;elif&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CSE3063F25Grp17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CSE3063F25Grp17" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e7d92c7-ea60-45ad-82e3-d2faa21372ea" name="Changes" comment="" />
+      <created>1763493876961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763493876961</updated>
+      <workItem from="1763493888702" duration="1322000" />
+      <workItem from="1763495328098" duration="3940000" />
+      <workItem from="1763563964026" duration="701000" />
+      <workItem from="1763565318053" duration="2000" />
+      <workItem from="1763568778733" duration="161000" />
+      <workItem from="1763568951652" duration="25000" />
+      <workItem from="1763568990557" duration="1556000" />
+      <workItem from="1763570570395" duration="8000" />
+      <workItem from="1763571915734" duration="1026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

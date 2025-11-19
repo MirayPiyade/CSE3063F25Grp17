@@ -1,46 +1,39 @@
 package rag.retrieval;
 
-import rag.preprocess.TextNormalizer;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
-/**
- * Simple keyword retriever:
- * - tokenize query
- * - for each token get posting lists and sum term frequencies as score
- */
 public class KeywordRetriever implements Retriever {
 
-    private final KeywordIndex index;
-    private final TextNormalizer normalizer;
+    private final int topK;
 
-    public KeywordRetriever(KeywordIndex index) {
-        this.index = index;
-        this.normalizer = new TextNormalizer();
+    public KeywordRetriever(int topK) {
+        this.topK = topK;
     }
 
     @Override
-    public List<Hit> retrieve(String query) {
-        List<String> terms = normalizer.tokenize(query);
-        Map<String, Double> scores = new HashMap<>();
+    public List<Hit> retrieve(List<String> queryTerms, KeywordIndex index) {
 
-        for (String term : terms) {
-            Map<String,Integer> posting = index.getPosting(term);
-            for (Map.Entry<String,Integer> e : posting.entrySet()) {
-                scores.put(e.getKey(), scores.getOrDefault(e.getKey(), 0.0) + e.getValue());
+        Map<String, Integer> scoreMap = new HashMap<>();
+
+        for (String term : queryTerms) {
+            for (KeywordIndex.Posting p : index.get(term)) {
+
+                String key = p.docId + "::" + p.chunkId;
+                scoreMap.merge(key, p.tf, Integer::sum);
             }
         }
 
-        // convert to Hits
-        List<Hit> hits = scores.entrySet().stream()
-                .map(en -> new Hit(index.getChunk(en.getKey()), en.getValue()))
-                .sorted()
-                .collect(Collectors.toList());
+        List<Hit> hits = new ArrayList<>();
+        for (Map.Entry<String, Integer> e : scoreMap.entrySet()) {
+            String[] parts = e.getKey().split("::");
+            hits.add(new Hit(parts[0], parts[1], e.getValue()));
+        }
 
-        // set ranks
-        for (int i = 0; i < hits.size(); i++) hits.get(i).setRank(i+1);
+        Collections.sort(hits); // deterministic
+
+        if (hits.size() > topK) {
+            return hits.subList(0, topK);
+        }
         return hits;
     }
 }
-
