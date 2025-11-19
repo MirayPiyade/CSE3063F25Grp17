@@ -9,7 +9,7 @@ public class TextNormalizer {
         return text
                 .replace("İ", "i").replace("I", "ı")
                 .toLowerCase()
-                .replaceAll("[^a-z0-9ğüşöçıİ ]", " ")
+                .replaceAll("[^a-z0-9ğüşöçı ]", " ")
                 .replaceAll("\\s+", " ")
                 .trim();
     }

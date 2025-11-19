@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e7d92c7-ea60-45ad-82e3-d2faa21372ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/ChunkStoreBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/ChunkStoreBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/Chunker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/Chunker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/IndexBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rag/preprocess/TextNormalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/preprocess/TextNormalizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rag/retrieval/KeywordIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/retrieval/KeywordIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rag/retrieval/Retriever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rag/retrieval/Retriever.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +80,7 @@
       <workItem from="1763568990557" duration="1556000" />
       <workItem from="1763570570395" duration="8000" />
       <workItem from="1763571915734" duration="1026000" />
+      <workItem from="1763576425763" duration="142000" />
     </task>
     <servers />
   </component>

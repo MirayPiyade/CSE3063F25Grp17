@@ -10,6 +10,7 @@ public class Chunker {
 
     public static class ChunkPieces {
         public String chunkId;
+        public String sectionId;
         public String text;
         public List<String> tokens;
         public int offset;
@@ -29,7 +30,9 @@ public class Chunker {
 
             ChunkPieces p = new ChunkPieces();
             p.chunkId = "chunk_" + id++;
-            p.tokens = tokens.subList(i, end);
+            p.sectionId = sectionId;
+            //p.tokens = tokens.subList(i, end);
+            p.tokens = new ArrayList<>(tokens.subList(i, end));
             p.text = String.join(" ", p.tokens);
             p.offset = i;
 
