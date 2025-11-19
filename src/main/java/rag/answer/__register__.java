@@ -1,9 +1,17 @@
 package rag.answer;
 
-import rag.app.StrategyRegistry;
+import java.util.HashMap;
+import java.util.Map;
 
-public class __register__ {
+public class _register_ {
+
+    private static final Map<String, AnswerAgent> AGENTS = new HashMap<>();
+
     static {
-        StrategyRegistry.register("answer.template", TemplateAnswerAgent.class);
+        AGENTS.put("template", new TemplateAnswerAgent());
+    }
+
+    public static AnswerAgent get(String name) {
+        return AGENTS.getOrDefault(name, new TemplateAnswerAgent());
     }
 }
