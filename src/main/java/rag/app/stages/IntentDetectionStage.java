@@ -1,16 +1,17 @@
 package rag.app.stages;
 
 import rag.app.Context;
-import rag.trace.TraceBus;
-import rag.trace.TraceEvent;
+import rag.app.StrategyRegistry;
 import rag.intents.Intent;
 import rag.intents.IntentDetector;
-import rag.app.StrategyRegistry;
+import rag.trace.TraceBus;
+import rag.trace.TraceEvent;
 
 public class IntentDetectionStage implements PipelineStage {
 
     private final IntentDetector detector;
 
+    // StrategyRegistry DI (dependency injection)
     public IntentDetectionStage(StrategyRegistry registry) {
         this.detector = registry.getIntentDetector();
     }
@@ -22,18 +23,32 @@ public class IntentDetectionStage implements PipelineStage {
 
     @Override
     public void run(Context context, TraceBus traceBus) throws Exception {
+
         long start = System.currentTimeMillis();
+        String error = null;
+        Intent detected = null;
+        Exception failure = null;
 
-        Intent intent = detector.detect(context.getQuestion());
-        context.setIntent(intent);
+        try {
+            detected = detector.detect(context.getQuestion());
+            context.setIntent(detected);
+        } catch (Exception ex) {
+            error = ex.getMessage();
+            failure = ex;
+        } finally {
+            long duration = System.currentTimeMillis() - start;
+            traceBus.publish(
+                    new TraceEvent(
+                            getName(),
+                            "intent=" + detected,
+                            duration,
+                            error
+                    )
+            );
+        }
 
-        long duration = System.currentTimeMillis() - start;
-
-        traceBus.publish(new TraceEvent(
-                getName(),
-                "intent=" + intent,
-                duration,
-                null
-        ));
+        if (failure != null) {
+            throw failure;
+        }
     }
 }

@@ -16,26 +16,30 @@ public class DefaultPipeline {
     public void run(Context context, TraceBus traceBus) throws Exception {
 
         for (PipelineStage stage : stages) {
-
             long start = System.currentTimeMillis();
             String error = null;
+            Exception failure = null;
 
             try {
                 stage.run(context, traceBus);
             } catch (Exception ex) {
                 error = ex.getMessage();
+                failure = ex;
+            } finally {
+                long duration = System.currentTimeMillis() - start;
+                traceBus.publish(
+                        new TraceEvent(
+                                stage.getName(),
+                                context.summary(),
+                                duration,
+                                error
+                        )
+                );
             }
 
-            long duration = System.currentTimeMillis() - start;
-
-            traceBus.publish(
-                new TraceEvent(
-                    stage.getName(),
-                    context.summary(),
-                    duration,
-                    error
-                )
-            );
+            if (failure != null) {
+                throw failure;
+            }
         }
     }
 }

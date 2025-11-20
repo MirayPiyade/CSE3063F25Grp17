@@ -1,29 +1,131 @@
 package rag.app;
 
-import rag.intents.*;
-import rag.query.*;
-import rag.retrieval.*;
-import rag.rerank.*;
+import rag.answer.AnswerAgent;
+import rag.answer.FallbackHandler;
+import rag.answer.TemplateAnswerAgent;
+import rag.answer._register_;
+import rag.config.Config;
+import rag.intents.IntentDetector;
+import rag.intents.RuleIntentDetector;
+import rag.query.HeuristicQueryWriter;
+import rag.query.QueryWriter;
+import rag.rerank.Reranker;
+import rag.rerank.SimpleReranker;
+import rag.retrieval.KeywordIndex;
+import rag.retrieval.KeywordRetriever;
+import rag.retrieval.Retriever;
 
+/**
+ * StrategyRegistry:
+ *  - Creates strategy objects (IntentDetector, QueryWriter, Retriever, Reranker, AnswerAgent)
+ *  - Loads necessary data files (intents.yaml, stopwords.yaml, keyword index, etc.)
+ *  - Provides these objects to pipeline stages
+ *
+ * Fully aligned with Iteration-1 architecture.
+ * All pipeline stages call this registry to get the correct strategy.
+ */
 public class StrategyRegistry {
 
+    private final Config config;
+
+    private KeywordIndex index;
+    private IntentDetector intentDetector;
+    private QueryWriter queryWriter;
+    private Retriever retriever;
+    private Reranker reranker;
+    private AnswerAgent answerAgent;
+    private FallbackHandler fallbackHandler;
+
+    public StrategyRegistry(Config config) {
+        this.config = config;
+    }
+
+    // -------------------------------
+    // Intent Detector Strategy
+    // -------------------------------
     public IntentDetector getIntentDetector() {
-        return new RuleIntentDetector();
+        if (intentDetector == null) {
+            try {
+                intentDetector = new RuleIntentDetector(config.getIntentsPath());
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to load intents.yaml: " + e.getMessage(), e);
+            }
+        }
+        return intentDetector;
     }
 
+
+    // -------------------------------
+    // Query Writer Strategy
+    // -------------------------------
     public QueryWriter getQueryWriter() {
-        return new HeuristicQueryWriter();
+        if (queryWriter == null) {
+            try {
+                queryWriter = new HeuristicQueryWriter(config.getStopwordsPath());
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to load stopwords.yaml: " + e.getMessage(), e);
+            }
+        }
+        return queryWriter;
     }
 
+
+    // -------------------------------
+    // Retriever Strategy
+    // -------------------------------
     public Retriever getRetriever() {
-        return new KeywordRetriever();
-    }
-
-    public Reranker getReranker() {
-        return new SimpleReranker();
+        if (retriever == null) {
+            retriever = new KeywordRetriever(config.getTopK(), config.getSourcePriority());
+        }
+        return retriever;
     }
 
     public KeywordIndex getIndex() {
-        return KeywordIndex.load("data/keyword_index.json");
+        if (index == null) {
+            try {
+                index = KeywordIndex.load(config.getKeywordIndexPath());
+            } catch (Exception e) {
+                throw new RuntimeException("Failed to load keyword index: " + e.getMessage(), e);
+            }
+        }
+        return index;
+    }
+
+
+    // -------------------------------
+    // Reranker Strategy
+    // -------------------------------
+    public Reranker getReranker() {
+        if (reranker == null) {
+            reranker = new SimpleReranker(config.getRerankerPath());
+        }
+        return reranker;
+    }
+
+    // -------------------------------
+    // AnswerAgent Strategy
+    // -------------------------------
+    public AnswerAgent getAnswerAgent() {
+
+        // teammate's registry integration
+        if (answerAgent == null) {
+            AnswerAgent agent = _register_.get("template");
+
+            if (agent == null) {
+                // fallback if teammate forgets to register
+                answerAgent = new TemplateAnswerAgent();
+            } else {
+                answerAgent = agent;
+            }
+        }
+
+        return answerAgent;
+    }
+
+    public FallbackHandler getFallbackHandler() {
+        if (fallbackHandler == null) {
+            fallbackHandler = new FallbackHandler();
+        }
+        return fallbackHandler;
     }
 }

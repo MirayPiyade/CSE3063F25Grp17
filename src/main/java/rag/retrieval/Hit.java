@@ -1,28 +1,19 @@
 package rag.retrieval;
 
-public class Hit implements Comparable<Hit> {
-
-    public final String docId;
-    public final String chunkId;
-    public final int score;
-
-    public Hit(String docId, String chunkId, int score) {
-        this.docId = docId;
-        this.chunkId = chunkId;
-        this.score = score;
+public record Hit(
+        String chunkId,
+        String docId,
+        String source,
+        String title,
+        String text,
+        double score
+) {
+    public Hit withScore(double newScore) {
+        return new Hit(chunkId, docId, source, title, text, newScore);
     }
 
     @Override
-    public int compareTo(Hit other) {
-        // DESC score
-        if (this.score != other.score)
-            return Integer.compare(other.score, this.score);
-
-        // ASC docId
-        int d = this.docId.compareTo(other.docId);
-        if (d != 0) return d;
-
-        // ASC chunkId
-        return this.chunkId.compareTo(other.chunkId);
+    public String toString() {
+        return chunkId + "@" + source + " score=" + score;
     }
 }

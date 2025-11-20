@@ -7,11 +7,11 @@ import java.util.List;
 public class IndexBuilder {
 
     public void addChunksToIndex(KeywordIndex index, String docId, List<Chunker.ChunkPieces> pieces) {
+        addChunksToIndex(index, docId, "Unknown", docId, pieces);
+    }
 
-        for (Chunker.ChunkPieces p : pieces) {
-            for (String token : p.tokens) {
-                index.add(token, docId, p.chunkId);
-            }
-        }
+    public void addChunksToIndex(KeywordIndex index, String docId, String source, String title,
+                                 List<Chunker.ChunkPieces> pieces) {
+        index.addPieces(docId, source, title, pieces);
     }
 }

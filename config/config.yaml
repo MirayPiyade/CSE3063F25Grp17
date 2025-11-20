@@ -1,0 +1,10 @@
+{
+  "question": "CSE3063 dersinin onkosulu ve AKTS degeri nedir?",
+  "logsDir": "logs",
+  "intentsPath": "config/intents.yaml",
+  "stopwordsPath": "config/stopwords.yaml",
+  "keywordIndexPath": "data/keyword_index.json",
+  "rerankerPath": "config/reranker.yaml",
+  "topK": 5,
+  "sourcePriority": ["CompE", "FoE", "MU"]
+}

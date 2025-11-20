@@ -1,0 +1,12 @@
+{"timestamp":1763590464383,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763590464397,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763590464399,"stage":"QueryWritingStage","summary":"terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763590464399,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763590464404,"stage":"RetrievalStage","summary":"hits=3","durationMs":4,"error":""}
+{"timestamp":1763590464404,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763590464408,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=4.0","durationMs":3,"error":""}
+{"timestamp":1763590464408,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763590464410,"stage":"AnswerStage","summary":"citations=true","durationMs":2,"error":""}
+{"timestamp":1763590464411,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763590464411,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763590464411,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[ıntroduction, dersi, kaç, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

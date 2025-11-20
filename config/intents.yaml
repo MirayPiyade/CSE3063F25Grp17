@@ -1,0 +1,36 @@
+{
+  "CourseInfo": {
+    "priority": 1,
+    "keywords": [
+      "course",
+      "ders",
+      "akts",
+      "credit",
+      "prerequisite",
+      "onkosul",
+      "curriculum"
+    ]
+  },
+  "StaffLookup": {
+    "priority": 2,
+    "keywords": [
+      "advisor",
+      "danisman",
+      "instructor",
+      "professor",
+      "office",
+      "staff"
+    ]
+  },
+  "Policy": {
+    "priority": 3,
+    "keywords": [
+      "policy",
+      "yonerge",
+      "regulation",
+      "kural",
+      "basvuru",
+      "staj"
+    ]
+  }
+}

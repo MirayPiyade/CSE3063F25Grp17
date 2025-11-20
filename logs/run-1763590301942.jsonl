@@ -1,0 +1,12 @@
+{"timestamp":1763590301989,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763590302001,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763590302004,"stage":"QueryWritingStage","summary":"terms=[murat, ganiz, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763590302004,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763590302004,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1763590302004,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763590302004,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1763590302004,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763590302005,"stage":"AnswerStage","summary":"citations=null","durationMs":0,"error":""}
+{"timestamp":1763590302005,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763590302005,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1763590302005,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}","durationMs":0,"error":""}

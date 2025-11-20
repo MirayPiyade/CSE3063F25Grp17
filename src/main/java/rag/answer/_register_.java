@@ -5,13 +5,13 @@ import java.util.Map;
 
 public class _register_ {
 
-    private static final Map<String, AnswerAgent> AGENTS = new HashMap<>();
+    private static final Map<String, AnswerAgent> agents = new HashMap<>();
 
     static {
-        AGENTS.put("template", new TemplateAnswerAgent());
+        agents.put("template", new TemplateAnswerAgent());
     }
 
     public static AnswerAgent get(String name) {
-        return AGENTS.getOrDefault(name, new TemplateAnswerAgent());
+        return agents.get(name);
     }
 }

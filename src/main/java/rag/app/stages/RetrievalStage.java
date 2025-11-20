@@ -1,11 +1,14 @@
 package rag.app.stages;
 
 import rag.app.Context;
+import rag.app.StrategyRegistry;
+import rag.retrieval.Hit;
+import rag.retrieval.KeywordIndex;
+import rag.retrieval.Retriever;
 import rag.trace.TraceBus;
 import rag.trace.TraceEvent;
-import rag.retrieval.Retriever;
-import rag.retrieval.KeywordIndex;
-import rag.app.StrategyRegistry;
+
+import java.util.List;
 
 public class RetrievalStage implements PipelineStage {
 
@@ -26,17 +29,35 @@ public class RetrievalStage implements PipelineStage {
     public void run(Context context, TraceBus traceBus) throws Exception {
 
         long start = System.currentTimeMillis();
+        String error = null;
+        List<Hit> hits = null;
+        Exception failure = null;
 
-        var hits = retriever.retrieve(context.getTerms(), index);
-        context.setHits(hits);
+        try {
+            hits = retriever.retrieve(
+                    context.getTerms(),
+                    index
+            );
+            context.setHits(hits);
 
-        long duration = System.currentTimeMillis() - start;
+        } catch (Exception ex) {
+            error = ex.getMessage();
+            failure = ex;
+        } finally {
+            long duration = System.currentTimeMillis() - start;
 
-        traceBus.publish(new TraceEvent(
-            getName(),
-            "hits=" + hits.size(),
-            duration,
-            null
-        ));
+            traceBus.publish(
+                    new TraceEvent(
+                            getName(),
+                            "hits=" + (hits != null ? hits.size() : 0),
+                            duration,
+                            error
+                    )
+            );
+        }
+
+        if (failure != null) {
+            throw failure;
+        }
     }
 }

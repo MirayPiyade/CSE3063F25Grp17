@@ -14,12 +14,15 @@ public class JsonlTraceSink implements TraceSink {
     @Override
     public void accept(TraceEvent e) {
         try {
+            String summary = e.summary == null ? "" : e.summary.replace("\"", "\\\"");
+            String error = e.error == null ? "" : e.error.replace("\"", "\\\"");
             String json = String.format(
-                "{\"stage\":\"%s\",\"summary\":\"%s\",\"durationMs\":%d,\"error\":\"%s\"}\n",
+                "{\"timestamp\":%d,\"stage\":\"%s\",\"summary\":\"%s\",\"durationMs\":%d,\"error\":\"%s\"}\n",
+                e.timestamp,
                 e.stage,
-                e.summary.replace("\"", "\\\""),
+                summary,
                 e.durationMs,
-                e.error
+                error
             );
 
             writer.write(json);

@@ -1,0 +1,12 @@
+{"timestamp":1763590377737,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":1,"error":""}
+{"timestamp":1763590377750,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763590377753,"stage":"QueryWritingStage","summary":"terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo]","durationMs":3,"error":""}
+{"timestamp":1763590377753,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763590377759,"stage":"RetrievalStage","summary":"hits=3","durationMs":5,"error":""}
+{"timestamp":1763590377759,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":6,"error":""}
+{"timestamp":1763590377763,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=6.0","durationMs":2,"error":""}
+{"timestamp":1763590377763,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763590377764,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763590377764,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763590377764,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763590377764,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, kaçtır, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

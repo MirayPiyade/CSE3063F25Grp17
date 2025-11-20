@@ -8,6 +8,6 @@ public class CitationValidator {
         if (citations == null || citations.isEmpty()) {
             return false;
         }
-        return citations.stream().noneMatch(c -> c == null || c.isBlank());
+        return citations.stream().allMatch(c -> c != null && !c.isBlank());
     }
 }

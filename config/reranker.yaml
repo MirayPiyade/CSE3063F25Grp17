@@ -1,0 +1,10 @@
+{
+  "proximityBonus": 1.5,
+  "proximityWindow": 20,
+  "titleBoost": 1.0,
+  "sourceBoosts": {
+    "CompE": 2.0,
+    "FoE": 1.0,
+    "MU": 0.5
+  }
+}

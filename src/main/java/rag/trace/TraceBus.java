@@ -13,7 +13,11 @@ public class TraceBus {
 
     public void publish(TraceEvent e) {
         for (TraceSink sink : sinks) {
-            sink.accept(e);
+            try {
+                sink.accept(e);
+            } catch (RuntimeException ex) {
+                System.err.println("Trace sink failed: " + ex.getMessage());
+            }
         }
     }
 }

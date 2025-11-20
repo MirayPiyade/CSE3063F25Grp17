@@ -1,0 +1,12 @@
+{"timestamp":1763590614665,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763590614679,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":12,"error":""}
+{"timestamp":1763590614681,"stage":"QueryWritingStage","summary":"terms=[students, must, finish, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763590614681,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763590614686,"stage":"RetrievalStage","summary":"hits=4","durationMs":4,"error":""}
+{"timestamp":1763590614686,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=false, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763590614690,"stage":"RerankingStage","summary":"top=compe-policy-1@CompE score=6.5","durationMs":2,"error":""}
+{"timestamp":1763590614690,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=false, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763590614691,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763590614691,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=true, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763590614691,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763590614691,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

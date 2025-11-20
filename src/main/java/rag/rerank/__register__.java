@@ -1,10 +1,5 @@
 package rag.rerank;
 
-import rag.app.StrategyRegistry;
-
-public class __register__ {
-    static {
-        StrategyRegistry.register("rerank.simple", SimpleReranker.class);
-        StrategyRegistry.register("rerank.noop", NoOpReranker.class);
-    }
+public final class __register__ {
+    private __register__() {}
 }

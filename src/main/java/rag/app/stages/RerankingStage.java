@@ -1,10 +1,13 @@
 package rag.app.stages;
 
 import rag.app.Context;
+import rag.app.StrategyRegistry;
+import rag.rerank.Reranker;
+import rag.retrieval.Hit;
 import rag.trace.TraceBus;
 import rag.trace.TraceEvent;
-import rag.rerank.Reranker;
-import rag.app.StrategyRegistry;
+
+import java.util.List;
 
 public class RerankingStage implements PipelineStage {
 
@@ -23,22 +26,37 @@ public class RerankingStage implements PipelineStage {
     public void run(Context context, TraceBus traceBus) throws Exception {
 
         long start = System.currentTimeMillis();
+        String error = null;
+        List<Hit> reranked = null;
+        Exception failure = null;
 
-        var reranked = reranker.rerank(
-                context.getTerms(),
-                context.getHits(),
-                null
-        );
+        try {
+            reranked = reranker.rerank(
+                    context.getTerms(),
+                    context.getHits(),
+                    null
+            );
+            context.setHits(reranked);
 
-        context.setHits(reranked);
+        } catch (Exception ex) {
+            error = ex.getMessage();
+            failure = ex;
+        } finally {
+            long duration = System.currentTimeMillis() - start;
 
-        long duration = System.currentTimeMillis() - start;
-
-        traceBus.publish(new TraceEvent(
-            getName(),
-            "topHit=" + (reranked.isEmpty() ? "none" : reranked.get(0)),
-            duration,
-            null
-        ));
+            traceBus.publish(
+                    new TraceEvent(
+                            getName(),
+                            "top=" + (reranked != null && !reranked.isEmpty()
+                                    ? reranked.get(0)
+                                    : "none"),
+                            duration,
+                            error
+                    )
+            );
+        }
+        if (failure != null) {
+            throw failure;
+        }
     }
 }

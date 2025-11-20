@@ -1,9 +1,5 @@
 package rag.query;
 
-import rag.app.StrategyRegistry;
-
-public class __register__ {
-    static {
-        StrategyRegistry.register("query.heuristic", HeuristicQueryWriter.class);
-    }
+public final class __register__ {
+    private __register__() {}
 }

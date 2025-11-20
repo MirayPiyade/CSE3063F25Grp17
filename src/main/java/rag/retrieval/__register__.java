@@ -1,5 +1,5 @@
 package rag.retrieval;
 
-public class _register_ {
-    // Config tabanlı seçim için buraya factory ekleyebilirsiniz.
+public final class __register__ {
+    private __register__() {}
 }

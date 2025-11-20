@@ -8,15 +8,13 @@ import java.util.List;
 public class Context {
 
     private final String question;
-
     private Intent intent;
     private List<String> terms;
     private List<Hit> hits;
     private Answer answer;
+    private String fallbackReason;
 
-    public Context(String question) {
-        this.question = question;
-    }
+    public Context(String question) { this.question = question; }
 
     public String getQuestion() { return question; }
 
@@ -32,11 +30,15 @@ public class Context {
     public Answer getAnswer() { return answer; }
     public void setAnswer(Answer answer) { this.answer = answer; }
 
+    public String getFallbackReason() { return fallbackReason; }
+    public void setFallbackReason(String fallbackReason) { this.fallbackReason = fallbackReason; }
+
     public String summary() {
         return "{intent=" + intent +
                 ", terms=" + terms +
                 ", hits=" + (hits != null ? hits.size() : "null") +
                 ", answer=" + (answer != null) +
+                ", fallback=" + fallbackReason +
                 "}";
     }
 }

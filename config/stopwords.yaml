@@ -1,0 +1,25 @@
+{
+  "stopwords": [
+    "nedir",
+    "nedeni",
+    "mi",
+    "midir",
+    "ve",
+    "ile",
+    "what",
+    "is",
+    "the",
+    "please",
+    "tell",
+    "about",
+    "bilgi",
+    "varmi",
+    "hangi"
+  ],
+  "boosters": {
+    "CourseInfo": ["course", "ders", "akts", "prerequisite"],
+    "StaffLookup": ["advisor", "office", "iletisim"],
+    "Policy": ["policy", "yonerge"],
+    "Unknown": ["bilgi"]
+  }
+}

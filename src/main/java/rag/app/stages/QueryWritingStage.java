@@ -1,10 +1,10 @@
 package rag.app.stages;
 
 import rag.app.Context;
+import rag.app.StrategyRegistry;
+import rag.query.QueryWriter;
 import rag.trace.TraceBus;
 import rag.trace.TraceEvent;
-import rag.query.QueryWriter;
-import rag.app.StrategyRegistry;
 
 import java.util.List;
 
@@ -25,23 +25,35 @@ public class QueryWritingStage implements PipelineStage {
     public void run(Context context, TraceBus traceBus) throws Exception {
 
         long start = System.currentTimeMillis();
+        String error = null;
+        List<String> terms = null;
+        Exception failure = null;
 
-        // 🔥 ÇÖZÜM: writer.write(...) değerini List<String> olarak CAST ediyoruz
-        @SuppressWarnings("unchecked")
-        List<String> terms = (List<String>) writer.write(
-                context.getQuestion(),
-                context.getIntent()
-        );
+        try {
+            terms = writer.write(
+                    context.getQuestion(),
+                    context.getIntent()
+            );
+            context.setTerms(terms);
 
-        context.setTerms(terms);
+        } catch (Exception ex) {
+            error = ex.getMessage();
+            failure = ex;
+        } finally {
+            long duration = System.currentTimeMillis() - start;
 
-        long duration = System.currentTimeMillis() - start;
+            traceBus.publish(
+                    new TraceEvent(
+                            getName(),
+                            "terms=" + terms,
+                            duration,
+                            error
+                    )
+            );
+        }
 
-        traceBus.publish(new TraceEvent(
-            getName(),
-            "terms=" + terms,
-            duration,
-            null
-        ));
+        if (failure != null) {
+            throw failure;
+        }
     }
 }
