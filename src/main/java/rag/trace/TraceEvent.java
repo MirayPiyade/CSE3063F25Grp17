@@ -1,6 +1,20 @@
 package rag.trace;
 
 public class TraceEvent {
-    public String stage;
-    public long timestamp;
+    public final String stage;
+    public final String summary;
+    public final long durationMs;
+    public final String error;
+    public final long timestamp;
+
+
+    public TraceEvent(String stage, String summary, long durationMs, String error, long timestamp) {
+        this.stage = stage;
+        this.summary = summary;
+        this.durationMs = durationMs;
+        this.error = error;
+        this.timestamp = System.currentTimeMillis();
+    }
+
+    
 }
