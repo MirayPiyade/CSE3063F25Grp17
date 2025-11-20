@@ -1,0 +1,12 @@
+{"timestamp":1763635727663,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763635727677,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":12,"error":""}
+{"timestamp":1763635727679,"stage":"QueryWritingStage","summary":"terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763635727679,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635727683,"stage":"RetrievalStage","summary":"hits=3","durationMs":4,"error":""}
+{"timestamp":1763635727683,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763635727687,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=7.0","durationMs":2,"error":""}
+{"timestamp":1763635727687,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763635727688,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763635727688,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763635727688,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763635727688,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

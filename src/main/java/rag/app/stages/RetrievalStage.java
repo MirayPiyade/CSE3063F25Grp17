@@ -2,8 +2,8 @@ package rag.app.stages;
 
 import rag.app.Context;
 import rag.app.StrategyRegistry;
+import rag.retrieval.Document;
 import rag.retrieval.Hit;
-import rag.retrieval.KeywordIndex;
 import rag.retrieval.Retriever;
 import rag.trace.TraceBus;
 import rag.trace.TraceEvent;
@@ -13,11 +13,11 @@ import java.util.List;
 public class RetrievalStage implements PipelineStage {
 
     private final Retriever retriever;
-    private final KeywordIndex index;
+    private final java.util.List<Document> documents;
 
     public RetrievalStage(StrategyRegistry registry) {
         this.retriever = registry.getRetriever();
-        this.index = registry.getIndex();
+        this.documents = registry.getDocuments();
     }
 
     @Override
@@ -35,8 +35,9 @@ public class RetrievalStage implements PipelineStage {
 
         try {
             hits = retriever.retrieve(
+                    context.getQuestion(),
                     context.getTerms(),
-                    index
+                    documents
             );
             context.setHits(hits);
 

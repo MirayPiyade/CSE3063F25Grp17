@@ -1,0 +1,44 @@
+[
+  {
+    "id": "compe-course-1",
+    "source": "CompE",
+    "title": "CSE3063 Object Oriented Software Design",
+    "text": "CompE curriculum entry: CSE3063 Object Oriented Software Design covers UML modeling, SOLID principles and refactoring workshops. Onkosulu CSE2045 Data Structures or instructor approval is required before enrollment. The course meets 3+0+1 hours weekly and awards 6 AKTS credits."
+  },
+  {
+    "id": "compe-course-2",
+    "source": "CompE",
+    "title": "CSE2000 Course Registration Guide",
+    "text": "Students must complete mathematics, programming and systems core courses before requesting upper level electives. Advisors review the study plan each semester and confirm that AKTS totals satisfy the CompE graduation requirements."
+  },
+  {
+    "id": "compe-policy-1",
+    "source": "CompE",
+    "title": "CompE Internship Policy",
+    "text": "CompE staj yonergesi states that students must finish 30 work days of industry internship. Reports are submitted within 15 days after completion and evaluated by the internship committee using faculty rubrics."
+  },
+  {
+    "id": "foe-policy-1",
+    "source": "FoE",
+    "title": "FoE Course Repeat Rules",
+    "text": "Faculty of Engineering students must repeat failed compulsory courses at the earliest term. The faculty board enforces prerequisite chains defined in the curriculum to protect lab safety and accreditation criteria."
+  },
+  {
+    "id": "foe-policy-2",
+    "source": "FoE",
+    "title": "FoE Technical Trip Procedure",
+    "text": "Technical trips are coordinated with department chairs. Participation lists, insurance forms and risk assessments are filed at least two weeks before departure. Reports summarize learning outcomes for ABET documentation."
+  },
+  {
+    "id": "mu-policy-1",
+    "source": "MU",
+    "title": "MU Makeup Exam Guideline",
+    "text": "Marmara University mazeret sinavi policy allows a single make-up per semester for students with documented excuses. Requests are delivered to the dean's office within three working days of the missed exam date."
+  },
+  {
+    "id": "mu-policy-2",
+    "source": "MU",
+    "title": "Graduation Document Process",
+    "text": "Graduates can request temporary certificates from the Student Affairs office while waiting for the diploma. The request form includes ID number, program name, and expected graduation date."
+  }
+]

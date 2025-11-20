@@ -74,8 +74,7 @@ public class SimpleReranker implements Reranker {
 
         reranked.sort(Comparator
                 .comparingDouble(Hit::score).reversed()
-                .thenComparing(Hit::docId)
-                .thenComparing(Hit::chunkId));
+                .thenComparing(Hit::docId));
         return reranked;
     }
 

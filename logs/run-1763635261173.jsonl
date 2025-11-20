@@ -1,0 +1,12 @@
+{"timestamp":1763635261195,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763635261212,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":14,"error":""}
+{"timestamp":1763635261214,"stage":"QueryWritingStage","summary":"terms=[object, oriented, software, design, covers, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763635261214,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635261219,"stage":"RetrievalStage","summary":"hits=1","durationMs":4,"error":""}
+{"timestamp":1763635261219,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=false, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763635261222,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=9.5","durationMs":2,"error":""}
+{"timestamp":1763635261222,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763635261223,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763635261224,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=true, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635261224,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763635261224,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

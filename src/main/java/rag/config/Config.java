@@ -1,12 +1,6 @@
 package rag.config;
 
-import rag.utils.JsonUtils;
-
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Config {
 
@@ -14,7 +8,7 @@ public class Config {
     private final String logDir;
     private final String intentsPath;
     private final String stopwordsPath;
-    private final String keywordIndexPath;
+    private final String docsPath;
     private final String rerankerPath;
     private final int topK;
     private final List<String> sourcePriority;
@@ -24,7 +18,7 @@ public class Config {
             String logDir,
             String intentsPath,
             String stopwordsPath,
-            String keywordIndexPath,
+            String docsPath,
             String rerankerPath,
             int topK,
             List<String> sourcePriority
@@ -33,63 +27,10 @@ public class Config {
         this.logDir = logDir;
         this.intentsPath = intentsPath;
         this.stopwordsPath = stopwordsPath;
-        this.keywordIndexPath = keywordIndexPath;
+        this.docsPath = docsPath;
         this.rerankerPath = rerankerPath;
         this.topK = topK;
         this.sourcePriority = List.copyOf(sourcePriority);
-    }
-
-    public static Config load(String path) throws Exception {
-        String raw = Files.readString(Path.of(path));
-        Map<String, Object> root = JsonUtils.expectObject(
-                JsonUtils.parse(raw),
-                "Config file must contain a JSON object"
-        );
-
-        String question = root.containsKey("question")
-                ? root.get("question").toString()
-                : null;
-        String logDir = requireString(root, "logsDir");
-        String intents = requireString(root, "intentsPath");
-        String stopwords = requireString(root, "stopwordsPath");
-        String index = requireString(root, "keywordIndexPath");
-        String reranker = requireString(root, "rerankerPath");
-
-        int topK = root.containsKey("topK")
-                ? ((Number) root.get("topK")).intValue()
-                : 5;
-        if (topK <= 0) topK = 5;
-
-        List<String> priority = new ArrayList<>();
-        Object priorityNode = root.get("sourcePriority");
-        if (priorityNode instanceof List<?> list && !list.isEmpty()) {
-            for (Object entry : list) {
-                priority.add(entry.toString());
-            }
-        } else {
-            priority.add("CompE");
-            priority.add("FoE");
-            priority.add("MU");
-        }
-
-        return new Config(
-                question,
-                logDir,
-                intents,
-                stopwords,
-                index,
-                reranker,
-                topK,
-                priority
-        );
-    }
-
-    private static String requireString(Map<String, Object> root, String key) {
-        Object value = root.get(key);
-        if (value == null) {
-            throw new IllegalArgumentException("Missing config value: " + key);
-        }
-        return value.toString();
     }
 
     public String getQuestion() {
@@ -108,8 +49,8 @@ public class Config {
         return stopwordsPath;
     }
 
-    public String getKeywordIndexPath() {
-        return keywordIndexPath;
+    public String getDocsPath() {
+        return docsPath;
     }
 
     public String getRerankerPath() {
@@ -130,10 +71,23 @@ public class Config {
                 logDir,
                 intentsPath,
                 stopwordsPath,
-                keywordIndexPath,
+                docsPath,
                 rerankerPath,
                 topK,
                 sourcePriority
+        );
+    }
+
+    public static Config defaultConfig() {
+        return new Config(
+                null,
+                "logs",
+                "config/intents.yaml",
+                "config/stopwords.yaml",
+                "data/docs.json",
+                "config/reranker.yaml",
+                5,
+                List.of("CompE", "FoE", "MU")
         );
     }
 }

@@ -3,9 +3,8 @@ package rag.retrieval;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.Locale;
 
 public class KeywordRetriever implements Retriever {
 
@@ -18,96 +17,51 @@ public class KeywordRetriever implements Retriever {
     }
 
     @Override
-    public List<Hit> retrieve(List<String> terms, KeywordIndex index) {
-        if (terms == null || terms.isEmpty()) {
+    public List<Hit> retrieve(String question, List<String> terms, List<Document> documents) {
+        if (documents == null || documents.isEmpty()) {
             return Collections.emptyList();
         }
-
-        Map<String, ScoreCard> scores = new HashMap<>();
-
-        for (String term : terms) {
-            if (term == null || term.isBlank()) continue;
-            List<KeywordIndex.Entry> entries = index.lookup(term);
-            for (KeywordIndex.Entry entry : entries) {
-                Chunk chunk = index.getChunk(entry.getChunkId());
-                if (chunk == null) continue;
-                ScoreCard card = scores.computeIfAbsent(entry.getChunkId(), id -> new ScoreCard(chunk));
-                card.score += entry.getFrequency();
-            }
-        }
-
-        if (scores.isEmpty()) {
-            return Collections.emptyList();
-        }
+        String normalizedQuestion = question == null ? "" : question.toLowerCase(Locale.ROOT).trim();
+        List<String> normalizedTerms = terms == null ? List.of() : terms.stream()
+                .filter(t -> t != null && !t.isBlank())
+                .map(t -> t.toLowerCase(Locale.ROOT))
+                .toList();
 
         List<Hit> hits = new ArrayList<>();
-        for (ScoreCard card : scores.values()) {
-            Chunk chunk = card.chunk;
-            hits.add(new Hit(
-                    chunk.getChunkId(),
-                    chunk.getDocId(),
-                    chunk.getSource(),
-                    chunk.getTitle(),
-                    chunk.getText(),
-                    card.score
-            ));
+
+        for (Document doc : documents) {
+            String text = doc.text() == null ? "" : doc.text();
+            String lowerText = text.toLowerCase(Locale.ROOT);
+            double score = 0;
+
+            if (!normalizedQuestion.isBlank() && lowerText.contains(normalizedQuestion)) {
+                score += 2;
+            }
+
+            for (String term : normalizedTerms) {
+                if (lowerText.contains(term)) {
+                    score += 1;
+                }
+            }
+
+            if (score > 0) {
+                hits.add(new Hit(doc.id(), doc.source(), doc.title(), text, score));
+            }
         }
 
-        Comparator<Hit> comparator = Comparator
+        hits.sort(Comparator
                 .comparingDouble(Hit::score).reversed()
-                .thenComparing(this::priorityIndex)
-                .thenComparing(Hit::docId)
-                .thenComparing(Hit::chunkId);
+                .thenComparing(hit -> priorityIndex(hit.source()))
+                .thenComparing(Hit::docId));
 
-        Map<String, List<Hit>> grouped = new HashMap<>();
-        for (Hit hit : hits) {
-            grouped.computeIfAbsent(hit.source(), s -> new ArrayList<>()).add(hit);
+        if (hits.size() > topK) {
+            return new ArrayList<>(hits.subList(0, topK));
         }
-        for (List<Hit> group : grouped.values()) {
-            group.sort(comparator);
-        }
-
-        List<Hit> ordered = new ArrayList<>();
-
-        for (String source : priorityOrder) {
-            List<Hit> group = grouped.get(source);
-            if (group == null) continue;
-            for (Hit hit : group) {
-                ordered.add(hit);
-                if (ordered.size() >= topK) {
-                    return ordered;
-                }
-            }
-        }
-
-        List<String> remaining = new ArrayList<>(grouped.keySet());
-        remaining.removeAll(priorityOrder);
-        Collections.sort(remaining);
-        for (String source : remaining) {
-            List<Hit> group = grouped.get(source);
-            for (Hit hit : group) {
-                ordered.add(hit);
-                if (ordered.size() >= topK) {
-                    return ordered;
-                }
-            }
-        }
-
-        return ordered;
+        return hits;
     }
 
-    private int priorityIndex(Hit hit) {
-        int idx = priorityOrder.indexOf(hit.source());
+    private int priorityIndex(String source) {
+        int idx = priorityOrder.indexOf(source);
         return idx >= 0 ? idx : priorityOrder.size();
-    }
-
-    private static final class ScoreCard {
-        private final Chunk chunk;
-        private double score;
-
-        private ScoreCard(Chunk chunk) {
-            this.chunk = chunk;
-            this.score = 0;
-        }
     }
 }

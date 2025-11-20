@@ -1,0 +1,12 @@
+{"timestamp":1763633795206,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763633795220,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763633795222,"stage":"QueryWritingStage","summary":"terms=[teknik, gezi, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763633795222,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763633795223,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1763633795223,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763633795223,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1763633795223,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763633795223,"stage":"AnswerStage","summary":"citations=null","durationMs":0,"error":""}
+{"timestamp":1763633795223,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763633795224,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":1,"error":""}
+{"timestamp":1763633795224,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}","durationMs":1,"error":""}

@@ -11,9 +11,12 @@ import rag.query.HeuristicQueryWriter;
 import rag.query.QueryWriter;
 import rag.rerank.Reranker;
 import rag.rerank.SimpleReranker;
-import rag.retrieval.KeywordIndex;
+import rag.retrieval.Document;
+import rag.retrieval.DocumentStore;
 import rag.retrieval.KeywordRetriever;
 import rag.retrieval.Retriever;
+
+import java.util.List;
 
 /**
  * StrategyRegistry:
@@ -28,7 +31,7 @@ public class StrategyRegistry {
 
     private final Config config;
 
-    private KeywordIndex index;
+    private List<Document> documents;
     private IntentDetector intentDetector;
     private QueryWriter queryWriter;
     private Retriever retriever;
@@ -80,15 +83,15 @@ public class StrategyRegistry {
         return retriever;
     }
 
-    public KeywordIndex getIndex() {
-        if (index == null) {
+    public List<Document> getDocuments() {
+        if (documents == null) {
             try {
-                index = KeywordIndex.load(config.getKeywordIndexPath());
+                documents = DocumentStore.load(config.getDocsPath()).getDocuments();
             } catch (Exception e) {
-                throw new RuntimeException("Failed to load keyword index: " + e.getMessage(), e);
+                throw new RuntimeException("Failed to load docs.json: " + e.getMessage(), e);
             }
         }
-        return index;
+        return documents;
     }
 
 

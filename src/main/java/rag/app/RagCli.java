@@ -3,32 +3,20 @@ package rag.app;
 import rag.config.Config;
 
 import java.io.Console;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class RagCli {
     public static void main(String[] args) throws Exception {
 
-        if (args.length < 1) {
-            System.out.println("Usage: java RagCli <config.yaml> [question]");
-            return;
-        }
-
-        Config config = Config.load(args[0]);
-        String question = args.length > 1
-                ? String.join(" ", Arrays.copyOfRange(args, 1, args.length))
-                : promptQuestion();
-
-        if (question == null || question.isBlank()) {
-            question = config.getQuestion();
-        }
+        Config baseConfig = Config.defaultConfig();
+        String question = promptQuestion();
 
         if (question == null || question.isBlank()) {
             System.err.println("No question provided. Please enter a question to continue.");
             return;
         }
 
-        Config effectiveConfig = config.withQuestion(question);
+        Config effectiveConfig = baseConfig.withQuestion(question);
         RagOrchestrator orchestrator = new RagOrchestrator(effectiveConfig);
         orchestrator.run();
     }

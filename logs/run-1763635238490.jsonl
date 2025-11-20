@@ -1,0 +1,12 @@
+{"timestamp":1763635238514,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763635238530,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":14,"error":""}
+{"timestamp":1763635238532,"stage":"QueryWritingStage","summary":"terms=[solid, principles, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763635238532,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635238537,"stage":"RetrievalStage","summary":"hits=1","durationMs":5,"error":""}
+{"timestamp":1763635238537,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=false, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763635238541,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=5.5","durationMs":2,"error":""}
+{"timestamp":1763635238541,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=false, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763635238543,"stage":"AnswerStage","summary":"citations=true","durationMs":2,"error":""}
+{"timestamp":1763635238543,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=true, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635238543,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763635238543,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

@@ -3,5 +3,5 @@ package rag.retrieval;
 import java.util.List;
 
 public interface Retriever {
-    List<Hit> retrieve(List<String> terms, KeywordIndex index);
+    List<Hit> retrieve(String question, List<String> terms, List<Document> documents);
 }

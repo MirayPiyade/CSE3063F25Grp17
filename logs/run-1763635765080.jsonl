@@ -1,0 +1,12 @@
+{"timestamp":1763635765109,"stage":"IntentDetectionStage","summary":"intent=Policy","durationMs":0,"error":""}
+{"timestamp":1763635765123,"stage":"IntentDetectionStage","summary":"{intent=Policy, terms=null, hits=null, answer=false, fallback=null}","durationMs":12,"error":""}
+{"timestamp":1763635765125,"stage":"QueryWritingStage","summary":"terms=[staj, yönergesi, policy, yonerge, bilgi]","durationMs":2,"error":""}
+{"timestamp":1763635765125,"stage":"QueryWritingStage","summary":"{intent=Policy, terms=[staj, yönergesi, policy, yonerge, bilgi], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635765130,"stage":"RetrievalStage","summary":"hits=2","durationMs":4,"error":""}
+{"timestamp":1763635765130,"stage":"RetrievalStage","summary":"{intent=Policy, terms=[staj, yönergesi, policy, yonerge, bilgi], hits=2, answer=false, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763635765133,"stage":"RerankingStage","summary":"top=compe-policy-1@CompE score=6.5","durationMs":1,"error":""}
+{"timestamp":1763635765133,"stage":"RerankingStage","summary":"{intent=Policy, terms=[staj, yönergesi, policy, yonerge, bilgi], hits=2, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763635765134,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763635765135,"stage":"AnswerStage","summary":"{intent=Policy, terms=[staj, yönergesi, policy, yonerge, bilgi], hits=2, answer=true, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763635765135,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763635765135,"stage":"FinalizeStage","summary":"{intent=Policy, terms=[staj, yönergesi, policy, yonerge, bilgi], hits=2, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}
