@@ -40,5 +40,1889 @@
     "source": "MU",
     "title": "Graduation Document Process",
     "text": "Graduates can request temporary certificates from the Student Affairs office while waiting for the diploma. The request form includes ID number, program name, and expected graduation date."
-  }
+  },
+  {
+  "id": "compe-course-ATA121",
+  "source": "CompE",
+  "title": "ATA121 Atatürk İlkeleri ve İnkılap Tarihi I",
+  "text": "1. dönem derslerinden ATA121 Atatürk İlkeleri ve İnkılap Tarihi I zorunlu bir derstir. Haftalık 2+0 saat olarak işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MBG1201",
+  "source": "CompE",
+  "title": "MBG1201 Introduction to Modern Biology",
+  "text": "MBG1201 Introduction to Modern Biology birinci dönemde verilen zorunlu bir derstir. Haftalık 3+0 saat teorik içerikten oluşur ve 5 AKTS krediye sahiptir."
+},
+{
+  "id": "compe-course-CSE1200",
+  "source": "CompE",
+  "title": "CSE1200 Introduction to Computer Engineering",
+  "text": "CSE1200 Introduction to Computer Engineering, bilgisayar mühendisliğine giriş niteliğinde bir derstir. Haftalık 3+0 saat sürer ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE1241",
+  "source": "CompE",
+  "title": "CSE1241 Computer Programming I",
+  "text": "CSE1241 Computer Programming I birinci dönemin temel programlama dersidir. Haftalık 3 saat teorik ve 2 saat uygulama içerir, toplam 6 AKTS krediye sahiptir."
+},
+{
+  "id": "compe-course-MATH1001",
+  "source": "CompE",
+  "title": "MATH1001 Calculus I",
+  "text": "MATH1001 Calculus I birinci dönemde verilen temel matematik dersidir. Haftalık 4+0 saat işlenir ve 6 AKTS değerindedir."
+},
+{
+  "id": "compe-course-PHYS1101",
+  "source": "CompE",
+  "title": "PHYS1101 Physics I",
+  "text": "PHYS1101 Physics I birinci dönemin fizik dersidir. Haftalık 3+0 saat olup 4 AKTS krediye sahiptir."
+},
+{
+  "id": "compe-course-PHYS1103",
+  "source": "CompE",
+  "title": "PHYS1103 Physics Lab I",
+  "text": "PHYS1103 Physics Lab I, Physics I dersinin laboratuvar bileşenidir. Haftalık 0+2 uygulama saatinden oluşur ve 2 AKTS kredi değeri vardır."
+},
+{
+  "id": "compe-course-TRD121",
+  "source": "CompE",
+  "title": "TRD121 Türk Dili I",
+  "text": "TRD121 Türk Dili I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS krediye sahiptir."
+},
+{
+  "id": "compe-course-ATA121",
+  "source": "CompE",
+  "title": "ATA121 Atatürk İlkeleri ve İnkılap Tarihi I",
+  "text": "1. dönem derslerinden ATA121 Atatürk İlkeleri ve İnkılap Tarihi I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MBG1201",
+  "source": "CompE",
+  "title": "MBG1201 Introduction to Modern Biology",
+  "text": "1. dönem derslerinden MBG1201 Introduction to Modern Biology zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE1200",
+  "source": "CompE",
+  "title": "CSE1200 Introduction to Computer Engineering",
+  "text": "1. dönem derslerinden CSE1200 Introduction to Computer Engineering zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE1241",
+  "source": "CompE",
+  "title": "CSE1241 Computer Programming I",
+  "text": "1. dönem derslerinden CSE1241 Computer Programming I zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MATH1001",
+  "source": "CompE",
+  "title": "MATH1001 Calculus I",
+  "text": "1. dönem derslerinden MATH1001 Calculus I zorunlu bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-PHYS1101",
+  "source": "CompE",
+  "title": "PHYS1101 Physics I",
+  "text": "1. dönem derslerinden PHYS1101 Physics I zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-PHYS1103",
+  "source": "CompE",
+  "title": "PHYS1103 Physics Lab I",
+  "text": "1. dönem derslerinden PHYS1103 Physics Lab I zorunlu bir derstir. Haftalık 0+2 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-TRD121",
+  "source": "CompE",
+  "title": "TRD121 Türk Dili I",
+  "text": "1. dönem derslerinden TRD121 Türk Dili I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-ATA122",
+  "source": "CompE",
+  "title": "ATA122 Atatürk İlkeleri ve İnkılap Tarihi II",
+  "text": "2. dönem derslerinden ATA122 Atatürk İlkeleri ve İnkılap Tarihi II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE1242",
+  "source": "CompE",
+  "title": "CSE1242 Computer Programming II",
+  "text": "2. dönem derslerinden CSE1242 Computer Programming II zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MATH1002",
+  "source": "CompE",
+  "title": "MATH1002 Calculus II",
+  "text": "2. dönem derslerinden MATH1002 Calculus II zorunlu bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MATH2256",
+  "source": "CompE",
+  "title": "MATH2256 Linear Algebra for Computer Engineering",
+  "text": "2. dönem derslerinden MATH2256 Linear Algebra for Computer Engineering zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-PHYS1102",
+  "source": "CompE",
+  "title": "PHYS1102 Physics II",
+  "text": "2. dönem derslerinden PHYS1102 Physics II zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-PHYS1104",
+  "source": "CompE",
+  "title": "PHYS1104 Physics Lab II",
+  "text": "2. dönem derslerinden PHYS1104 Physics Lab II zorunlu bir derstir. Haftalık 0+2 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-TRD122",
+  "source": "CompE",
+  "title": "TRD122 Türk Dili II",
+  "text": "2. dönem derslerinden TRD122 Türk Dili II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE2023",
+  "source": "CompE",
+  "title": "CSE2023 Discrete Computational Structures",
+  "text": "3. dönem derslerinden CSE2023 Discrete Computational Structures zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE2225",
+  "source": "CompE",
+  "title": "CSE2225 Data Structures",
+  "text": "3. dönem derslerinden CSE2225 Data Structures zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-ECON2004",
+  "source": "CompE",
+  "title": "ECON2004 Engineering Economy",
+  "text": "3. dönem derslerinden ECON2004 Engineering Economy zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-EE2031",
+  "source": "CompE",
+  "title": "EE2031 Electric Circuits",
+  "text": "3. dönem derslerinden EE2031 Electric Circuits zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MATH2055",
+  "source": "CompE",
+  "title": "MATH2055 Differential Equations",
+  "text": "3. dönem derslerinden MATH2055 Differential Equations zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-MATH2059",
+  "source": "CompE",
+  "title": "MATH2059 Numerical Methods",
+  "text": "3. dönem derslerinden MATH2059 Numerical Methods zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE2246",
+  "source": "CompE",
+  "title": "CSE2246 Analysis of Algorithms",
+  "text": "4. dönem derslerinden CSE2246 Analysis of Algorithms zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE2138",
+  "source": "CompE",
+  "title": "CSE2138 Systems Programming",
+  "text": "4. dönem derslerinden CSE2138 Systems Programming zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE2260",
+  "source": "CompE",
+  "title": "CSE2260 Principles of Programming Languages",
+  "text": "4. dönem derslerinden CSE2260 Principles of Programming Languages zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-EE2032",
+  "source": "CompE",
+  "title": "EE2032 Electronics",
+  "text": "4. dönem derslerinden EE2032 Electronics zorunlu bir derstir. Haftalık 2+2 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-STAT2253",
+  "source": "CompE",
+  "title": "STAT2253 Introduction to Probability and Statistics",
+  "text": "4. dönem derslerinden STAT2253 Introduction to Probability and Statistics zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3000",
+  "source": "CompE",
+  "title": "CSE3000 Summer Practice I",
+  "text": "5. dönem derslerinden CSE3000 Summer Practice I zorunlu bir staj dersidir. Haftalık 0+0 saat işlenir ve 10 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3215",
+  "source": "CompE",
+  "title": "CSE3215 Digital Logic Design",
+  "text": "5. dönem derslerinden CSE3215 Digital Logic Design zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3033",
+  "source": "CompE",
+  "title": "CSE3033 Operating Systems",
+  "text": "5. dönem derslerinden CSE3033 Operating Systems zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3055",
+  "source": "CompE",
+  "title": "CSE3055 Database Systems",
+  "text": "5. dönem derslerinden CSE3055 Database Systems zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3063",
+  "source": "CompE",
+  "title": "CSE3063 Object-Oriented Software Design",
+  "text": "5. dönem derslerinden CSE3063 Object-Oriented Software Design zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-IE3081",
+  "source": "CompE",
+  "title": "IE3081 Modeling and Discrete Simulation",
+  "text": "5. dönem derslerinden IE3081 Modeling and Discrete Simulation zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3038",
+  "source": "CompE",
+  "title": "CSE3038 Computer Organization",
+  "text": "6. dönem derslerinden CSE3038 Computer Organization zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3044",
+  "source": "CompE",
+  "title": "CSE3044 Software Engineering",
+  "text": "6. dönem derslerinden CSE3044 Software Engineering zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3048",
+  "source": "CompE",
+  "title": "CSE3048 Introduction to Signals and Systems",
+  "text": "6. dönem derslerinden CSE3048 Introduction to Signals and Systems zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE3264",
+  "source": "CompE",
+  "title": "CSE3264 Formal Languages and Automata Theory",
+  "text": "6. dönem derslerinden CSE3264 Formal Languages and Automata Theory zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-IE3235",
+  "source": "CompE",
+  "title": "IE3235 Operations Research",
+  "text": "6. dönem derslerinden IE3235 Operations Research zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-COM2202",
+  "source": "CompE",
+  "title": "COM2202 Technical Comm. and Entrepreneurship",
+  "text": "6. dönem derslerinden COM2202 Technical Comm. and Entrepreneurship zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4000",
+  "source": "CompE",
+  "title": "CSE4000 Summer Practice II",
+  "text": "7. dönem derslerinden CSE4000 Summer Practice II zorunlu bir staj dersidir. Haftalık 0+0 saat işlenir ve 10 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4074",
+  "source": "CompE",
+  "title": "CSE4074 Computer Networks",
+  "text": "7. dönem derslerinden CSE4074 Computer Networks zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4219",
+  "source": "CompE",
+  "title": "CSE4219 Principles of Embedded System Design",
+  "text": "7. dönem derslerinden CSE4219 Principles of Embedded System Design zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4297",
+  "source": "CompE",
+  "title": "CSE4297 Engineering Project I",
+  "text": "7. dönem derslerinden CSE4297 Engineering Project I zorunlu bir projes dersidir. Haftalık 0+2 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-ISG121",
+  "source": "CompE",
+  "title": "ISG121 İş Sağlığı ve Güvenliği I",
+  "text": "7. dönem derslerinden ISG121 İş Sağlığı ve Güvenliği I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4288",
+  "source": "CompE",
+  "title": "CSE4288 Introduction to Machine Learning",
+  "text": "7. dönem derslerinden CSE4288 Introduction to Machine Learning zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4298",
+  "source": "CompE",
+  "title": "CSE4298 Engineering Project II",
+  "text": "8. dönem derslerinden CSE4298 Engineering Project II zorunlu bir proje dersidir. Haftalık 0+2 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-ISG122",
+  "source": "CompE",
+  "title": "ISG122 İş Sağlığı ve Güvenliği II",
+  "text": "8. dönem derslerinden ISG122 İş Sağlığı ve Güvenliği II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4026",
+  "source": "CompE",
+  "title": "CSE4026 Introduction to Robotics and Control Theory",
+  "text": "CSE4026 Introduction to Robotics and Control Theory Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4032",
+  "source": "CompE",
+  "title": "CSE4032 Introduction to Distributed Systems",
+  "text": "CSE4032 Introduction to Distributed Systems Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4034",
+  "source": "CompE",
+  "title": "CSE4034 Advanced Unix Programming",
+  "text": "CSE4034 Advanced Unix Programming Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4038",
+  "source": "CompE",
+  "title": "CSE4038 Introduction to Parallel Processing",
+  "text": "CSE4038 Introduction to Parallel Processing Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4040",
+  "source": "CompE",
+  "title": "CSE4040 Cloud Computing",
+  "text": "CSE4040 Cloud Computing Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4044",
+  "source": "CompE",
+  "title": "CSE4044 Software Project Management",
+  "text": "CSE4044 Software Project Management Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4053",
+  "source": "CompE",
+  "title": "CSE4053 Information Systems: Analysis and Design",
+  "text": "CSE4053 Information Systems: Analysis and Design Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4056",
+  "source": "CompE",
+  "title": "CSE4056 Management of Information Systems",
+  "text": "CSE4056 Management of Information Systems Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4057",
+  "source": "CompE",
+  "title": "CSE4057 Information Systems Security",
+  "text": "CSE4057 Information Systems Security Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4058",
+  "source": "CompE",
+  "title": "CSE4058 Fundamentals of Electronic Commerce",
+  "text": "CSE4058 Fundamentals of Electronic Commerce Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4059",
+  "source": "CompE",
+  "title": "CSE4059 Internet Programming",
+  "text": "CSE4059 Internet Programming Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4061",
+  "source": "CompE",
+  "title": "CSE4061 Compiler Design",
+  "text": "CSE4061 Compiler Design Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4062",
+  "source": "CompE",
+  "title": "CSE4062 Introduction to Data Science and Analytics",
+  "text": "CSE4062 Introduction to Data Science and Analytics Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4063",
+  "source": "CompE",
+  "title": "CSE4063 Fundamentals of Data Mining",
+  "text": "CSE4063 Fundamentals of Data Mining Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4065",
+  "source": "CompE",
+  "title": "CSE4065 Introduction to Computational Genomics",
+  "text": "CSE4065 Introduction to Computational Genomics Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4066",
+  "source": "CompE",
+  "title": "CSE4066 Introduction to Cryptography",
+  "text": "CSE4066 Introduction to Cryptography Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4067",
+  "source": "CompE",
+  "title": "CSE4067 Introduction to Blockchain Programming",
+  "text": "CSE4067 Introduction to Blockchain Programming Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4070",
+  "source": "CompE",
+  "title": "CSE4070 Software Frameworks",
+  "text": "CSE4070 Software Frameworks Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4075",
+  "source": "CompE",
+  "title": "CSE4075 Wireless and Mobile Networks",
+  "text": "CSE4075 Wireless and Mobile Networks Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4082",
+  "source": "CompE",
+  "title": "CSE4082 Artificial Intelligence",
+  "text": "CSE4082 Artificial Intelligence Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4083",
+  "source": "CompE",
+  "title": "CSE4083 Computer Graphics",
+  "text": "CSE4083 Computer Graphics Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4084",
+  "source": "CompE",
+  "title": "CSE4084 Multimedia Systems",
+  "text": "CSE4084 Multimedia Systems Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4085",
+  "source": "CompE",
+  "title": "CSE4085 Human Computer Interaction",
+  "text": "CSE4085 Human Computer Interaction Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4086",
+  "source": "CompE",
+  "title": "CSE4086 Mobile Device Programming",
+  "text": "CSE4086 Mobile Device Programming Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4217",
+  "source": "CompE",
+  "title": "CSE4217 Microprocessors",
+  "text": "CSE4217 Microprocessors Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4093",
+  "source": "CompE",
+  "title": "CSE4093 Special Topics in Computer Engineering I",
+  "text": "CSE4093 Special Topics in Computer Engineering I Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4094",
+  "source": "CompE",
+  "title": "CSE4094 Special Topics in Computer Engineering II",
+  "text": "CSE4094 Special Topics in Computer Engineering II Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4095",
+  "source": "CompE",
+  "title": "CSE4095 Special Topics in Computer Engineering III",
+  "text": "CSE4095 Special Topics in Computer Engineering III Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+{
+  "id": "compe-course-CSE4096",
+  "source": "CompE",
+  "title": "CSE4096 Special Topics in Computer Engineering IV",
+  "text": "CSE4096 Special Topics in Computer Engineering IV Teknik Seçmeli (TE) havuzunda bulunan bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+},
+  {
+    "id": "compe-course-CSE1241",
+    "source": "CompE",
+    "title": "CSE1241 Computer Programming I",
+    "text": "1. dönem derslerinden CSE1241 Computer Programming I, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH1001",
+    "source": "CompE",
+    "title": "MATH1001 Calculus I",
+    "text": "1. dönem derslerinden MATH1001 Calculus I, Yandal (Minor) programı kapsamında bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE1242",
+    "source": "CompE",
+    "title": "CSE1242 Computer Programming II",
+    "text": "2. dönem derslerinden CSE1242 Computer Programming II, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH1002",
+    "source": "CompE",
+    "title": "MATH1002 Calculus II",
+    "text": "2. dönem derslerinden MATH1002 Calculus II, Yandal (Minor) programı kapsamında bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2023",
+    "source": "CompE",
+    "title": "CSE2023 Discrete Computational Structures",
+    "text": "3. dönem derslerinden CSE2023 Discrete Computational Structures, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2225",
+    "source": "CompE",
+    "title": "CSE2225 Data Structures",
+    "text": "3. dönem derslerinden CSE2225 Data Structures, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2246",
+    "source": "CompE",
+    "title": "CSE2246 Analysis of Algorithms",
+    "text": "4. dönem derslerinden CSE2246 Analysis of Algorithms, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2138",
+    "source": "CompE",
+    "title": "CSE2138 Systems Programming",
+    "text": "4. dönem derslerinden CSE2138 Systems Programming, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3033",
+    "source": "CompE",
+    "title": "CSE3033 Operating Systems",
+    "text": "5. dönem derslerinden CSE3033 Operating Systems, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3055",
+    "source": "CompE",
+    "title": "CSE3055 Database Systems",
+    "text": "5. dönem derslerinden CSE3055 Database Systems, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3063",
+    "source": "CompE",
+    "title": "CSE3063 Object-Oriented Software Design",
+    "text": "5. dönem derslerinden CSE3063 Object-Oriented Software Design, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3044",
+    "source": "CompE",
+    "title": "CSE3044 Software Engineering",
+    "text": "6. dönem derslerinden CSE3044 Software Engineering, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4074",
+    "source": "CompE",
+    "title": "CSE4074 Computer Networks",
+    "text": "7. dönem derslerinden CSE4074 Computer Networks, Yandal (Minor) programı kapsamında bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TExxx-Minor-1",
+    "source": "CompE",
+    "title": "TExxx Technical Elective - 1",
+    "text": "7. dönem müfredatında yer alan Technical Elective - 1, Yandal (Minor) programı kapsamında seçmeli bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-ATA121",
+    "source": "CompE",
+    "title": "ATA121 Atatürk İlkeleri ve İnkılap Tarihi I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden ATA121 Atatürk İlkeleri ve İnkılap Tarihi I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MBG1201",
+    "source": "CompE",
+    "title": "MBG1201 Introduction to Modern Biology",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden MBG1201 Introduction to Modern Biology zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE1200",
+    "source": "CompE",
+    "title": "CSE1200 Introduction to Computer Engineering",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden CSE1200 Introduction to Computer Engineering zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE1241",
+    "source": "CompE",
+    "title": "CSE1241 Computer Programming I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden CSE1241 Computer Programming I zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH1001",
+    "source": "CompE",
+    "title": "MATH1001 Calculus I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden MATH1001 Calculus I zorunlu bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-PHYS1101",
+    "source": "CompE",
+    "title": "PHYS1101 Physics I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden PHYS1101 Physics I zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-PHYS1103",
+    "source": "CompE",
+    "title": "PHYS1103 Physics Lab I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden PHYS1103 Physics Lab I zorunlu bir derstir. Haftalık 0+2 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TRD121",
+    "source": "CompE",
+    "title": "TRD121 Türk Dili I",
+    "text": "Çift Anadal (ÇAP) programı 1. dönem derslerinden TRD121 Türk Dili I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-ATA122",
+    "source": "CompE",
+    "title": "ATA122 Atatürk İlkeleri ve İnkılap Tarihi II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden ATA122 Atatürk İlkeleri ve İnkılap Tarihi II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE1242",
+    "source": "CompE",
+    "title": "CSE1242 Computer Programming II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden CSE1242 Computer Programming II zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH1002",
+    "source": "CompE",
+    "title": "MATH1002 Calculus II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden MATH1002 Calculus II zorunlu bir derstir. Haftalık 4+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH2256",
+    "source": "CompE",
+    "title": "MATH2256 Linear Algebra for Computer Engineering",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden MATH2256 Linear Algebra for Computer Engineering zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-NTExxx-CAP-1",
+    "source": "CompE",
+    "title": "NTExxx Non-Technical Elective - 1",
+    "text": "Çift Anadal (ÇAP) programı 2. döneminde yer alan Non-Technical Elective - 1 seçmeli bir ders grubudur. Haftalık 2+0 saat işlenir ve 3 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-PHYS1102",
+    "source": "CompE",
+    "title": "PHYS1102 Physics II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden PHYS1102 Physics II zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-PHYS1104",
+    "source": "CompE",
+    "title": "PHYS1104 Physics Lab II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden PHYS1104 Physics Lab II zorunlu bir derstir. Haftalık 0+2 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TRD122",
+    "source": "CompE",
+    "title": "TRD122 Türk Dili II",
+    "text": "Çift Anadal (ÇAP) programı 2. dönem derslerinden TRD122 Türk Dili II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2023",
+    "source": "CompE",
+    "title": "CSE2023 Discrete Computational Structures",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden CSE2023 Discrete Computational Structures zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2225",
+    "source": "CompE",
+    "title": "CSE2225 Data Structures",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden CSE2225 Data Structures zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-ECON2004",
+    "source": "CompE",
+    "title": "ECON2004 Engineering Economy",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden ECON2004 Engineering Economy zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-EE2031",
+    "source": "CompE",
+    "title": "EE2031 Electric Circuits",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden EE2031 Electric Circuits zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH2055",
+    "source": "CompE",
+    "title": "MATH2055 Differential Equations",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden MATH2055 Differential Equations zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-MATH2059",
+    "source": "CompE",
+    "title": "MATH2059 Numerical Methods",
+    "text": "Çift Anadal (ÇAP) programı 3. dönem derslerinden MATH2059 Numerical Methods zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2246",
+    "source": "CompE",
+    "title": "CSE2246 Analysis of Algorithms",
+    "text": "Çift Anadal (ÇAP) programı 4. dönem derslerinden CSE2246 Analysis of Algorithms zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2138",
+    "source": "CompE",
+    "title": "CSE2138 Systems Programming",
+    "text": "Çift Anadal (ÇAP) programı 4. dönem derslerinden CSE2138 Systems Programming zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE2260",
+    "source": "CompE",
+    "title": "CSE2260 Principles of Programming Languages",
+    "text": "Çift Anadal (ÇAP) programı 4. dönem derslerinden CSE2260 Principles of Programming Languages zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-EE2032",
+    "source": "CompE",
+    "title": "EE2032 Electronics",
+    "text": "Çift Anadal (ÇAP) programı 4. dönem derslerinden EE2032 Electronics zorunlu bir derstir. Haftalık 2+2 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-STAT2253",
+    "source": "CompE",
+    "title": "STAT2253 Probability and Statistics for Computer Engineering",
+    "text": "Çift Anadal (ÇAP) programı 4. dönem derslerinden STAT2253 Probability and Statistics for Computer Engineering zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3000",
+    "source": "CompE",
+    "title": "CSE3000 Summer Practice I",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden CSE3000 Summer Practice I zorunlu bir staj dersidir. Haftalık 0+0 saat işlenir ve 10 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3215",
+    "source": "CompE",
+    "title": "CSE3215 Digital Logic Design",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden CSE3215 Digital Logic Design zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3033",
+    "source": "CompE",
+    "title": "CSE3033 Operating Systems",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden CSE3033 Operating Systems zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3055",
+    "source": "CompE",
+    "title": "CSE3055 Database Systems",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden CSE3055 Database Systems zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3063",
+    "source": "CompE",
+    "title": "CSE3063 Object-Oriented Software Design",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden CSE3063 Object-Oriented Software Design zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-IE3081",
+    "source": "CompE",
+    "title": "IE3081 Modeling and Discrete Simulation",
+    "text": "Çift Anadal (ÇAP) programı 5. dönem derslerinden IE3081 Modeling and Discrete Simulation zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3038",
+    "source": "CompE",
+    "title": "CSE3038 Computer Organization",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden CSE3038 Computer Organization zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3044",
+    "source": "CompE",
+    "title": "CSE3044 Software Engineering",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden CSE3044 Software Engineering zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 7 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3048",
+    "source": "CompE",
+    "title": "CSE3048 Introduction to Signals and Systems",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden CSE3048 Introduction to Signals and Systems zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE3264",
+    "source": "CompE",
+    "title": "CSE3264 Formal Languages and Automata Theory",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden CSE3264 Formal Languages and Automata Theory zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-IE3235",
+    "source": "CompE",
+    "title": "IE3235 Operations Research",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden IE3235 Operations Research zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 4 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-COM2202",
+    "source": "CompE",
+    "title": "COM2202 Technical Comm. and Entrepreneurship",
+    "text": "Çift Anadal (ÇAP) programı 6. dönem derslerinden COM2202 Technical Comm. and Entrepreneurship zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4000",
+    "source": "CompE",
+    "title": "CSE4000 Summer Practice II",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden CSE4000 Summer Practice II zorunlu bir staj dersidir. Haftalık 0+0 saat işlenir ve 10 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4074",
+    "source": "CompE",
+    "title": "CSE4074 Computer Networks",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden CSE4074 Computer Networks zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4219",
+    "source": "CompE",
+    "title": "CSE4219 Principles of Embedded Systems Design",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden CSE4219 Principles of Embedded Systems Design zorunlu bir derstir. Haftalık 3+2 saat işlenir ve 6 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4297",
+    "source": "CompE",
+    "title": "CSE4297 Engineering Project I",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden CSE4297 Engineering Project I zorunlu bir proje dersidir. Haftalık 0+2 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-ISG121",
+    "source": "CompE",
+    "title": "ISG121 İş Sağlığı ve Güvenliği I",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden ISG121 İş Sağlığı ve Güvenliği I zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4288",
+    "source": "CompE",
+    "title": "CSE4288 Introduction to Machine Learning",
+    "text": "Çift Anadal (ÇAP) programı 7. dönem derslerinden CSE4288 Introduction to Machine Learning zorunlu bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TExxx-CAP-1",
+    "source": "CompE",
+    "title": "TExxx Technical Elective - 1",
+    "text": "Çift Anadal (ÇAP) programı 7. döneminde yer alan Technical Elective - 1 seçmeli bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-UE-CAP",
+    "source": "CompE",
+    "title": "UE University Elective",
+    "text": "Çift Anadal (ÇAP) programı 7. döneminde yer alan University Elective üniversite seçmeli dersidir. Haftalık 2+0 saat işlenir ve 3 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-CSE4298",
+    "source": "CompE",
+    "title": "CSE4298 Engineering Project II",
+    "text": "Çift Anadal (ÇAP) programı 8. dönem derslerinden CSE4298 Engineering Project II zorunlu bir proje dersidir. Haftalık 0+2 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-ISG122",
+    "source": "CompE",
+    "title": "ISG122 İş Sağlığı ve Güvenliği II",
+    "text": "Çift Anadal (ÇAP) programı 8. dönem derslerinden ISG122 İş Sağlığı ve Güvenliği II zorunlu bir derstir. Haftalık 2+0 saat işlenir ve 2 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-NTExxx-CAP-2",
+    "source": "CompE",
+    "title": "NTExxx Non-Technical Elective - 2",
+    "text": "Çift Anadal (ÇAP) programı 8. döneminde yer alan Non-Technical Elective - 2 seçmeli bir ders grubudur. Haftalık 2+0 saat işlenir ve 3 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-FTExxx-CAP",
+    "source": "CompE",
+    "title": "FTExxx Faculty Technical Electives",
+    "text": "Çift Anadal (ÇAP) programı 8. döneminde yer alan Faculty Technical Electives fakülte teknik seçmeli dersidir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TExxx-CAP-2",
+    "source": "CompE",
+    "title": "TExxx Technical Elective - 2",
+    "text": "Çift Anadal (ÇAP) programı 8. döneminde yer alan Technical Elective - 2 seçmeli bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TExxx-CAP-3",
+    "source": "CompE",
+    "title": "TExxx Technical Elective - 3",
+    "text": "Çift Anadal (ÇAP) programı 8. döneminde yer alan Technical Elective - 3 seçmeli bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-course-TExxx-CAP-4",
+    "source": "CompE",
+    "title": "TExxx Technical Elective - 4",
+    "text": "Çift Anadal (ÇAP) programı 8. döneminde yer alan Technical Elective - 4 seçmeli bir derstir. Haftalık 3+0 saat işlenir ve 5 AKTS kredi değerindedir."
+  },
+  {
+    "id": "compe-info-history",
+    "source": "CompE",
+    "title": "History of the Program",
+    "text": "Bilgisayar Mühendisliği bölümü, Mühendislik Fakültesiyle birlikte 27 Temmuz 1987 yılında kurulmuştur. İlk öğrencilerini 1990-1991 akademik yılında almıştır."
+  },
+  {
+    "id": "compe-info-qualification",
+    "source": "CompE",
+    "title": "Qualification Awarded",
+    "text": "Programda akademik olarak başarılı olan öğrenciler 'Bilgisayar Mühendisliği alanında Lisans Diploması' alırlar. Öğrenciler temel mühendislik derslerinin yanı sıra sosyal, hukuk, yönetim ve finans alanlarında seçmeli dersler alabilirler. Eğitim dili İngilizcedir."
+  },
+  {
+    "id": "compe-info-admission",
+    "source": "CompE",
+    "title": "Admission and Registration Conditions",
+    "text": "Bölüme ÖSYM sınavı ile yeterli sayısal puanı alan öğrenciler kayıt yaptırabilir. Ayrıca yurt dışından öğrenci kabul koşullarını sağlayanlar da kabul edilir. Eğitim dili İngilizce olduğundan, yeterli olmayan öğrenciler hazırlık programına katılır."
+  },
+  {
+    "id": "compe-info-profile",
+    "source": "CompE",
+    "title": "Profile of The Program",
+    "text": "Bilgisayar Mühendisliği, bilgisayar sistemlerini ve yazılımları geliştirmekle ilgilenir. Bölüm, karmaşık sistemleri anlayıp çözüm üretebilen bireyler yetiştirmeyi hedefler. Araştırma faaliyetleri; yazılım mühendisliği, paralel hesaplama, mikroişlemci tasarımı, görüntü işleme ve veri madenciliği üzerine yoğunlaşmaktadır."
+  },
+  {
+    "id": "compe-info-occupational",
+    "source": "CompE",
+    "title": "Occupational Profiles of Graduates",
+    "text": "Mezunlar; Yazılım Geliştirme Şirketleri, Telekom Operatörleri, Bankalar, Ar-Ge Kurumları ve Kurumsal Şirketlerin Bilgi Teknolojileri departmanlarında çalışabilirler. Ayrıca yurt içi ve yurt dışında akademik kariyer yapabilirler."
+  },
+  {
+    "id": "compe-info-assessment",
+    "source": "CompE",
+    "title": "Examination Regulations, Assessment and Grading",
+    "text": "Öğrenciler genellikle iki ara sınav ve bir final sınavı ile değerlendirilir. Proje, quiz ve laboratuvar başarıları da notlandırmaya katılır. Değerlendirmede bağıl değerlendirme (curve) sistemi uygulanır."
+  },
+  {
+    "id": "compe-info-outcomes",
+    "source": "CompE",
+    "title": "Program Learning Outcomes",
+    "text": "Program outcomes include: Adequate knowledge in math and science; Ability to identify and solve complex engineering problems; Ability to design complex systems under realistic constraints; Ability to use modern engineering tools; Ability to design and conduct experiments; Ability to work in multi-disciplinary teams; Awareness of professional and ethical responsibility."
+  },
+  {
+    "id": "compe-course-ATA121",
+    "source": "CompE",
+    "title": "ATA121 Ataturk's Principles and The History of Turkish Renovation I",
+    "text": "1. dönem zorunlu dersi ATA121. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE1200",
+    "source": "CompE",
+    "title": "CSE1200 Introduction to Computer Engineering",
+    "text": "1. dönem zorunlu dersi CSE1200. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE1241",
+    "source": "CompE",
+    "title": "CSE1241 Computer Programming I",
+    "text": "1. dönem zorunlu dersi CSE1241. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-MATH1001",
+    "source": "CompE",
+    "title": "MATH1001 Calculus I",
+    "text": "1. dönem zorunlu dersi MATH1001. Haftalık 4+0 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-MBG1201",
+    "source": "CompE",
+    "title": "MBG1201 Introduction to Modern Biology",
+    "text": "1. dönem zorunlu dersi MBG1201. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-PHYS1101",
+    "source": "CompE",
+    "title": "PHYS1101 Physics I",
+    "text": "1. dönem zorunlu dersi PHYS1101. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-PHYS1103",
+    "source": "CompE",
+    "title": "PHYS1103 Physics Lab. I",
+    "text": "1. dönem zorunlu dersi PHYS1103. Haftalık 0+2 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-TRD121",
+    "source": "CompE",
+    "title": "TRD121 Turkish Language I",
+    "text": "1. dönem zorunlu dersi TRD121. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-ATA122",
+    "source": "CompE",
+    "title": "ATA122 Ataturk's Principles and The History of Turkish Renovation II",
+    "text": "2. dönem zorunlu dersi ATA122. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE1242",
+    "source": "CompE",
+    "title": "CSE1242 Computer Programming II",
+    "text": "2. dönem zorunlu dersi CSE1242. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-MATH1002",
+    "source": "CompE",
+    "title": "MATH1002 Calculus II",
+    "text": "2. dönem zorunlu dersi MATH1002. Haftalık 4+0 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-MATH2256",
+    "source": "CompE",
+    "title": "MATH2256 Linear Algebra for Computer Engineering",
+    "text": "2. dönem zorunlu dersi MATH2256. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-PHYS1102",
+    "source": "CompE",
+    "title": "PHYS1102 Physics II",
+    "text": "2. dönem zorunlu dersi PHYS1102. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-PHYS1104",
+    "source": "CompE",
+    "title": "PHYS1104 Physics Lab. II",
+    "text": "2. dönem zorunlu dersi PHYS1104. Haftalık 0+2 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-TRD122",
+    "source": "CompE",
+    "title": "TRD122 Turkish Language II",
+    "text": "2. dönem zorunlu dersi TRD122. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE2023",
+    "source": "CompE",
+    "title": "CSE2023 Discrete Computational Structures",
+    "text": "3. dönem zorunlu dersi CSE2023. Haftalık 3+0 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE2225",
+    "source": "CompE",
+    "title": "CSE2225 Data Structures",
+    "text": "3. dönem zorunlu dersi CSE2225. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-ECON2004",
+    "source": "CompE",
+    "title": "ECON2004 Engineering Economy",
+    "text": "3. dönem zorunlu dersi ECON2004. Haftalık 2+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-EE2031",
+    "source": "CompE",
+    "title": "EE2031 Electric Circuits",
+    "text": "3. dönem zorunlu dersi EE2031. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-MATH2055",
+    "source": "CompE",
+    "title": "MATH2055 Differential Equations",
+    "text": "3. dönem zorunlu dersi MATH2055. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-MATH2059",
+    "source": "CompE",
+    "title": "MATH2059 Numerical Methods",
+    "text": "3. dönem zorunlu dersi MATH2059. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE2138",
+    "source": "CompE",
+    "title": "CSE2138 Systems Programming",
+    "text": "4. dönem zorunlu dersi CSE2138. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE2246",
+    "source": "CompE",
+    "title": "CSE2246 Analysis of Algorithms",
+    "text": "4. dönem zorunlu dersi CSE2246. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE2260",
+    "source": "CompE",
+    "title": "CSE2260 Principles of Programming Languages",
+    "text": "4. dönem zorunlu dersi CSE2260. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-EE2032",
+    "source": "CompE",
+    "title": "EE2032 Electronics",
+    "text": "4. dönem zorunlu dersi EE2032. Haftalık 2+2 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-STAT2253",
+    "source": "CompE",
+    "title": "STAT2253 Probability and Statistics for Computer Engineering",
+    "text": "4. dönem zorunlu dersi STAT2253. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3000",
+    "source": "CompE",
+    "title": "CSE3000 Summer Practice I",
+    "text": "5. dönem zorunlu staj dersi CSE3000. Haftalık 0+0 saat, 10.00 Kredi, 10.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3033",
+    "source": "CompE",
+    "title": "CSE3033 Operating Systems",
+    "text": "5. dönem zorunlu dersi CSE3033. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3055",
+    "source": "CompE",
+    "title": "CSE3055 Database Systems",
+    "text": "5. dönem zorunlu dersi CSE3055. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3063",
+    "source": "CompE",
+    "title": "CSE3063 Object-Oriented Software Design",
+    "text": "5. dönem zorunlu dersi CSE3063. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3215",
+    "source": "CompE",
+    "title": "CSE3215 Digital Logic Design",
+    "text": "5. dönem zorunlu dersi CSE3215. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-IE3081",
+    "source": "CompE",
+    "title": "IE3081 Modeling and Discrete Simulation",
+    "text": "5. dönem zorunlu dersi IE3081. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-COM2202",
+    "source": "CompE",
+    "title": "COM2202 Technical Communications and Entrepreneurship",
+    "text": "6. dönem zorunlu dersi COM2202. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3038",
+    "source": "CompE",
+    "title": "CSE3038 Computer Organization",
+    "text": "6. dönem zorunlu dersi CSE3038. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3044",
+    "source": "CompE",
+    "title": "CSE3044 Software Engineering",
+    "text": "6. dönem zorunlu dersi CSE3044. Haftalık 3+2 saat, 7.00 Kredi, 7.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3048",
+    "source": "CompE",
+    "title": "CSE3048 Introduction to Signals and Systems",
+    "text": "6. dönem zorunlu dersi CSE3048. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE3264",
+    "source": "CompE",
+    "title": "CSE3264 Formal Languages and Automata Theory",
+    "text": "6. dönem zorunlu dersi CSE3264. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-IE3235",
+    "source": "CompE",
+    "title": "IE3235 Operations Research",
+    "text": "6. dönem zorunlu dersi IE3235. Haftalık 3+0 saat, 4.00 Kredi, 4.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4000",
+    "source": "CompE",
+    "title": "CSE4000 Summer Practice II",
+    "text": "7. dönem zorunlu staj dersi CSE4000. Haftalık 0+0 saat, 10.00 Kredi, 10.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4074",
+    "source": "CompE",
+    "title": "CSE4074 Computer Networks",
+    "text": "7. dönem zorunlu dersi CSE4074. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4219",
+    "source": "CompE",
+    "title": "CSE4219 Principles of Embedded Systems Design",
+    "text": "7. dönem zorunlu dersi CSE4219. Haftalık 3+2 saat, 6.00 Kredi, 6.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4288",
+    "source": "CompE",
+    "title": "CSE4288 Introduction to Machine Learning",
+    "text": "7. dönem zorunlu dersi CSE4288. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4297",
+    "source": "CompE",
+    "title": "CSE4297 Engineering Project I",
+    "text": "7. dönem zorunlu dersi CSE4297. Haftalık 0+2 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-ISG121",
+    "source": "CompE",
+    "title": "ISG121 Occupational Health and Safety I",
+    "text": "7. dönem zorunlu dersi ISG121. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4298",
+    "source": "CompE",
+    "title": "CSE4298 Engineering Project II",
+    "text": "8. dönem zorunlu dersi CSE4298. Haftalık 0+2 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-ISG122",
+    "source": "CompE",
+    "title": "ISG122 Occupational Health and Safety II",
+    "text": "8. dönem zorunlu dersi ISG122. Haftalık 2+0 saat, 2.00 Kredi, 2.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4026",
+    "source": "CompE",
+    "title": "CSE4026 Introduction to Robotics and Control Theory",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4030",
+    "source": "CompE",
+    "title": "CSE4030 Graph Theory and Applications",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4032",
+    "source": "CompE",
+    "title": "CSE4032 Introduction to Distributed Systems",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4034",
+    "source": "CompE",
+    "title": "CSE4034 Advanced Unix Programming",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4038",
+    "source": "CompE",
+    "title": "CSE4038 Introduction to Parallel Processing",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4040",
+    "source": "CompE",
+    "title": "CSE4040 Cloud Computing",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4044",
+    "source": "CompE",
+    "title": "CSE4044 Software Project Management",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4053",
+    "source": "CompE",
+    "title": "CSE4053 Information Systems: Analysis and Design",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4056",
+    "source": "CompE",
+    "title": "CSE4056 Management of Information Systems",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4057",
+    "source": "CompE",
+    "title": "CSE4057 Information Systems Security",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4058",
+    "source": "CompE",
+    "title": "CSE4058 Fundamentals of Electronic Commerce",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4059",
+    "source": "CompE",
+    "title": "CSE4059 Internet Programming",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4061",
+    "source": "CompE",
+    "title": "CSE4061 Compiler Design",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4062",
+    "source": "CompE",
+    "title": "CSE4062 Introduction to Data Science and Analytics",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4063",
+    "source": "CompE",
+    "title": "CSE4063 Fundamentals of Data Mining",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4065",
+    "source": "CompE",
+    "title": "CSE4065 Introduction to Computational Genomics",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4066",
+    "source": "CompE",
+    "title": "CSE4066 Introduction to Cryptography",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4067",
+    "source": "CompE",
+    "title": "CSE4067 Introduction to Blockchain Programming",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4070",
+    "source": "CompE",
+    "title": "CSE4070 Software Frameworks",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4075",
+    "source": "CompE",
+    "title": "CSE4075 Wireless and Mobile Networks",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4077",
+    "source": "CompE",
+    "title": "CSE4077 Advanced Data Structures",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4078",
+    "source": "CompE",
+    "title": "CSE4078 Introduction to Natural Language Processing",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4079",
+    "source": "CompE",
+    "title": "CSE4079 Introduction to Deep Learning",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4080",
+    "source": "CompE",
+    "title": "CSE4080 Multi Agent Systems",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4081",
+    "source": "CompE",
+    "title": "CSE4081 Social Network Analysis",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4082",
+    "source": "CompE",
+    "title": "CSE4082 Artificial Intelligence",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4083",
+    "source": "CompE",
+    "title": "CSE4083 Computer Graphics",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4084",
+    "source": "CompE",
+    "title": "CSE4084 Multimedia Systems",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4085",
+    "source": "CompE",
+    "title": "CSE4085 Human Computer Interaction",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4086",
+    "source": "CompE",
+    "title": "CSE4086 Mobile Device Programming",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4093",
+    "source": "CompE",
+    "title": "CSE4093 Special Topics in Computer Engineering I",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4094",
+    "source": "CompE",
+    "title": "CSE4094 Special Topics in Computer Engineering II",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4095",
+    "source": "CompE",
+    "title": "CSE4095 Special Topics in Computer Engineering III",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4096",
+    "source": "CompE",
+    "title": "CSE4096 Special Topics in Computer Engineering IV",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-course-CSE4217",
+    "source": "CompE",
+    "title": "CSE4217 Microprocessors",
+    "text": "Technical Elective (T-E) havuzunda bulunan seçmeli ders. Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS."
+  },
+  {
+    "id": "compe-faculty-haluk",
+    "source": "CompE",
+    "title": "Prof. Dr. Haluk Rahmi TOPÇUOĞLU (Department Head)",
+    "text": "Bölüm Başkanı (Department Head). Doktora: Syracuse University, Yüksek Lisans ve Lisans: Boğaziçi Üniversitesi. Ofis: M2-217, Dahili: 3537, E-posta: haluk@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-falkaya",
+    "source": "CompE",
+    "title": "Prof. Dr. Ali Fuat ALKAYA",
+    "text": "Doktora ve Yüksek Lisans: Marmara Üniversitesi, Lisans: Koç Üniversitesi (Matematik). Ofis: M2-249, Dahili: 3532, E-posta: falkaya@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-borahan-tumer",
+    "source": "CompE",
+    "title": "Prof. Dr. Borahan TÜMER",
+    "text": "Doktora: Marquette University, Yüksek Lisans: İstanbul Teknik Üniversitesi, Lisans: Boğaziçi Üniversitesi. Ofis: M2-209, Dahili: 3541, E-posta: borahan.tumer@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-agaoglu",
+    "source": "CompE",
+    "title": "Assoc. Prof. Mustafa AĞAOĞLU",
+    "text": "Doktora ve Yüksek Lisans: Marmara Üniversitesi, Lisans: Boğaziçi Üniversitesi (Fizik). Ofis: M2-221, Dahili: 3540, E-posta: agaoglu@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-murat-ganiz",
+    "source": "CompE",
+    "title": "Assoc. Prof. Murat Can GANİZ",
+    "text": "Doktora: Lehigh University (Computer Science), Yüksek Lisans ve Lisans: Selçuk Üniversitesi. Ofis: M2-251, Dahili: 3539, E-posta: murat.ganiz@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-omer-korcak",
+    "source": "CompE",
+    "title": "Assoc. Prof. Ömer KORÇAK (Vice Head)",
+    "text": "Bölüm Başkan Yardımcısı (Vice Head). Doktora, Yüksek Lisans ve Lisans: Boğaziçi Üniversitesi. Ofis: M2-208, Dahili: 3543, E-posta: omer.korcak@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-haydar-ozer",
+    "source": "CompE",
+    "title": "Asst. Prof. Ali Haydar ÖZER",
+    "text": "Doktora, Yüksek Lisans ve Lisans: Boğaziçi Üniversitesi. Ofis: M2-253, Dahili: 3533, E-posta: haydar.ozer@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-mujdat-soyturk",
+    "source": "CompE",
+    "title": "Assoc. Prof. Müjdat SOYTÜRK",
+    "text": "Doktora ve Yüksek Lisans: İstanbul Teknik Üniversitesi, Lisans: Deniz Harp Okulu (Endüstri Müh.). Ofis: M2-204, Dahili: 3542, E-posta: mujdat.soyturk@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-mehmet-baran",
+    "source": "CompE",
+    "title": "Asst. Prof. Mehmet BARAN",
+    "text": "Doktora ve Yüksek Lisans: Rensselaer Polytechnic Institute, Lisans: Boğaziçi Üniversitesi. Ofis: M2-233, Dahili: 3538, E-posta: mehmet.baran@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-betul-demiroz",
+    "source": "CompE",
+    "title": "Asst. Prof. Betül Demiröz BOZ (Vice Head)",
+    "text": "Bölüm Başkan Yardımcısı (Vice Head). Doktora: Boğaziçi Üniversitesi, Yüksek Lisans ve Lisans: Marmara Üniversitesi. Ofis: M2-234, Dahili: 3534, E-posta: betul.demiroz@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-fatma-ergin",
+    "source": "CompE",
+    "title": "Asst. Prof. Fatma Corut Ergin",
+    "text": "Doktora: İstanbul Teknik Üniversitesi, Yüksek Lisans ve Lisans: Marmara Üniversitesi. Ofis: M2-229, Dahili: 3536, E-posta: fatma.ergin@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-sanem-arslan",
+    "source": "CompE",
+    "title": "Asst. Prof. Sanem Arslan",
+    "text": "Doktora ve Yüksek Lisans: Boğaziçi Üniversitesi, Lisans: Marmara Üniversitesi. Ofis: M2-230, Dahili: 3545, E-posta: sanem.arslan@marmara.edu.tr"
+  },
+  {
+    "id": "compe-faculty-kamil-erdayandi",
+    "source": "CompE",
+    "title": "Asst. Prof. Kamil ERDAYANDI",
+    "text": "Doktora: The University of Manchester, Yüksek Lisans: Sabancı Üniversitesi, Lisans: Yeditepe Üniversitesi (ÇAP). Ofis: M2-232, Dahili: 3535, E-posta: kamil.erdayandi@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-serap-korkmaz",
+    "source": "CompE",
+    "title": "Res. Assist. Serap Korkmaz",
+    "text": "Araştırma Görevlisi Serap Korkmaz. Doktora (Devam Ediyor): Marmara Üniversitesi, Yüksek Lisans ve Lisans: Marmara Üniversitesi. Ofis: M2-201, Dahili: 3548, E-posta: serap.korkmaz@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-zuhal-altuntas",
+    "source": "CompE",
+    "title": "Res. Assist. Zuhal Altuntaş",
+    "text": "Araştırma Görevlisi Zuhal Altuntaş. Doktora (Devam Ediyor): Marmara Üniversitesi, Yüksek Lisans: Marmara Üniversitesi, Lisans: Fatih Üniversitesi. Ofis: M2-204, Dahili: 3549, E-posta: zuhal.altuntas@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-zuhal-ozturk",
+    "source": "CompE",
+    "title": "Res. Assist. Zuhal Öztürk",
+    "text": "Araştırma Görevlisi Zuhal Öztürk. Doktora (Devam Ediyor): Marmara Üniversitesi, Yüksek Lisans ve Lisans: Marmara Üniversitesi. Ofis: M2-242, E-posta: zuhal.ozturk@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-kubra-uludag",
+    "source": "CompE",
+    "title": "Res. Assist. Kübra Uludağ",
+    "text": "Araştırma Görevlisi Kübra Uludağ. Doktora (Devam Ediyor): Marmara Üniversitesi, Yüksek Lisans: Marmara Üniversitesi, Lisans: Marmara Üniversitesi (Bilgisayar Müh. ve Çift Anadal Elektrik-Elektronik Müh.). Ofis: M2-242, E-posta: kubra.uludag@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-mehmet-kaya",
+    "source": "CompE",
+    "title": "Res. Assist. Mehmet Kaya",
+    "text": "Araştırma Görevlisi Mehmet Kaya. Doktora (Devam Ediyor): Marmara Üniversitesi, Yüksek Lisans: Marmara Üniversitesi, Lisans: Yıldız Teknik Üniversitesi (Matematik Mühendisliği). Ofis: M2-201, E-posta: mehmet.kaya@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-busra-arabaci",
+    "source": "CompE",
+    "title": "Res. Assist. Büşra Arabacı",
+    "text": "Araştırma Görevlisi Büşra Arabacı. Yüksek Lisans (Devam Ediyor): Marmara Üniversitesi, Lisans: Bilkent Üniversitesi. Ofis: M2-201, E-posta: busra.arabaci@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-yusuf-ibrahim-matur",
+    "source": "CompE",
+    "title": "Res. Assist. Yusuf İbrahim Matur",
+    "text": "Araştırma Görevlisi Yusuf İbrahim Matur. Yüksek Lisans (Devam Ediyor): Marmara Üniversitesi, Lisans: İstanbul Arel Üniversitesi (Makine Mühendisliği). Ofis: M2-201, E-posta: yusuf.matur@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-semih-ay",
+    "source": "CompE",
+    "title": "Res. Assist. Semih Ay",
+    "text": "Araştırma Görevlisi Semih Ay. Yüksek Lisans (Devam Ediyor): Boğaziçi Üniversitesi (Veri Bilimi ve Yapay Zeka), Lisans: Boğaziçi Üniversitesi (Matematik). Ofis: M2-239, E-posta: semih.ay@marmara.edu.tr"
+  },
+  {
+    "id": "compe-assistant-rabia-eda-patoglu",
+    "source": "CompE",
+    "title": "Res. Assist. Rabia Eda Patoğlu",
+    "text": "Araştırma Görevlisi Rabia Eda Patoğlu. Yüksek Lisans (Devam Ediyor): Marmara Üniversitesi (Elektrik-Elektronik Müh.), Lisans: Marmara Üniversitesi (Elektrik-Elektronik Müh.). Ofis: M2-242, E-posta: eda.patoglu@marmara.edu.tr"
+  },
+{
+    "id": "compe-grad-project-outline",
+    "source": "CompE",
+    "title": "Graduation Projects (CSE4197 & CSE4198) Outline and Goals",
+    "text": "Mühendislik projesi, öğrencinin profesyonel bir bilgisayar mühendisi olarak bilgi ve becerilerini kanıtlama ve çok disiplinli bir projeyi yürütme fırsatıdır. Dersin hedefleri arasında proje sorumluluğu, yönetim becerileri, takım çalışması alışkanlığı, sunum becerileri ve sektör liderleri veya akademisyenlerle tanışma fırsatı yer alır."
+  },
+  {
+    "id": "compe-grad-project-requirements",
+    "source": "CompE",
+    "title": "Graduation Projects Requirements and Seminars",
+    "text": "Öğrencilerin 2 veya 3 kişilik gruplar halinde bağımsız bir BİT (ICT) projesi yürütmeleri ve çalışmalarını bir izleyici kitlesine sunmaları gerekmektedir. Ayrıca, ders kapsamında düzenlenen seminerlere katılım zorunludur. Bu seminerlerde sektör liderleri ve akademisyenler deneyimlerini paylaşır."
+  },
+  {
+    "id": "compe-grad-project-prerequisites",
+    "source": "CompE",
+    "title": "Graduation Projects Prerequisites (165 ECTS Rule)",
+    "text": "CSE4197 ve CSE4198 son sınıf dersleridir. CSE4197, CSE4198'in ön koşuludur; sadece CSE4197'de başarılı olanlar bir sonraki dönem CSE4198'i alabilir. Bir son sınıf öğrencisinin CSE4197 dersini alabilmesi için (yaz stajı ve 4. sınıf müfredatındaki NTE/TE/İş Güvenliği derslerinin AKTS kredileri hariç) en az 165 AKTS kredisini tamamlamış/geçmiş olması gerekir."
+  },
+  {
+    "id": "compe-grad-project-advising",
+    "source": "CompE",
+    "title": "Graduation Projects Advising and Grading",
+    "text": "Her grubun projeyi denetleyen bir danışmanı vardır. Grupların danışmanlarıyla haftada bir (dönem sonuna doğru daha sık) görüşmesi beklenir. Grup üyeleri genellikle dönem sonunda aynı notu alır, ancak danışman üyeleri farklı notlandırma yetkisine sahiptir. Üyeler veya grubun tamamı dönem sonunda 'Eksik' (Incomplete) notu alabilir."
+  },
+  {
+  "id": "marmara-directive-excuse-aim",
+  "source": "MarmaraUniv",
+  "title": "Mazeret Sınavı Yönergesi Amaç ve Kapsam",
+  "text": "Marmara Üniversitesi Mazeret Sınavı Yönergesi, üniversiteye bağlı fakülte, yüksekokul ve enstitülerde yapılacak mazeret sınavlarına ilişkin usul ve esasları düzenler."
+},
+{
+  "id": "marmara-directive-excuse-health",
+  "source": "MarmaraUniv",
+  "title": "Hastalık Nedeniyle Mazeret (Madde 4 ve 10)",
+  "text": "Öğrencinin sağlık sorunları nedeniyle mazeretli sayılabilmesi için hastalığını sağlık kurumlarından aldığı ve üzerinde 'saat belirtilen' bir raporla belgelendirmesi gerekir. Rapor süresince (belirtilen saatler dahilinde) girilen sınavlar geçersiz sayılır, ancak rapor saatinden önce girilen sınavlar geçerlidir."
+},
+{
+  "id": "marmara-directive-excuse-death-relative",
+  "source": "MarmaraUniv",
+  "title": "Yakınların Ölümü veya Hastalığı Halinde Mazeret (Madde 5)",
+  "text": "Öğrencinin eşi, annesi, babası, çocuğu veya kardeşinin vefatı halinde, vefat tarihinden itibaren 5 gün içindeki sınavlar için ölüm raporuyla mazeretli sayılır. Bu kişilerin acil hastaneye kaldırılması durumunda da hastanın raporu ile mazeret başvurusu yapılabilir."
+},
+{
+  "id": "marmara-directive-excuse-traffic",
+  "source": "MarmaraUniv",
+  "title": "Trafik Kazası Halinde Mazeret (Madde 6)",
+  "text": "Sınava gelirken trafik kazası geçiren öğrenci, trafik şubesinden alacağı kaza tutanağını ibraz etmesi durumunda ilgili sınavdan mazeretli sayılır."
+},
+{
+  "id": "marmara-directive-excuse-detention",
+  "source": "MarmaraUniv",
+  "title": "Gözaltı ve Tutukluluk Halinde Mazeret (Madde 7)",
+  "text": "Öğrenci; karakol amirinden, savcılıktan veya emniyetten alacağı resmi belgeyi ya da tutuklama kararını ibraz etmek şartıyla gözaltı ve tutukluluk sürelerindeki sınavlardan mazeretli sayılır."
+},
+{
+  "id": "marmara-directive-excuse-assignment",
+  "source": "MarmaraUniv",
+  "title": "Resmi Görevlendirme Halinde Mazeret (Madde 8)",
+  "text": "Ulusal veya uluslararası yarışma, sportif faaliyet vb. nedenlerle üniversite veya resmi kurumlarca görevlendirilen öğrenciler, görevlendirme belgesini ibraz ederek sınavlara mazeretli sayılır."
+},
+{
+  "id": "marmara-directive-excuse-other",
+  "source": "MarmaraUniv",
+  "title": "Diğer Olağanüstü Mazeret Halleri (Madde 9)",
+  "text": "Yangın, sel, deprem gibi olağanüstü haller veya yönergede sayılmayan diğer sebeplerle sınava girilememesi durumunda, durum belgelendirilmek şartıyla Birim Yönetim Kurulu tarafından değerlendirilir."
+},
+{
+  "id": "marmara-directive-excuse-application",
+  "source": "MarmaraUniv",
+  "title": "Mazeret Başvuru Süresi ve Şekli (Madde 10)",
+  "text": "Mazereti nedeniyle sınava giremeyen öğrenci, mazeret sınavına girmek istediği dersleri belirten dilekçeyi ve belgelerini, sınavı izleyen 'beş iş günü' içinde öğrenci işlerine veya bölüm sekreterliğine bildirmelidir. Kabul edilenler, sınav haklarını akademik takvimde belirlenen mazeret sınavı döneminde kullanırlar."
+},
+{
+  "id": "marmara-directive-grad-purpose",
+  "source": "MarmaraUniv",
+  "title": "Mezuniyet Belgeleri Yönergesi Amaç ve Kapsam",
+  "text": "Bu yönerge, Marmara Üniversitesi'nden mezun olanlara verilecek diploma, diploma eki, yandal sertifikası ve fahri doktora diplomalarının hazırlanması, teslimi ve şekil şartlarını düzenler."
+},
+{
+  "id": "marmara-directive-grad-types",
+  "source": "MarmaraUniv",
+  "title": "Diploma Türleri (Madde 5)",
+  "text": "Verilecek diplomalar: 2 yıllıklar için Önlisans, 4 yıllıklar için Lisans, Tıp/Diş/Eczacılık için Diploma, Enstitüler için Tezli/Tezsiz Yüksek Lisans, Doktora ve Sanatta Yeterlik diplomalarıdır. Ayrıca Mühendislik Tamamlama diploması ve Fahri Doktora diploması da bu kapsamdadır."
+},
+{
+  "id": "marmara-directive-grad-content",
+  "source": "MarmaraUniv",
+  "title": "Diplomada Yer Alan ve Almayan Bilgiler (Madde 8)",
+  "text": "Diplomanın ön yüzünde; Üniversite adı, Birim adı, Program adı, Derecesi, Mezuniyet tarihi ve İmzalar (Dekan/Müdür ve Rektör) bulunur. Arka yüzünde kimlik bilgileri ve doğrulama karekodu yer alır. İkinci öğretim, onur derecesi veya kazanılan unvan gibi bilgiler diplomada YAZMAZ; bunlar diploma ekinde veya transkriptte belirtilir."
+},
+{
+  "id": "marmara-directive-grad-preparation",
+  "source": "MarmaraUniv",
+  "title": "Diplomaların Hazırlanması ve İmzalanması (Madde 10)",
+  "text": "Mezuniyetine karar verilen öğrencilerin diplomaları en geç 6 ay içinde düzenlenir. İmzalar (Daire Başkanı, Birim Yöneticisi, Rektör) mavi mürekkepli kalemle ve silinmeyecek şekilde atılır. Diplomalar soğuk damga ile mühürlenir."
+},
+{
+  "id": "marmara-directive-grad-delivery",
+  "source": "MarmaraUniv",
+  "title": "Diploma Teslim Koşulları ve Geçici Mezuniyet Belgesi (Madde 11)",
+  "text": "Diplomalar posta ile gönderilmez; sadece mezunun kendisine veya noter onaylı vekiline elden teslim edilir. Diploma hazırlanana kadar 6 ay geçerli 'Geçici Mezuniyet Belgesi' verilebilir. Diploma teslim alınırken geçici belge (varsa) geri istenmez."
+},
+{
+  "id": "marmara-directive-grad-duplicate",
+  "source": "MarmaraUniv",
+  "title": "Diploma Kaybı ve Duplikata İşlemleri (Madde 12)",
+  "text": "Diplomanın yırtılması, tahribi veya kaybı durumunda 'Duplikata' düzenlenir. Duplikata üzerinde asıl imza sahiplerinin isimleri yazılır ancak imzalar atılmaz; bunun yerine 'Duplikata' kaşesi basılır ve görevdeki yöneticiler tarafından arka yüz imzalanır. Düzenlenme süresi yaklaşık 4 haftadır."
+},
+{
+  "id": "marmara-directive-grad-supplement",
+  "source": "MarmaraUniv",
+  "title": "Diploma Eki (Diploma Supplement) (Madde 14-16)",
+  "text": "2008 sonrası mezunlara, diplomayla birlikte İngilizce olarak hazırlanan 'Diploma Eki' ücretsiz verilir. Bu belge, alınan derecenin uluslararası tanınırlığını ve içeriğini detaylandırır ancak diploma yerine geçmez."
+},
+{
+  "id": "marmara-directive-grad-minor",
+  "source": "MarmaraUniv",
+  "title": "Yandal Sertifikası İşlemleri (Madde 17-19)",
+  "text": "Öğrenci yandal programını tamamlasa bile, anadal programından mezun olmadan Yandal Sertifikası alamaz. Yandal sertifikası için ayrı bir diploma defteri tutulmaz."
+},
+{
+  "id": "marmara-directive-grad-english-titles",
+  "source": "MarmaraUniv",
+  "title": "Programların İngilizce Derece Karşılıkları (Ek-12)",
+  "text": "Yönerge ekinde (Ek-12), fakülte ve bölümlerin İngilizce karşılıkları ve ünvanları (Örn: Bachelor of Science, Master of Arts, Ph.D.) standart olarak listelenmiştir."
+},
+{
+  "id": "marmara-directive-intern-purpose",
+  "source": "MarmaraUniv",
+  "title": "Staj Yönergesi Amaç ve Kapsam (Madde 1-2)",
+  "text": "Bu yönerge, Marmara Üniversitesi Mühendislik Fakültesi öğrencilerinin öğrenim süresince yapmakla yükümlü oldukları staj çalışmalarının (işletme, atölye, laboratuvar vb.) ilkelerini ve esaslarını düzenler."
+},
+{
+  "id": "marmara-directive-intern-duration",
+  "source": "MarmaraUniv",
+  "title": "Staj Süresi ve Dönemleri (Madde 5)",
+  "text": "Mühendislik Fakültesi öğrencilerinin mezun olabilmesi için en az 60 iş günü staj yapmaları gerekir. Stajlar en az 10, en çok 30 iş günü olacak şekilde dönemlere bölünebilir. Öğrenciler staja 4. yarıyıldan sonra başlayabilirler."
+},
+{
+  "id": "marmara-directive-intern-application",
+  "source": "MarmaraUniv",
+  "title": "Staj Yeri ve Başvurusu (Madde 6)",
+  "text": "Staj yeri bulma sorumluluğu öğrenciye aittir. Öğrenci, bulduğu yerde staja başlamadan önce Staj Komisyonunun yazılı onayını almak zorundadır. Staj yapılacak kurumda, eğitim alınan dalda en az bir mühendis bulunmalıdır. Staj başvuru evrakları, dönem bitiminden en az 1 hafta önce komisyona teslim edilmelidir."
+},
+{
+  "id": "marmara-directive-intern-documents",
+  "source": "MarmaraUniv",
+  "title": "Staj İle İlgili Belgeler (Madde 7)",
+  "text": "Gerekli belgeler: Staj Başvuru Formu, Staj Değerlendirme Formu (işyeri doldurur), Staj Raporu ve Sosyal Güvenlik Formu. İş kazası ve meslek hastalığı sigortası staj süresince üniversite tarafından ödenir."
+},
+{
+  "id": "marmara-directive-intern-execution",
+  "source": "MarmaraUniv",
+  "title": "Stajın Yürütülmesi ve Devam Zorunluluğu (Madde 8)",
+  "text": "Stajlara devam zorunludur. Mazeretsiz 3 gün üst üste devamsızlık yapan öğrenci stajdan başarısız sayılır. İzin süresi toplam staj süresinin %10'unu aşamaz."
+},
+{
+  "id": "marmara-directive-intern-report",
+  "source": "MarmaraUniv",
+  "title": "Staj Raporları (Madde 9)",
+  "text": "Her işletme için ayrı staj raporu hazırlanır. Rapor, bölümün eğitim dilinde (genellikle İngilizce) yazılmalı ve her sayfası işyeri yetkilisine onaylatılmalıdır."
+},
+{
+  "id": "marmara-directive-intern-evaluation",
+  "source": "MarmaraUniv",
+  "title": "Stajın Değerlendirilmesi (Madde 10)",
+  "text": "Stajlar, 'Başarılı' veya 'Başarısız' olarak değerlendirilir. Staj Değerlendirme Formu (kapalı zarfta veya posta ile) ve Staj Raporu belirtilen tarihte teslim edilmelidir. Kopya olduğu tespit edilen staj raporları reddedilir."
+},
+{
+  "id": "marmara-directive-intern-graduation",
+  "source": "MarmaraUniv",
+  "title": "Mezuniyet Şartı (Madde 12)",
+  "text": "Marmara Üniversitesi Mühendislik Fakültesinden lisans diploması alabilmek için 60 iş günlük stajın başarıyla tamamlanması zorunludur."
+},
+{
+  "id": "marmara-directive-transfer-scope",
+  "source": "MarmaraUniv",
+  "title": "Yatay Geçiş Yönergesi Amaç ve Kapsam (Madde 1-2)",
+  "text": "Bu yönerge, Marmara Üniversitesi önlisans ve lisans programlarına kurum içi, kurumlar arası ve yurt dışından yapılacak yatay geçişlerin esaslarını ve hükümlerini düzenler."
+},
+{
+  "id": "marmara-directive-transfer-general-rules",
+  "source": "MarmaraUniv",
+  "title": "Yatay Geçiş Ortak Hükümler ve Başvuru Zamanı (Madde 6)",
+  "text": "Önlisans ile lisans programları arasında yatay geçiş yapılamaz. Önlisansın ilk ve son yarıyılına; lisansın ilk iki ve son iki yarıyılına geçiş yapılamaz. Hazırlık sınıfı hariç en az bir yarıyıl (önlisans) veya iki yarıyıl (lisans) okunmuş olmalıdır. Aynı isimli farklı dildeki programlara geçiş mümkündür."
+},
+{
+  "id": "marmara-directive-transfer-conditions",
+  "source": "MarmaraUniv",
+  "title": "Yatay Geçiş Genel Başvuru Şartları (Madde 7)",
+  "text": "Başvuru için öğrencinin kayıtlı olduğu programdaki tüm dersleri almış ve başarmış olması zorunludur. Herhangi bir dersten başarısız olan veya ders almayanların başvurusu değerlendirilmez. Disiplin cezası alanlar başvuramaz. Yabancı dille eğitim veren programlar için dil yeterlilik belgesi şarttır."
+},
+{
+  "id": "marmara-directive-transfer-inter-inst-quota",
+  "source": "MarmaraUniv",
+  "title": "Kurumlar Arası Yatay Geçiş Kontenjanları (Madde 8)",
+  "text": "Kontenjanlar ÖSYM giriş genel kontenjanına göre belirlenir: 50 ve altı için 2, 51-100 arası için 3, 101 ve üzeri için 4 kişidir. Kontenjanlar 2., 3., 4. ve 5. sınıflar için ayrı ayrı belirlenir."
+},
+{
+  "id": "marmara-directive-transfer-inter-inst-req",
+  "source": "MarmaraUniv",
+  "title": "Kurumlar Arası Yatay Geçiş Başvuru Şartları (Madde 9)",
+  "text": "Adayın GANO'su 4.00 üzerinden en az 3.00 veya 100 üzerinden en az 75 olmalıdır. GANO şartını sağlamayan ancak merkezi yerleştirme puanı, geçmek istediği bölümün taban puanına eşit veya yüksek olan adaylar da başvurabilir (bu adaylar, GANO'su yetenlerin yerleşmesinden sonra boş kontenjan kalırsa değerlendirilir)."
+},
+{
+  "id": "marmara-directive-transfer-inter-inst-eval",
+  "source": "MarmaraUniv",
+  "title": "Kurumlar Arası Yatay Geçiş Değerlendirme (Madde 12)",
+  "text": "Merkezi yerleştirme ile alan programlarda değerlendirme puanı: (Adayın ÖSYS Puanı / Program Taban Puanı x 80) + (Adayın GANO'su / 100 x 20) formülü ile hesaplanır. Meslek yüksekokulları için sadece GANO esas alınır."
+},
+{
+  "id": "marmara-directive-transfer-intra-inst-quota",
+  "source": "MarmaraUniv",
+  "title": "Kurum İçi Yatay Geçiş Kontenjanları (Madde 14)",
+  "text": "Birim içi ve birimler arası olmak üzere kontenjanlar belirlenir. ÖSYM kontenjanı 50 ve altı olanlarda 2+2, 51-100 arası 3+3, 101 ve üzeri olanlarda 4+4 kişidir. Birinci öğretimden ikinci öğretime geçişte kontenjan sınırı yoktur."
+},
+{
+  "id": "marmara-directive-transfer-intra-inst-req",
+  "source": "MarmaraUniv",
+  "title": "Kurum İçi Yatay Geçiş Başvuru Şartları (Madde 15)",
+  "text": "Adayın üniversitede kayıtlı olması ve GANO'sunun en az 2.75 olması gerekir. Farklı puan türü ile alan bölümlere geçişte, adayın merkezi yerleştirme puanının, geçmek istediği bölümün yurt içindeki en düşük taban puanından az olmaması şarttır."
+},
+{
+  "id": "marmara-directive-transfer-intra-inst-eval",
+  "source": "MarmaraUniv",
+  "title": "Kurum İçi Yatay Geçiş Değerlendirme (Madde 18)",
+  "text": "Birim İçi Geçiş Puanı: (ÖSYS Puanı / Taban Puan x 20) + (GANO / 4.00 x 80). Birimler Arası Geçiş Puanı: (ÖSYS Puanı / Taban Puan x 30) + (GANO / 4.00 x 70). Sıralama bu puanlara göre yapılır."
+},
+{
+  "id": "marmara-directive-transfer-abroad-req",
+  "source": "MarmaraUniv",
+  "title": "Yurt Dışından Yatay Geçiş Şartları (Madde 21)",
+  "text": "Yurt dışındaki kurumun YÖK tarafından tanınması ve programın eşdeğerliğinin kabul edilmesi gerekir. GANO en az 3.00/4.00 (veya 75/100) olmalıdır. Adayın ÖSYS puanının veya SAT puanının belirlenen asgari şartları sağlaması gerekir."
+},
+{
+  "id": "marmara-directive-transfer-abroad-eval",
+  "source": "MarmaraUniv",
+  "title": "Yurt Dışından Yatay Geçiş Değerlendirme (Madde 24)",
+  "text": "Değerlendirme puanı: (Adayın ÖSYS Puanı / Program Taban Puanı x 50) + (Adayın GANO'su / 100 x 50) formülü ile hesaplanır. ÖSYS puanı yoksa SAT puanı esas alınır."
+},
+{
+  "id": "marmara-directive-transfer-adjustment",
+  "source": "MarmaraUniv",
+  "title": "İntibak İşlemleri (Madde 13, 19, 25)",
+  "text": "Geçiş yapan öğrencinin önceki kurumunda aldığı dersler İntibak Komisyonu tarafından değerlendirilir. Sayılan derslere 'S' notu verilir ve mezuniyet kredisine eklenir ancak GANO hesabına katılmaz. Ders intibakları nedeniyle yıl kaybı yaşanabilir."
+},
+{
+  "id": "marmara-directive-transfer-special",
+  "source": "MarmaraUniv",
+  "title": "Özel Durumlar: Kamu Görevlileri ve Diplomat Çocukları (Madde 26)",
+  "text": "Kamu görevlilerinin zorunlu tayini nedeniyle yapılacak geçişlerde, puan şartını sağlamak kaydıyla kontenjan aranmaksızın nakil yapılabilir. Yabancı diplomat çocukları için kontenjan şartı aranmaz, Üniversite Yönetim Kurulu karar verir."
+},
+{
+  "id": "marmara-directive-summer-school-purpose",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulu Yönergesi Amaç ve Kapsam (Madde 1)",
+  "text": "Bu yönerge, Marmara Üniversitesi bünyesindeki önlisans, lisans ve lisansüstü programlarda yaz aylarında uygulanacak eğitim-öğretim programlarının usul ve esaslarını düzenler."
+},
+{
+  "id": "marmara-directive-summer-school-duration",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulu Süresi (Madde 6)",
+  "text": "Yaz okulunun süresi, sınavlar dâhil olmak üzere yedi (7) haftadan az olamaz."
+},
+{
+  "id": "marmara-directive-summer-school-fees",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulu Ücretleri (Madde 7)",
+  "text": "Yaz okulunda ödenecek ücretler Üniversite Yönetim Kurulu tarafından belirlenir. İkinci öğretim, tezsiz yüksek lisans ve uzaktan eğitim programları için belirlenen ders saati ücreti esas alınır."
+},
+{
+  "id": "marmara-directive-summer-school-opening",
+  "source": "MarmaraUniv",
+  "title": "Derslerin Açılması ve Öğrenci Sayısı (Madde 8)",
+  "text": "Yaz okulunda ders açılması için gerekli en az öğrenci sayısı her yıl Üniversite Yönetim Kurulu tarafından belirlenir. Öğrenci sayısı 30'dan az ise ders gruplara bölünmez. Yıllık sistemde eğitim veren birimlerde yaz okulu açılmaz."
+},
+{
+  "id": "marmara-directive-summer-school-course-selection",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulunda Ders Alma Esasları (Madde 9)",
+  "text": "Öğrenciler, daha önce almadıkları, başarısız oldukları veya not yükseltmek istedikleri dersleri alabilirler. Mezuniyeti için 5 dersi kalanlar bu 5 dersin tamamını, diğer öğrenciler ise en çok 4 ders alabilir. GANO'su en az 3.00 olanlar üst yarıyıldan ders alabilir."
+},
+{
+  "id": "marmara-directive-summer-school-transfer",
+  "source": "MarmaraUniv",
+  "title": "Başka Birimden veya Üniversiteden Ders Alma (Madde 9)",
+  "text": "Öğrencinin kendi biriminde açılmayan dersi, içerik ve kredi/AKTS denkliğinin kabul edilmesi şartıyla üniversite içindeki başka bir birimden veya başka bir üniversiteden alabilir. Başka üniversiteden en fazla 4 ders alınabilir."
+},
+{
+  "id": "marmara-directive-summer-school-prep",
+  "source": "MarmaraUniv",
+  "title": "Hazırlık Sınıfı Öğrencileri İçin Yaz Okulu (Madde 9)",
+  "text": "Hazırlık sınıfına kayıtlı öğrenciler sadece Yabancı Diller Yüksekokulu'nun açtığı yaz okuluna katılabilir. Hazırlığı bitirmiş ancak bölüme başlamamış öğrenciler, bölümün onayıyla en fazla 2 ders alabilir."
+},
+{
+  "id": "marmara-directive-summer-school-attendance",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulunda Devam Zorunluluğu (Madde 10)",
+  "text": "Yaz okulunda derslere devam zorunludur. Bir dersin devam koşulunun daha önce normal dönemde yerine getirilmiş olması, yaz okulunda devam zorunluluğunu ortadan kaldırmaz."
+},
+{
+  "id": "marmara-directive-summer-school-grading",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulu Başarı Değerlendirmesi (Madde 10)",
+  "text": "Yaz okulunda en az bir ara sınav ve bir final sınavı yapılır. Alınan notlar GANO hesabına katılır. Tekrar edilen derslerde alınan en son not geçerlidir."
+},
+{
+  "id": "marmara-directive-summer-school-single-course",
+  "source": "MarmaraUniv",
+  "title": "Yaz Okulu Sonrası Tek Ders Sınavı (Madde 10)",
+  "text": "Yaz okulu sonunda mezuniyeti için tek dersi kalan, stajını tamamlamış ve devam şartını sağlamış öğrenciler, akademik takvimde belirtilen tarihte tek ders sınavına girebilirler."
+},
+{
+  "id": "compe-form-technical-trip",
+  "source": "CompE",
+  "title": "Teknik Gezi Katılım Beyanı Formu",
+  "text": "Teknik gezilere katılacak öğrencilerin doldurması ve imzalaması gereken beyan formudur. Öğrenci bu formla; gezi sırasında yetkililerin talimatlarına ve iş güvenliği kurallarına uyacağını, koruyucu ekipman kullanacağını, izinsiz gruptan ayrılmayacağını, öğrencilik vakarına uygun davranacağını ve doğacak sorumlulukları kabul ettiğini beyan eder. Formda ayrıca öğrenci bilgileri ve acil durumda aranacak kişi bilgileri yer alır."
+}
 ]

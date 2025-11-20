@@ -1,0 +1,34 @@
+
+CSE4197 Course
+
+CSE4198  Course
+
+Thesis Completed
+
+Seminars and Announcements       
+
+Outline of the Courses
+
+An engineering project gives a student an opportunity to prove his/her knowledge and skills as a professional computer scientist/engineer to execute a multi-disciplinary project. Moreover, it can be considered a path or a stepping stone to a future professional career. Therefore, a high level of haecceity is expected from the student in the execution of the project and in the acquisition of knowledge and skills.
+
+The goals of CSE4197 and CSE4198 courses are to bring students:
+
+     >  Responsibility of a project,
+
+     >  Management skills, 
+
+     >  Team-work habit,
+
+     >  Presentation skills,
+
+     >  Opportunity to meet with academics, industry leaders or workers.
+
+For CSE4197 and CSE4198 courses, firstly, the students are required to possess abilities to conduct an independent ICT project in a group of two or three. Secondly, they are required to be able to present their work to an audience. Additionally, the students have to attend the seminars that are organized in the context of the courses. In these seminars, selected industry leaders and academics are invited to talk about their experiences and advices to the students in the areas of their expertise. It is compulsory for students to attend these conferences.
+
+CSE4197 and CSE4198 courses are scheduled as senior year courses and senior year graduating candidates are expected to take these courses. CSE4197 precedes the CSE4198, and only those who are successful in CSE 4197 can take in the following semester. For a senior student to be able take the CSE4197 course, he/she must complete/pass at least 165 ECTS credits (not including ECST credits of the summer practice, and the courses like NTE/TE/ Work Safety from 4th year curriculum).
+
+Each group has an advisor who has the duty of overseeing the projects and recommending actions where necessary. Ideally, the groups should contact their advisor once a week, more frequent towards the end of each semester.
+
+Group members normally get the same grade at the end of each semester. However, the advisor has the discretion to grade the members differently. Individual group members or the entire group may be graded "Incomplete" at the end of each semester.
+
+You may find additional information on CSE4197 and CSE4198 links on this page. 

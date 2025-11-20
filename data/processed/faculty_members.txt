@@ -1,0 +1,121 @@
+	Prof. Dr. Haluk Rahmi TOPÇUOĞLU (Department Head)
+PhD:Computer Eng.-
+Syracuse University 
+MS: Computer Eng.-Boğaziçi University
+BS: Computer Eng.-Boğaziçi University	
+ haluk
+3537
+Office:M2-217
+
+Prof. Dr. Ali Fuat ALKAYA 
+PhD:Engineering Management-
+Marmara University
+MS: Computer Eng.-Marmara University
+BS: Mathematics-Koç University
+
+falkaya 
+3532
+Office:M2-249
+
+
+	Prof. Dr. Borahan TÜMER
+PhD:Computer Eng.-
+Marquette University 
+MS: Computer Eng.-Istanbul Technical University
+BS: Computer Eng.-Boğaziçi University	
+borahan.tumer 
+3541
+Office:M2-209
+
+	Assoc. Prof. Mustafa AĞAOĞLU
+PhD:Information Tech.-Marmara University
+MS: Computer Eng.-Marmara University
+BS: Physics-Boğaziçi University	
+agaoglu 
+3540
+Office:M2-221
+
+
+	Assoc. Prof. Murat Can GANİZ
+PhD:Computer Science-Lehigh University
+MS: Bilgisayar Müh.-Selçuk University
+BS: Bilgisayar Müh.-Selçuk University	
+murat.ganiz
+3539
+Office:M2-251
+
+
+	Assoc. Prof. Ömer KORÇAK
+(Vice Head)
+PhD:Bilgisayar Müh.-Boğaziçi University
+MS: Bilgisayar Müh.-Boğaziçi University
+BS: Bilgisayar Müh.-Boğaziçi University	
+omer.korcak
+3543
+Office:M2-208
+
+
+	Asst. Prof. Ali Haydar ÖZER
+PhD:Computer Eng.-Boğaziçi University
+MS: Computer Eng.-Boğaziçi University
+BS: Computer Eng.-Boğaziçi University	
+haydar.ozer 
+3533
+Office:M2-253
+
+
+	Assoc. Prof. Müjdat SOYTÜRK
+PhD:Computer Eng.-Istanbul Technical University
+MS: Computer Eng.-Istanbul Technical University
+BS: Endustrial Eng.-Turkish Naval Academy	
+mujdat.soyturk 
+3542
+Office:M2-204
+
+
+	Asst. Prof. Mehmet BARAN
+PhD:Computer Eng.-Rensselear Polytechnic Institute
+MS: Computer Eng./Mathematics-
+Rensselear Polytechnic Institute
+BS: Computer Eng.-Boğaziçi
+University	
+mehmet.baran
+3538
+Office:M2-233
+
+
+	Asst. Prof. Betül Demiröz BOZ
+(Vice Head)
+PhD:Computer Eng.-Boğaziçi University
+MS: Computer Eng.-Marmara University
+BS: Computer Eng.-Marmara University	
+betul.demiroz
+3534
+Office:M2-234
+
+
+	Asst. Prof. Fatma Corut Ergin
+PhD:Computer Eng.-Istanbul Technical University
+MS: Computer Eng.-Marmara University
+BS: Computer Eng.-Marmara University	
+fatma.ergin
+3536
+Office:M2-229
+
+
+	Asst. Prof. Sanem Arslan
+PhD:Computer Eng.-Boğaziçi University
+MS: Computer Eng.-Boğaziçi University
+BS: Computer Eng.-Marmara University	sanem.arslan 
+3545
+Office:M2-230
+
+Asst. Prof. Kamil ERDAYANDI
+PhD: Computer Science-The University of Manchester
+MS: Electronic Eng.-Sabancı University
+BS: E.Elektronic Eng., Computer Müh.(Double Major)-Yeditepe University
+
+kamil.erdayandi
+3535
+Office:M2-232
+

@@ -1,0 +1,47 @@
+1. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE1241	Computer Programming I	3	2	6	6
+2	MATH1001	Calculus I	4	0	6	6
+Total	7	2	12	12
+ 
+
+2. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE1242	Computer Programming II	3	2	6	6
+2	MATH1002	Calculus II	4	0	6	6
+Total	7	2	12	12
+ 
+
+3. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE2023	Discrete Computational Structures	3	0	6	6
+2	CSE2225	Data Structures	3	2	7	7
+Total	6	2	13	13
+ 
+
+4. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE2246	Analysis of Algorithms	3	2	6	6
+2	CSE2138	Systems Programming	3	2	7	7
+Total	6	4	13	13
+ 
+
+5. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE3033	Operating Systems	3	2	7	7
+2	CSE3055	Database Systems	3	2	7	7
+3	CSE3063	Object-Oriented Software Design	3	0	5	5
+Total	9	4	19	19
+ 
+
+6. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE3044	Software Engineering	3	2	7	7
+Total	3	2	7	7
+ 
+
+7. SEMESTER
+No	Course Code	Course Name	T	U	Credit	ECTS
+1	CSE4074	Computer Networks	3	0	5	5
+2	TExxx	Technical Elective - 1	3	0	5	5
+Total	6	0	10	10
