@@ -1,0 +1,12 @@
+{"timestamp":1763743039204,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763743039213,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":7,"error":""}
+{"timestamp":1763743039214,"stage":"QueryWritingStage","summary":"terms=[harfli, başarı, notları, başarısız, notlardır, unknown]","durationMs":1,"error":""}
+{"timestamp":1763743039214,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, unknown], hits=null, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763743039223,"stage":"RetrievalStage","summary":"hits=5","durationMs":8,"error":""}
+{"timestamp":1763743039223,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, unknown], hits=5, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763743039226,"stage":"RerankingStage","summary":"top=marmara-directive-intern-evaluation@MarmaraUniv score=3.5","durationMs":1,"error":""}
+{"timestamp":1763743039226,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, unknown], hits=5, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763743039230,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763743039230,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, unknown], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763743039230,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763743039230,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, unknown], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

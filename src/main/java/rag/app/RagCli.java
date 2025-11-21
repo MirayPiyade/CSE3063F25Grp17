@@ -20,11 +20,6 @@ public class RagCli {
             question = promptQuestion();
         }
 
-        if (question == null || question.isBlank()) {
-            System.err.println("No question provided. Please enter a question to continue.");
-            return;
-        }
-
         Config effectiveConfig = baseConfig.withQuestion(question);
         if (cliReranker != null && !cliReranker.isBlank()) {
             effectiveConfig = effectiveConfig.withRerankerType(cliReranker);
