@@ -1,0 +1,12 @@
+{"timestamp":1763715382334,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763715382345,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763715382347,"stage":"QueryWritingStage","summary":"terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763715382347,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763715382356,"stage":"RetrievalStage","summary":"hits=5","durationMs":9,"error":""}
+{"timestamp":1763715382356,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown], hits=5, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763715382358,"stage":"RerankingStage","summary":"top=compe-info-qualification@CompE score=4.0","durationMs":1,"error":""}
+{"timestamp":1763715382359,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763715382360,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763715382360,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown], hits=5, answer=true, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763715382360,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763715382360,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[harfli, başarı, notları, başarısız, notlardır, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

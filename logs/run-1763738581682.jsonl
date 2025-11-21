@@ -1,0 +1,12 @@
+{"timestamp":1763738581696,"stage":"IntentDetectionStage","summary":"intent=Policy","durationMs":0,"error":""}
+{"timestamp":1763738581706,"stage":"IntentDetectionStage","summary":"{intent=Policy, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763738581709,"stage":"QueryWritingStage","summary":"terms=[policy, nedir, yonerge]","durationMs":3,"error":""}
+{"timestamp":1763738581709,"stage":"QueryWritingStage","summary":"{intent=Policy, terms=[policy, nedir, yonerge], hits=null, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763738581717,"stage":"RetrievalStage","summary":"hits=2","durationMs":8,"error":""}
+{"timestamp":1763738581717,"stage":"RetrievalStage","summary":"{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763738581719,"stage":"RerankingStage","summary":"top=compe-policy-1@CompE score=1.0","durationMs":0,"error":""}
+{"timestamp":1763738581719,"stage":"RerankingStage","summary":"{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763738581725,"stage":"AnswerStage","summary":"citations=true","durationMs":6,"error":""}
+{"timestamp":1763738581725,"stage":"AnswerStage","summary":"{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=null}","durationMs":6,"error":""}
+{"timestamp":1763738581725,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763738581725,"stage":"FinalizeStage","summary":"{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

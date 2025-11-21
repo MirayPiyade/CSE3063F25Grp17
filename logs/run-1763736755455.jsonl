@@ -1,0 +1,12 @@
+{"timestamp":1763736755474,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":1,"error":""}
+{"timestamp":1763736755483,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763736755485,"stage":"QueryWritingStage","summary":"terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo]","durationMs":1,"error":""}
+{"timestamp":1763736755485,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763736755495,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763736755496,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763736755498,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=9.5","durationMs":1,"error":""}
+{"timestamp":1763736755498,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763736755503,"stage":"AnswerStage","summary":"citations=true","durationMs":5,"error":""}
+{"timestamp":1763736755503,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763736755503,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763736755503,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, dersi, kaç, akts, kredi, değerindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

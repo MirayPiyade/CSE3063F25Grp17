@@ -20,6 +20,6 @@
     "CourseInfo": ["course", "ders", "akts", "prerequisite"],
     "StaffLookup": ["advisor", "office", "iletisim"],
     "Policy": ["policy", "yonerge"],
-    "Unknown": ["bilgi"]
+    "Unknown": []
   }
 }

@@ -1,0 +1,9 @@
+{"timestamp":1763735913159,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763735913171,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763735913173,"stage":"QueryWritingStage","summary":"terms=[naber, bilgi, unknown]","durationMs":2,"error":""}
+{"timestamp":1763735913173,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[naber, bilgi, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763735913182,"stage":"RetrievalStage","summary":"hits=5","durationMs":8,"error":""}
+{"timestamp":1763735913182,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763735913185,"stage":"RerankingStage","summary":"top=compe-assistant-kubra-uludag@CompE score=3.0","durationMs":1,"error":""}
+{"timestamp":1763735913185,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763735913185,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}","durationMs":0,"error":""}

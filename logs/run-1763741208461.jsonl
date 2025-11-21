@@ -1,0 +1,12 @@
+{"timestamp":1763741208474,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763741208484,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763741208486,"stage":"QueryWritingStage","summary":"terms=[cse44444, unknown]","durationMs":1,"error":""}
+{"timestamp":1763741208486,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[cse44444, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763741208493,"stage":"RetrievalStage","summary":"hits=0","durationMs":7,"error":""}
+{"timestamp":1763741208493,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}","durationMs":7,"error":""}
+{"timestamp":1763741208493,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1763741208493,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763741208493,"stage":"AnswerStage","summary":"citations=null","durationMs":0,"error":""}
+{"timestamp":1763741208493,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}","durationMs":0,"error":""}
+{"timestamp":1763741208493,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1763741208493,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=true, fallback=UnknownIntent}","durationMs":0,"error":""}

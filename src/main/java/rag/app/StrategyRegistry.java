@@ -11,6 +11,7 @@ import rag.query.HeuristicQueryWriter;
 import rag.query.QueryWriter;
 import rag.rerank.Reranker;
 import rag.rerank.SimpleReranker;
+import rag.rerank.NoOpReranker;
 import rag.retrieval.Document;
 import rag.retrieval.DocumentStore;
 import rag.retrieval.KeywordRetriever;
@@ -77,8 +78,13 @@ public class StrategyRegistry {
     // Retriever Strategy
     // -------------------------------
     public Retriever getRetriever() {
-        if (retriever == null) {
+        if (retriever != null) return retriever;
+
+        String type = config.getRetrieverType() == null ? "keyword" : config.getRetrieverType().toLowerCase();
+        if ("keyword".equals(type)) {
             retriever = new KeywordRetriever(config.getTopK(), config.getSourcePriority());
+        } else {
+            throw new IllegalArgumentException("Unsupported retriever type: " + config.getRetrieverType());
         }
         return retriever;
     }
@@ -99,8 +105,13 @@ public class StrategyRegistry {
     // Reranker Strategy
     // -------------------------------
     public Reranker getReranker() {
-        if (reranker == null) {
-            reranker = new SimpleReranker(config.getRerankerPath());
+        if (reranker != null) return reranker;
+
+        String type = config.getRerankerType() == null ? "simple" : config.getRerankerType().toLowerCase();
+        switch (type) {
+            case "noop" -> reranker = new NoOpReranker();
+            case "simple" -> reranker = new SimpleReranker(config.getRerankerPath());
+            default -> throw new IllegalArgumentException("Unsupported reranker type: " + config.getRerankerType());
         }
         return reranker;
     }

@@ -32,7 +32,7 @@ public class AnswerStage implements PipelineStage {
         Exception failure = null;
 
         try {
-            answer = agent.generateAnswer(context.getHits());
+            answer = agent.generateAnswer(context.getHits(), context.getQuestion());
             if (answer != null) {
                 citationsOK = validator.validate(answer.getCitations());
                 if (Boolean.TRUE.equals(citationsOK)) {

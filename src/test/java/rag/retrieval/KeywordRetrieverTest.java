@@ -4,25 +4,40 @@ import java.util.List;
 
 public class KeywordRetrieverTest {
 
-    public static void main(String[] args) throws Exception {
-        DocumentStore store = DocumentStore.load("data/docs.json");
-        KeywordRetriever retriever = new KeywordRetriever(5, List.of("CompE", "FoE", "MU"));
+    public static void main(String[] args) {
+        // Küçük ve deterministik bir corpus
+        Document d1 = new Document("comp-doc", "CompE", "Comp Policy", "policy requirements and forms");
+        Document d2 = new Document("mu-doc", "MU", "MU Policy", "policy requirements for students");
+        Document d3 = new Document("compe-course", "CompE", "CSE3063", "CSE3063 AKTS bilgisi ve onkosul");
 
-        List<Hit> hits = retriever.retrieve(
-                "CSE3063 dersinin akts degeri nedir?",
-                List.of("cse3063", "akts", "courseinfo"),
-                store.getDocuments()
-        );
+        KeywordRetriever retriever = new KeywordRetriever(2, List.of("CompE", "MU"));
 
-        assert !hits.isEmpty() : "Expected at least one hit";
-        assert "compe-course-1".equals(hits.get(0).docId()) : "CompE course should rank first";
-
+        // Kaynak önceliği: d1 ve d2 aynı skorda, CompE önce gelmeli
         List<Hit> policyHits = retriever.retrieve(
-                "Mazeret sinavi policy",
-                List.of("policy", "sinavi"),
-                store.getDocuments()
+                "policy requirements",
+                List.of("policy"),
+                List.of(d1, d2)
         );
-        assert policyHits.stream().anyMatch(hit -> hit.docId().equals("mu-policy-1")) : "MU policy document should be found";
+        assert policyHits.size() == 2 : "İki hit bekleniyor";
+        assert "comp-doc".equals(policyHits.get(0).docId()) : "Kaynak önceliği CompE önde olmalı";
+
+        // topK kırpma ve docId tie-break (aynı source ve skor)
+        KeywordRetriever retrieverTop1 = new KeywordRetriever(1, List.of("CompE", "MU"));
+        List<Hit> top1 = retrieverTop1.retrieve(
+                "policy forms",
+                List.of("policy", "forms"),
+                List.of(d1, d2)
+        );
+        assert top1.size() == 1 : "topK=1 kırpmalı";
+
+        // Course araması: soru + terim ile en yüksek puan compe-course olmalı
+        List<Hit> courseHits = retriever.retrieve(
+                "CSE3063 AKTS",
+                List.of("cse3063", "akts"),
+                List.of(d3, d1)
+        );
+        assert !courseHits.isEmpty() : "Course hit bulunmalı";
+        assert "compe-course".equals(courseHits.get(0).docId()) : "CSE3063 dokümanı önde olmalı";
 
         System.out.println("KeywordRetrieverTest passed");
     }

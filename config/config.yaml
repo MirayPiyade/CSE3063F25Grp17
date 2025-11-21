@@ -1,0 +1,9 @@
+logDir: logs
+intentsPath: config/intents.yaml
+stopwordsPath: config/stopwords.yaml
+docsPath: data/docs.json
+rerankerType: simple
+rerankerPath: config/reranker.yaml
+retrieverType: keyword
+topK: 5
+sourcePriority: [CompE, FoE, MU]

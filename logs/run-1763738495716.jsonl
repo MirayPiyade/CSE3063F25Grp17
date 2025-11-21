@@ -1,0 +1,12 @@
+{"timestamp":1763738495729,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763738495738,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763738495740,"stage":"QueryWritingStage","summary":"terms=[ders, course, akts, prerequisite, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763738495740,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763738495749,"stage":"RetrievalStage","summary":"hits=5","durationMs":9,"error":""}
+{"timestamp":1763738495749,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763738495750,"stage":"RerankingStage","summary":"top=compe-course-ATA121@CompE score=4.0","durationMs":0,"error":""}
+{"timestamp":1763738495750,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763738495754,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763738495754,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763738495754,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763738495754,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

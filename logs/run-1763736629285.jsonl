@@ -1,0 +1,12 @@
+{"timestamp":1763736629317,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763736629329,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763736629331,"stage":"QueryWritingStage","summary":"terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763736629332,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763736629343,"stage":"RetrievalStage","summary":"hits=5","durationMs":11,"error":""}
+{"timestamp":1763736629343,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763736629346,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=7.5","durationMs":2,"error":""}
+{"timestamp":1763736629346,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763736629351,"stage":"AnswerStage","summary":"citations=true","durationMs":5,"error":""}
+{"timestamp":1763736629351,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}","durationMs":5,"error":""}
+{"timestamp":1763736629351,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763736629352,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":1,"error":""}

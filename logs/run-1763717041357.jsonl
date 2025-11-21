@@ -1,0 +1,12 @@
+{"timestamp":1763717041372,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763717041382,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763717041385,"stage":"QueryWritingStage","summary":"terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763717041385,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763717041395,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763717041396,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":11,"error":""}
+{"timestamp":1763717041399,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=8.5","durationMs":2,"error":""}
+{"timestamp":1763717041399,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763717041400,"stage":"AnswerStage","summary":"citations=true","durationMs":1,"error":""}
+{"timestamp":1763717041401,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763717041401,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763717041401,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, dersinin, akts, değeri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

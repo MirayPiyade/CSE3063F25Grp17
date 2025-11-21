@@ -1,0 +1,12 @@
+{"timestamp":1763738715523,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763738715533,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763738715535,"stage":"QueryWritingStage","summary":"terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763738715535,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763738715545,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763738715545,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763738715547,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=2.0","durationMs":0,"error":""}
+{"timestamp":1763738715547,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763738715551,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763738715551,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763738715551,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763738715551,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[course, registration, nasıl, yapılır, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}
