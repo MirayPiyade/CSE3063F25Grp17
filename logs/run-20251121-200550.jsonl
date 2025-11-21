@@ -1,0 +1,12 @@
+{"timestamp":1763744750442,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":1,"error":""}
+{"timestamp":1763744750451,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763744750453,"stage":"QueryWritingStage","summary":"terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown]","durationMs":2,"error":""}
+{"timestamp":1763744750453,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763744750463,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763744750463,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763744750466,"stage":"RerankingStage","summary":"top=compe-course-CSE3038@CompE score=7.5","durationMs":2,"error":""}
+{"timestamp":1763744750467,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763744750470,"stage":"AnswerStage","summary":"citations=true","durationMs":3,"error":""}
+{"timestamp":1763744750470,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown], hits=5, answer=true, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763744750471,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763744750471,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, mı, unknown], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

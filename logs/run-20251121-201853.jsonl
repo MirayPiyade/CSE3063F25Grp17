@@ -1,0 +1,12 @@
+{"timestamp":1763745533389,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763745533399,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763745533400,"stage":"QueryWritingStage","summary":"terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo]","durationMs":1,"error":""}
+{"timestamp":1763745533400,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763745533411,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763745533411,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763745533414,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=10.5","durationMs":2,"error":""}
+{"timestamp":1763745533414,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763745533418,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763745533418,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763745533418,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763745533418,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

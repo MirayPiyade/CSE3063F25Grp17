@@ -6,6 +6,8 @@ import rag.trace.ConsoleTraceSink;
 import rag.trace.JsonlTraceSink;
 import rag.trace.TraceBus;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
@@ -44,10 +46,8 @@ public class RagOrchestrator {
         // -------------------------
         TraceBus traceBus = new TraceBus();
         Files.createDirectories(Path.of(config.getLogDir()));
-        String logFile = Path.of(
-                config.getLogDir(),
-                "run-" + System.currentTimeMillis() + ".jsonl"
-        ).toString();
+        String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
+        String logFile = Path.of(config.getLogDir(), "run-" + timestamp + ".jsonl").toString();
         traceBus.addSink(new ConsoleTraceSink());
         traceBus.addSink(new JsonlTraceSink(logFile));
 

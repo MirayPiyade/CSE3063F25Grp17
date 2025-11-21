@@ -1,0 +1,12 @@
+{"timestamp":1763744807530,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763744807540,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763744807543,"stage":"QueryWritingStage","summary":"terms=[ağaoğlu, kim, unknown]","durationMs":2,"error":""}
+{"timestamp":1763744807543,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[ağaoğlu, kim, unknown], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763744807551,"stage":"RetrievalStage","summary":"hits=1","durationMs":8,"error":""}
+{"timestamp":1763744807551,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[ağaoğlu, kim, unknown], hits=1, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763744807554,"stage":"RerankingStage","summary":"top=marmara-directive-grad-content@MarmaraUniv score=1.0","durationMs":2,"error":""}
+{"timestamp":1763744807554,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[ağaoğlu, kim, unknown], hits=1, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763744807560,"stage":"AnswerStage","summary":"citations=true","durationMs":6,"error":""}
+{"timestamp":1763744807560,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[ağaoğlu, kim, unknown], hits=1, answer=true, fallback=null}","durationMs":6,"error":""}
+{"timestamp":1763744807560,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763744807560,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[ağaoğlu, kim, unknown], hits=1, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

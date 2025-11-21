@@ -1,0 +1,12 @@
+{"timestamp":1763745565543,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763745565554,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763745565555,"stage":"QueryWritingStage","summary":"terms=[cse3063, kaç, kredi, unknown]","durationMs":1,"error":""}
+{"timestamp":1763745565555,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[cse3063, kaç, kredi, unknown], hits=null, answer=false, fallback=null}","durationMs":1,"error":""}
+{"timestamp":1763745565565,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763745565565,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[cse3063, kaç, kredi, unknown], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763745565568,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=5.0","durationMs":2,"error":""}
+{"timestamp":1763745565568,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[cse3063, kaç, kredi, unknown], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763745565572,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763745565572,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[cse3063, kaç, kredi, unknown], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763745565572,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763745565572,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[cse3063, kaç, kredi, unknown], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

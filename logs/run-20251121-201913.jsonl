@@ -1,0 +1,12 @@
+{"timestamp":1763745553431,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763745553441,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":8,"error":""}
+{"timestamp":1763745553443,"stage":"QueryWritingStage","summary":"terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo]","durationMs":2,"error":""}
+{"timestamp":1763745553443,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763745553452,"stage":"RetrievalStage","summary":"hits=5","durationMs":9,"error":""}
+{"timestamp":1763745553453,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763745553455,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=7.5","durationMs":1,"error":""}
+{"timestamp":1763745553455,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763745553459,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763745553459,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763745553460,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763745553460,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[cse3063, kaç, akts, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}
