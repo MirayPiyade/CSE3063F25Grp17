@@ -1,4 +1,3 @@
-"""Template-based answer agent."""
 import re
 from typing import List
 
@@ -8,10 +7,8 @@ from rag.retrieval.hit import Hit
 
 
 class TemplateAnswerAgent(AnswerAgent):
-    """Template-based answer agent that selects best sentence."""
 
     def generate_answer(self, hits: List[Hit], query: str) -> Answer:
-        """Generate answer from hits."""
         if not hits:
             return None
 
@@ -37,7 +34,6 @@ class TemplateAnswerAgent(AnswerAgent):
         return Answer(text=text, citations=[citation])
 
     def _select_best_sentence(self, query: str, text: str) -> str:
-        """Select best sentence from text based on query."""
         if not text or not text.strip():
             return "Relevant information is available but cannot be displayed."
 
@@ -62,13 +58,12 @@ class TemplateAnswerAgent(AnswerAgent):
         return best_sentence.strip()
 
     def _match_count(self, sentence: str, terms: List[str]) -> int:
-        """Count matching terms in sentence."""
         normalized = sentence.lower()
         return sum(1 for term in terms if term and term in normalized)
 
     def _build_citation(self, hit: Hit, start: int, end: int) -> str:
-        """Build citation string."""
         doc_id = hit.doc_id
         section_id = hit.source or "1"
         return f"{doc_id}:{section_id}:{start}-{end}"
+
 
