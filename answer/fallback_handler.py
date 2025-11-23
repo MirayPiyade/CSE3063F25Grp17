@@ -1,4 +1,3 @@
-"""Fallback handler for when answer generation fails."""
 from typing import List
 
 from rag.answer.answer import Answer
@@ -7,10 +6,8 @@ from rag.intents.intent import Intent
 
 
 class FallbackHandler:
-    """Handles fallback answers when generation fails."""
 
     def build_fallback(self, context: Context) -> Answer:
-        """Build fallback answer based on context."""
         reason = self._determine_reason(context)
         context.fallback_reason = reason
 
@@ -23,10 +20,10 @@ class FallbackHandler:
         return Answer(text=message, citations=[f"fallback:{reason}"])
 
     def _determine_reason(self, context: Context) -> str:
-        """Determine fallback reason."""
         if not context.question or not context.question.strip():
             return "EmptyQuestion"
         if context.intent is None or context.intent == Intent.Unknown:
             return "UnknownIntent"
         return "Unknown"
+
 
