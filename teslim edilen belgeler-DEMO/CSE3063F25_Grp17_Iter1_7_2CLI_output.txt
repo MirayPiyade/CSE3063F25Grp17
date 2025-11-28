@@ -1,0 +1,47 @@
+question:"cse3063 kaç kredi ve saat"
+Your answer: Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS. See: compe-course-CSE3063:CompE:32-73
+Citations: compe-course-CSE3063:CompE:32-73
+
+whole output scenerio:
+
+miraypiyade@mirays-MacBook-Air CSE3063F25Grp17 % java -jar rag.jar --config config/config.yaml --q "cse3063 kaç kredi ve saat"
+[TRACE] IntentDetectionStage | summary=intent=Unknown | duration=0ms | error=-
+[TRACE] IntentDetectionStage | summary={intent=Unknown, terms=null, hits=null, answer=false, fallback=null} | duration=7ms | error=-
+[TRACE] QueryWritingStage | summary=terms=[cse3063, kaç, kredi, saat, unknown] | duration=2ms | error=-
+[TRACE] QueryWritingStage | summary={intent=Unknown, terms=[cse3063, kaç, kredi, saat, unknown], hits=null, answer=false, fallback=null} | duration=2ms | error=-
+[TRACE] RetrievalStage | summary=hits=5 | duration=9ms | error=-
+[TRACE] RetrievalStage | summary={intent=Unknown, terms=[cse3063, kaç, kredi, saat, unknown], hits=5, answer=false, fallback=null} | duration=9ms | error=-
+[TRACE] RerankingStage | summary=top=compe-course-CSE3063@CompE score=7.5 | duration=2ms | error=-
+[TRACE] RerankingStage | summary={intent=Unknown, terms=[cse3063, kaç, kredi, saat, unknown], hits=5, answer=false, fallback=null} | duration=3ms | error=-
+[TRACE] AnswerStage | summary=citations=true | duration=4ms | error=-
+[TRACE] AnswerStage | summary={intent=Unknown, terms=[cse3063, kaç, kredi, saat, unknown], hits=5, answer=true, fallback=null} | duration=4ms | error=-
+[TRACE] FinalizeStage | summary=answer-ready | duration=0ms | error=-
+[TRACE] FinalizeStage | summary={intent=Unknown, terms=[cse3063, kaç, kredi, saat, unknown], hits=5, answer=true, fallback=AnswerReady} | duration=0ms | error=-
+Your answer: Haftalık 3+0 saat, 5.00 Kredi, 5.00 AKTS. See: compe-course-CSE3063:CompE:32-73
+Citations: compe-course-CSE3063:CompE:32-73
+
+
+question:"bilgisayar mühendisliğine giriş ders kodu nedir"
+Your answer: CSE1200 Introduction to Computer Engineering, bilgisayar mühendisliğine giriş niteliğinde bir derstir. See: compe-course-CSE1200:CompE:0-102
+Citations: compe-course-CSE1200:CompE:0-102
+
+whole output scenerio:
+
+miraypiyade@mirays-MacBook-Air CSE3063F25Grp17 % java -jar rag.jar --config config/config.yaml --q "bilgisayar mühendisliğine giriş ders kodu nedir"
+[TRACE] IntentDetectionStage | summary=intent=CourseInfo | duration=0ms | error=-
+[TRACE] IntentDetectionStage | summary={intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null} | duration=6ms | error=-
+[TRACE] QueryWritingStage | summary=terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo] | duration=1ms | error=-
+[TRACE] QueryWritingStage | summary={intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null} | duration=1ms | error=-
+[TRACE] RetrievalStage | summary=hits=5 | duration=10ms | error=-
+[TRACE] RetrievalStage | summary={intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null} | duration=10ms | error=-
+[TRACE] RerankingStage | summary=top=compe-course-CSE1200@CompE score=8.5 | duration=2ms | error=-
+[TRACE] RerankingStage | summary={intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null} | duration=3ms | error=-
+[TRACE] AnswerStage | summary=citations=true | duration=4ms | error=-
+[TRACE] AnswerStage | summary={intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null} | duration=4ms | error=-
+[TRACE] FinalizeStage | summary=answer-ready | duration=0ms | error=-
+[TRACE] FinalizeStage | summary={intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, ders, kodu, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady} | duration=0ms | error=-
+Your answer: CSE1200 Introduction to Computer Engineering, bilgisayar mühendisliğine giriş niteliğinde bir derstir. See: compe-course-CSE1200:CompE:0-102
+Citations: compe-course-CSE1200:CompE:0-102
+
+
+

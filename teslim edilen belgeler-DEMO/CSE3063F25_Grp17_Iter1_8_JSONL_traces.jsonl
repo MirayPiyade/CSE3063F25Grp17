@@ -1,0 +1,873 @@
+{"timestamp": "2025-11-19 21:59:24.073", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.086", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.088", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.088", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.093", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.093", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.096", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=7.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.097", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.098", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.098", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.098", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 21:59:24.098", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, onkosulu, akts, degeri, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.410", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.414", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.415", "stage": "QueryWritingStage", "summary": "terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.415", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.420", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.420", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.424", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=6.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.424", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.426", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.426", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.426", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:10:50.426", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:41.989", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.001", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "QueryWritingStage", "summary": "terms=[murat, ganiz, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.004", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.005", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.005", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.005", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:11:42.005", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[murat, ganiz, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.737", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.750", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.753", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo]", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.753", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.759", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.759", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.763", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=6.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.763", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.764", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.764", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.764", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:12:57.764", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, kredisi, ka\u00e7t\u0131r, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.383", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.397", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.399", "stage": "QueryWritingStage", "summary": "terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.399", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.404", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.404", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.408", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=4.0", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.408", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.410", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.411", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.411", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:14:24.411", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[\u0131ntroduction, dersi, ka\u00e7, kredi, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.665", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.679", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.681", "stage": "QueryWritingStage", "summary": "terms=[students, must, finish, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.681", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.686", "stage": "RetrievalStage", "summary": "hits=4", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.686", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.690", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=6.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.690", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.691", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.691", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.691", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-19 22:16:54.691", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[students, must, finish, bilgi, unknown], hits=4, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.206", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.220", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.222", "stage": "QueryWritingStage", "summary": "terms=[teknik, gezi, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.222", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.223", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.224", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:16:35.224", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[teknik, gezi, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.663", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.667", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.669", "stage": "QueryWritingStage", "summary": "terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.669", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.674", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.674", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.678", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=7.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.678", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.680", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.680", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.680", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:32:10.680", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.514", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.530", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 14, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.532", "stage": "QueryWritingStage", "summary": "terms=[solid, principles, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.532", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.537", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.537", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.541", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=5.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.541", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.543", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.543", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.543", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:40:38.543", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[solid, principles, bilgi, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.195", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.212", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 14, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.214", "stage": "QueryWritingStage", "summary": "terms=[object, oriented, software, design, covers, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.214", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.219", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.219", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.222", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=9.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.222", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.223", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.224", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.224", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:41:01.224", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[object, oriented, software, design, covers, bilgi, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.681", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.686", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.687", "stage": "QueryWritingStage", "summary": "terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.687", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.692", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.692", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.695", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=7.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.696", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.697", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.697", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.697", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:46:03.698", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, akts, course, ders, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.663", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.677", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.679", "stage": "QueryWritingStage", "summary": "terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.679", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.683", "stage": "RetrievalStage", "summary": "hits=3", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.683", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.687", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=7.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.687", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.688", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.688", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.688", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:48:47.688", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, onkosul, course, ders, akts, prerequisite, bilgi, courseinfo], hits=3, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.109", "stage": "IntentDetectionStage", "summary": "intent=Policy", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.123", "stage": "IntentDetectionStage", "summary": "{intent=Policy, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.125", "stage": "QueryWritingStage", "summary": "terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.125", "stage": "QueryWritingStage", "summary": "{intent=Policy, terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.130", "stage": "RetrievalStage", "summary": "hits=2", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.130", "stage": "RetrievalStage", "summary": "{intent=Policy, terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi], hits=2, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.133", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=6.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.133", "stage": "RerankingStage", "summary": "{intent=Policy, terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi], hits=2, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.134", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.135", "stage": "AnswerStage", "summary": "{intent=Policy, terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi], hits=2, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.135", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 10:49:25.135", "stage": "FinalizeStage", "summary": "{intent=Policy, terms=[staj, y\u00f6nergesi, policy, yonerge, bilgi], hits=2, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.034", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.048", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.050", "stage": "QueryWritingStage", "summary": "terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.050", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.055", "stage": "RetrievalStage", "summary": "hits=4", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.055", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown], hits=4, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.058", "stage": "RerankingStage", "summary": "top=foe-policy-2@FoE score=7.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.058", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown], hits=4, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.060", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.060", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown], hits=4, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.060", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:01:44.060", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[technical, trips, are, coordinated, by, whom, bilgi, unknown], hits=4, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.236", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.250", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.252", "stage": "QueryWritingStage", "summary": "terms=[selam, bilgi, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.252", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[selam, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[selam, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[selam, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.256", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[selam, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.257", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:06:47.257", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[selam, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.594", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.607", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.609", "stage": "QueryWritingStage", "summary": "terms=[cse3635, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.610", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3635, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3635, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3635, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.614", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3635, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.615", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:12:02.615", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3635, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.114", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.129", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.132", "stage": "QueryWritingStage", "summary": "terms=[summarize, learning, outcome, bilgi, unknown]", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.132", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[summarize, learning, outcome, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.136", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.136", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[summarize, learning, outcome, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.139", "stage": "RerankingStage", "summary": "top=foe-policy-2@FoE score=7.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.140", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[summarize, learning, outcome, bilgi, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.141", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.141", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[summarize, learning, outcome, bilgi, unknown], hits=1, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.141", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:23:22.141", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[summarize, learning, outcome, bilgi, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.551", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.565", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.567", "stage": "QueryWritingStage", "summary": "terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.567", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.572", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.573", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:34:22.573", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, cnm, kodum, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.714", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.728", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.730", "stage": "QueryWritingStage", "summary": "terms=[342332, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.730", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[342332, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[342332, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[342332, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[342332, bilgi, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.735", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-20 11:34:52.736", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[342332, bilgi, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.334", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.345", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.347", "stage": "QueryWritingStage", "summary": "terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.347", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.356", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.356", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.358", "stage": "RerankingStage", "summary": "top=compe-info-qualification@CompE score=4.0", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.359", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.360", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.360", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.360", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 08:56:22.360", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.289", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.299", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.300", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.301", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.312", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.312", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.315", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.315", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.316", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.316", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.316", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:16:26.316", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.433", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.442", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.444", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.444", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.454", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.454", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.457", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.457", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.459", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.459", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.459", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:16:47.460", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.836", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.846", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.848", "stage": "QueryWritingStage", "summary": "terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.848", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.856", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.856", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.859", "stage": "RerankingStage", "summary": "top=compe-info-qualification@CompE score=4.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.859", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.860", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.860", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.860", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:23:45.861", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.372", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.382", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.385", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.385", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.395", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.396", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.399", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.399", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.400", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.401", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.401", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 09:24:01.401", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.820", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.830", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.832", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.832", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.841", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.841", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.844", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.844", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.845", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.845", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.845", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:19:43.845", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.159", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.171", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.173", "stage": "QueryWritingStage", "summary": "terms=[naber, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.173", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.182", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.182", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.185", "stage": "RerankingStage", "summary": "top=compe-assistant-kubra-uludag@CompE score=3.0", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.185", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 14:38:33.185", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.948", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.961", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.963", "stage": "QueryWritingStage", "summary": "terms=[cse3063, ka, kredi, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.963", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3063, ka, kredi, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.975", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.975", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3063, ka, kredi, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 12, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.978", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=6.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.978", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3063, ka, kredi, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.982", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.982", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3063, ka, kredi, bilgi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.983", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:48:56.983", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3063, ka, kredi, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.317", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.329", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.331", "stage": "QueryWritingStage", "summary": "terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.332", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.343", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.343", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.346", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=7.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.346", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.351", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.351", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.351", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:50:29.352", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, kredidir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.474", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.483", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.485", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.485", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.495", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.496", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 11, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.498", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=9.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.498", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.503", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.503", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.503", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 14:52:35.503", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersi, ka\u00e7, akts, kredi, de\u011ferindedir, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.671", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.681", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.683", "stage": "QueryWritingStage", "summary": "terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.683", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.691", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.691", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.694", "stage": "RerankingStage", "summary": "top=compe-info-qualification@CompE score=4.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.694", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.699", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.700", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.700", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:06:57.700", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.241", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.250", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.252", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.253", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.263", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.263", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.266", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.266", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.270", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.270", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.270", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:10:33.270", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, bilgi, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.440", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.451", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.454", "stage": "QueryWritingStage", "summary": "terms=[naber, bilgi, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.454", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.463", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.463", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.466", "stage": "RerankingStage", "summary": "top=compe-assistant-kubra-uludag@CompE score=3.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.466", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.471", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.471", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.471", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:11:00.471", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[naber, bilgi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.779", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.789", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.791", "stage": "QueryWritingStage", "summary": "terms=[naber, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.791", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.798", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.798", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.798", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.798", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.799", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.799", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.799", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:16:31.799", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.327", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.336", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.338", "stage": "QueryWritingStage", "summary": "terms=[nas\u0131ls\u0131n, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.338", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, unknown], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.347", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.347", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, unknown], hits=0, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.347", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.347", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.347", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.348", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, unknown], hits=0, answer=true, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.348", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:11.348", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[nas\u0131ls\u0131n, unknown], hits=0, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.585", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.594", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.596", "stage": "QueryWritingStage", "summary": "terms=[k\u00fcbra, alada\u011f, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.596", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[k\u00fcbra, alada\u011f, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.604", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.604", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[k\u00fcbra, alada\u011f, unknown], hits=1, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.607", "stage": "RerankingStage", "summary": "top=compe-assistant-kubra-uludag@CompE score=4.0", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.608", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[k\u00fcbra, alada\u011f, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.612", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.612", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[k\u00fcbra, alada\u011f, unknown], hits=1, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.612", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:18:32.612", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[k\u00fcbra, alada\u011f, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.952", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.961", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.963", "stage": "QueryWritingStage", "summary": "terms=[ders, course, akts, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.963", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.973", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.973", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.976", "stage": "RerankingStage", "summary": "top=compe-course-ATA121@CompE score=6.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.976", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.980", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.980", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.980", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:14.980", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.729", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.738", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.740", "stage": "QueryWritingStage", "summary": "terms=[ders, course, akts, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.740", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.749", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.749", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.750", "stage": "RerankingStage", "summary": "top=compe-course-ATA121@CompE score=4.0", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.750", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.754", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.754", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.754", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:21:35.754", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[ders, course, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.696", "stage": "IntentDetectionStage", "summary": "intent=Policy", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.706", "stage": "IntentDetectionStage", "summary": "{intent=Policy, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.709", "stage": "QueryWritingStage", "summary": "terms=[policy, nedir, yonerge]", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.709", "stage": "QueryWritingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=null, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.717", "stage": "RetrievalStage", "summary": "hits=2", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.717", "stage": "RetrievalStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.719", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=1.0", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.719", "stage": "RerankingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.725", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.725", "stage": "AnswerStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=null}", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.725", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:01.725", "stage": "FinalizeStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.571", "stage": "IntentDetectionStage", "summary": "intent=Policy", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.580", "stage": "IntentDetectionStage", "summary": "{intent=Policy, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.582", "stage": "QueryWritingStage", "summary": "terms=[policy, nedir, yonerge]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.582", "stage": "QueryWritingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.590", "stage": "RetrievalStage", "summary": "hits=2", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.590", "stage": "RetrievalStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.593", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=4.0", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.593", "stage": "RerankingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.597", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.597", "stage": "AnswerStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.597", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:23:10.597", "stage": "FinalizeStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.669", "stage": "IntentDetectionStage", "summary": "intent=Policy", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.679", "stage": "IntentDetectionStage", "summary": "{intent=Policy, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.681", "stage": "QueryWritingStage", "summary": "terms=[policy, nedir, yonerge]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.681", "stage": "QueryWritingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.688", "stage": "RetrievalStage", "summary": "hits=2", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.688", "stage": "RetrievalStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.691", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=4.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.691", "stage": "RerankingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.695", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.695", "stage": "AnswerStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.695", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:24:02.695", "stage": "FinalizeStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.523", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.533", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.535", "stage": "QueryWritingStage", "summary": "terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.535", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.545", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.545", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.547", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=2.0", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.547", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.551", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.551", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.551", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:15.551", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.283", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.292", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.294", "stage": "QueryWritingStage", "summary": "terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.294", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.304", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.304", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.307", "stage": "RerankingStage", "summary": "top=compe-course-2@CompE score=5.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.307", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.311", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.311", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.311", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:25:25.311", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[course, registration, nas\u0131l, yap\u0131l\u0131r, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.028", "stage": "IntentDetectionStage", "summary": "intent=Policy", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.038", "stage": "IntentDetectionStage", "summary": "{intent=Policy, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.040", "stage": "QueryWritingStage", "summary": "terms=[policy, nedir, yonerge]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.040", "stage": "QueryWritingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.048", "stage": "RetrievalStage", "summary": "hits=2", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.048", "stage": "RetrievalStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.050", "stage": "RerankingStage", "summary": "top=compe-policy-1@CompE score=4.0", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.050", "stage": "RerankingStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.054", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.054", "stage": "AnswerStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.055", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:11.055", "stage": "FinalizeStage", "summary": "{intent=Policy, terms=[policy, nedir, yonerge], hits=2, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.730", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.740", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.742", "stage": "QueryWritingStage", "summary": "terms=[naber, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.742", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.750", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=true, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.751", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 15:56:20.751", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[naber, unknown], hits=0, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.375", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.385", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.387", "stage": "QueryWritingStage", "summary": "terms=[selam, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.387", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[selam, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[selam, unknown], hits=0, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[selam, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.395", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[selam, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.396", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:05:58.396", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[selam, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.474", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.484", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.486", "stage": "QueryWritingStage", "summary": "terms=[cse44444, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.486", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse44444, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:06:48.493", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse44444, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.081", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.092", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.093", "stage": "QueryWritingStage", "summary": "terms=[cse3063, kedisi, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.093", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3063, kedisi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.101", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.101", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3063, kedisi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.104", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=4.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.104", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3063, kedisi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.108", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.108", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3063, kedisi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.108", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:07:37.108", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3063, kedisi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.352", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.364", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.367", "stage": "QueryWritingStage", "summary": "terms=[slm, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.367", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.376", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.377", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:45.377", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.134", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.147", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.148", "stage": "QueryWritingStage", "summary": "terms=[]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.148", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.157", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.158", "stage": "FinalizeStage", "summary": "fallback=EmptyQuestion", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:34:51.158", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=true, fallback=EmptyQuestion}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.032", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.045", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.046", "stage": "QueryWritingStage", "summary": "terms=[]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.046", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.054", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.054", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.054", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.054", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.055", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.055", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.055", "stage": "FinalizeStage", "summary": "fallback=EmptyQuestion", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:42.055", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[], hits=0, answer=true, fallback=EmptyQuestion}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.810", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.823", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.825", "stage": "QueryWritingStage", "summary": "terms=[kanka, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.825", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[kanka, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[kanka, unknown], hits=0, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[kanka, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.835", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[kanka, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.836", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:35:48.836", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[kanka, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.204", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.213", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.214", "stage": "QueryWritingStage", "summary": "terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.214", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.223", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.223", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown], hits=5, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.226", "stage": "RerankingStage", "summary": "top=marmara-directive-intern-evaluation@MarmaraUniv score=3.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.226", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.230", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.230", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.230", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:37:19.230", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[harfli, ba\u015far\u0131, notlar\u0131, ba\u015far\u0131s\u0131z, notlard\u0131r, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.393", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.403", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.404", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.404", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.414", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.414", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.417", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.417", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.422", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.422", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.422", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:37:48.422", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.405", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.416", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.418", "stage": "QueryWritingStage", "summary": "terms=[slm, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.418", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.427", "stage": "RetrievalStage", "summary": "hits=0", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.427", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.427", "stage": "RerankingStage", "summary": "top=none", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.427", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.428", "stage": "AnswerStage", "summary": "citations=null", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.428", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.428", "stage": "FinalizeStage", "summary": "fallback=UnknownIntent", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 16:38:03.428", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[slm, unknown], hits=0, answer=true, fallback=UnknownIntent}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.632", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.641", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.643", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.643", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.653", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.654", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.656", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=7.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.656", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.660", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.661", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.661", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:05:24.661", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, hocas\u0131, course, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.442", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.451", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.453", "stage": "QueryWritingStage", "summary": "terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.453", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.463", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.463", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.466", "stage": "RerankingStage", "summary": "top=compe-course-CSE3038@CompE score=7.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.467", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.470", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.470", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown], hits=5, answer=true, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.471", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:05:50.471", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[murat, can, ganiz, diye, bir, hoca, var, m\u0131, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.530", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.540", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.543", "stage": "QueryWritingStage", "summary": "terms=[a\u011fao\u011flu, kim, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.543", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, kim, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.551", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.551", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, kim, unknown], hits=1, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.554", "stage": "RerankingStage", "summary": "top=marmara-directive-grad-content@MarmaraUniv score=1.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.554", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, kim, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.560", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.560", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, kim, unknown], hits=1, answer=true, fallback=null}", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.560", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:06:47.560", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, kim, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.527", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.537", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.538", "stage": "QueryWritingStage", "summary": "terms=[a\u011fao\u011flu, ofis, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.539", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, ofis, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.547", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.547", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, ofis, unknown], hits=5, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.550", "stage": "RerankingStage", "summary": "top=compe-assistant-busra-arabaci@CompE score=3.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.550", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, ofis, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.554", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.554", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, ofis, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.554", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:07:11.554", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[a\u011fao\u011flu, ofis, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.015", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.024", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.026", "stage": "QueryWritingStage", "summary": "terms=[vice, head, \u00f6mer, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.027", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[vice, head, \u00f6mer, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.034", "stage": "RetrievalStage", "summary": "hits=4", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.035", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[vice, head, \u00f6mer, unknown], hits=4, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.037", "stage": "RerankingStage", "summary": "top=compe-faculty-betul-demiroz@CompE score=6.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.037", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[vice, head, \u00f6mer, unknown], hits=4, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.041", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.042", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[vice, head, \u00f6mer, unknown], hits=4, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.042", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:00.042", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[vice, head, \u00f6mer, unknown], hits=4, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.922", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.932", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.934", "stage": "QueryWritingStage", "summary": "terms=[deniz, harp, okulu, mezunu, kim, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.934", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[deniz, harp, okulu, mezunu, kim, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.942", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.943", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[deniz, harp, okulu, mezunu, kim, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.946", "stage": "RerankingStage", "summary": "top=compe-faculty-mujdat-soyturk@CompE score=6.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.946", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[deniz, harp, okulu, mezunu, kim, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.950", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.950", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[deniz, harp, okulu, mezunu, kim, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.950", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:08:29.950", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[deniz, harp, okulu, mezunu, kim, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.320", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.330", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.332", "stage": "QueryWritingStage", "summary": "terms=[yusuf, ibrahim, matur, kimdir, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.332", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[yusuf, ibrahim, matur, kimdir, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.340", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.340", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[yusuf, ibrahim, matur, kimdir, unknown], hits=1, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.343", "stage": "RerankingStage", "summary": "top=compe-assistant-yusuf-ibrahim-matur@CompE score=6.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.343", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[yusuf, ibrahim, matur, kimdir, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.348", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.348", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[yusuf, ibrahim, matur, kimdir, unknown], hits=1, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.348", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:39.348", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[yusuf, ibrahim, matur, kimdir, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.207", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.217", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.219", "stage": "QueryWritingStage", "summary": "terms=[who, yusuf, ibrahim, matur, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.219", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[who, yusuf, ibrahim, matur, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.227", "stage": "RetrievalStage", "summary": "hits=1", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.227", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[who, yusuf, ibrahim, matur, unknown], hits=1, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.230", "stage": "RerankingStage", "summary": "top=compe-assistant-yusuf-ibrahim-matur@CompE score=6.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.230", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[who, yusuf, ibrahim, matur, unknown], hits=1, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.234", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.234", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[who, yusuf, ibrahim, matur, unknown], hits=1, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.234", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:09:56.234", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[who, yusuf, ibrahim, matur, unknown], hits=1, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.129", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.139", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.141", "stage": "QueryWritingStage", "summary": "terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.141", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.151", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.151", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.154", "stage": "RerankingStage", "summary": "top=compe-course-2@CompE score=7.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.154", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.158", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.158", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.158", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:17:07.158", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[akts, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.026", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.036", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.038", "stage": "QueryWritingStage", "summary": "terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.038", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.048", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.048", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.051", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=10.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.051", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.055", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.055", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.055", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:26.055", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.389", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.399", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.400", "stage": "QueryWritingStage", "summary": "terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.400", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.411", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.411", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.414", "stage": "RerankingStage", "summary": "top=compe-course-1@CompE score=10.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.414", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.418", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.418", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.418", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:18:53.418", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[akts, or, credit, for, cse3063, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.431", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.441", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.443", "stage": "QueryWritingStage", "summary": "terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.443", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.452", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.453", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.455", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=7.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.455", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.459", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.459", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.460", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:13.460", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, ka\u00e7, akts, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.543", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.554", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.555", "stage": "QueryWritingStage", "summary": "terms=[cse3063, ka\u00e7, kredi, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.555", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, unknown], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.565", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.565", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.568", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=5.0", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.568", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.572", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.572", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.572", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:25.572", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.821", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.830", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 7, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.833", "stage": "QueryWritingStage", "summary": "terms=[cse3063, ka\u00e7, kredi, saat, unknown]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.833", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, saat, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.842", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.842", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, saat, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.845", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=7.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.845", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, saat, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.849", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.849", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, saat, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.849", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:19:44.849", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3063, ka\u00e7, kredi, saat, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.154", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.164", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.165", "stage": "QueryWritingStage", "summary": "terms=[cse3064, ka\u00e7, kredi, saat, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.166", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[cse3064, ka\u00e7, kredi, saat, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.176", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.176", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[cse3064, ka\u00e7, kredi, saat, unknown], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.179", "stage": "RerankingStage", "summary": "top=compe-course-ATA121@CompE score=5.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.179", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[cse3064, ka\u00e7, kredi, saat, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.184", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.184", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[cse3064, ka\u00e7, kredi, saat, unknown], hits=5, answer=true, fallback=null}", "durationMs": 5, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.184", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:21:30.184", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[cse3064, ka\u00e7, kredi, saat, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.964", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.979", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 13, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.981", "stage": "QueryWritingStage", "summary": "terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.981", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.990", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.990", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.992", "stage": "RerankingStage", "summary": "top=marmara-directive-transfer-scope@MarmaraUniv score=6.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.992", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.996", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.996", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.996", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:29:19.996", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[kurumlar, aras\u0131, yatay, ge\u00e7i\u015f, gano, \u015fart\u0131, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.120", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.129", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 8, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.131", "stage": "QueryWritingStage", "summary": "terms=[yaz, okulu, ka\u00e7, hafta, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.131", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=null, answer=false, fallback=null}", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.141", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.141", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=false, fallback=null}", "durationMs": 10, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.144", "stage": "RerankingStage", "summary": "top=marmara-directive-summer-school-duration@MarmaraUniv score=5.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.144", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.148", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.148", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=true, fallback=null}", "durationMs": 4, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.148", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 17:30:07.148", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.576", "stage": "IntentDetectionStage", "summary": "intent=Unknown", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.585", "stage": "IntentDetectionStage", "summary": "{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.587", "stage": "QueryWritingStage", "summary": "terms=[yaz, okulu, ka\u00e7, hafta, unknown]", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.587", "stage": "QueryWritingStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.596", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.596", "stage": "RetrievalStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.598", "stage": "RerankingStage", "summary": "top=marmara-directive-summer-school-duration@MarmaraUniv score=5.5", "durationMs": 1, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.599", "stage": "RerankingStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.602", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.602", "stage": "AnswerStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=true, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.602", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:11:54.602", "stage": "FinalizeStage", "summary": "{intent=Unknown, terms=[yaz, okulu, ka\u00e7, hafta, unknown], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.975", "stage": "IntentDetectionStage", "summary": "intent=CourseInfo", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.983", "stage": "IntentDetectionStage", "summary": "{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}", "durationMs": 6, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.985", "stage": "QueryWritingStage", "summary": "terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo]", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.985", "stage": "QueryWritingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=null, answer=false, fallback=null}", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.994", "stage": "RetrievalStage", "summary": "hits=5", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.994", "stage": "RetrievalStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 9, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.997", "stage": "RerankingStage", "summary": "top=compe-course-CSE3063@CompE score=8.5", "durationMs": 2, "error": ""}
+{"timestamp": "2025-11-21 18:15:07.997", "stage": "RerankingStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=false, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 18:15:08.000", "stage": "AnswerStage", "summary": "citations=true", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 18:15:08.000", "stage": "AnswerStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=null}", "durationMs": 3, "error": ""}
+{"timestamp": "2025-11-21 18:15:08.000", "stage": "FinalizeStage", "summary": "answer-ready", "durationMs": 0, "error": ""}
+{"timestamp": "2025-11-21 18:15:08.000", "stage": "FinalizeStage", "summary": "{intent=CourseInfo, terms=[cse3063, dersinin, akts, de\u011feri, course, ders, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}", "durationMs": 0, "error": ""}

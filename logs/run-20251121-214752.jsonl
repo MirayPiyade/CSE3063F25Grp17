@@ -1,0 +1,12 @@
+{"timestamp":1763750872962,"stage":"IntentDetectionStage","summary":"intent=Unknown","durationMs":0,"error":""}
+{"timestamp":1763750872970,"stage":"IntentDetectionStage","summary":"{intent=Unknown, terms=null, hits=null, answer=false, fallback=null}","durationMs":6,"error":""}
+{"timestamp":1763750872973,"stage":"QueryWritingStage","summary":"terms=[yaz, okulu, kaç, haftadır, unknown]","durationMs":3,"error":""}
+{"timestamp":1763750872973,"stage":"QueryWritingStage","summary":"{intent=Unknown, terms=[yaz, okulu, kaç, haftadır, unknown], hits=null, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763750872982,"stage":"RetrievalStage","summary":"hits=5","durationMs":9,"error":""}
+{"timestamp":1763750872982,"stage":"RetrievalStage","summary":"{intent=Unknown, terms=[yaz, okulu, kaç, haftadır, unknown], hits=5, answer=false, fallback=null}","durationMs":9,"error":""}
+{"timestamp":1763750872985,"stage":"RerankingStage","summary":"top=marmara-directive-summer-school-attendance@MarmaraUniv score=4.5","durationMs":1,"error":""}
+{"timestamp":1763750872985,"stage":"RerankingStage","summary":"{intent=Unknown, terms=[yaz, okulu, kaç, haftadır, unknown], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763750872989,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763750872989,"stage":"AnswerStage","summary":"{intent=Unknown, terms=[yaz, okulu, kaç, haftadır, unknown], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763750872989,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763750872989,"stage":"FinalizeStage","summary":"{intent=Unknown, terms=[yaz, okulu, kaç, haftadır, unknown], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}

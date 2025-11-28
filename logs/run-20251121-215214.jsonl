@@ -1,0 +1,12 @@
+{"timestamp":1763751134563,"stage":"IntentDetectionStage","summary":"intent=CourseInfo","durationMs":0,"error":""}
+{"timestamp":1763751134571,"stage":"IntentDetectionStage","summary":"{intent=CourseInfo, terms=null, hits=null, answer=false, fallback=null}","durationMs":6,"error":""}
+{"timestamp":1763751134573,"stage":"QueryWritingStage","summary":"terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo]","durationMs":1,"error":""}
+{"timestamp":1763751134574,"stage":"QueryWritingStage","summary":"{intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo], hits=null, answer=false, fallback=null}","durationMs":2,"error":""}
+{"timestamp":1763751134584,"stage":"RetrievalStage","summary":"hits=5","durationMs":10,"error":""}
+{"timestamp":1763751134584,"stage":"RetrievalStage","summary":"{intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":10,"error":""}
+{"timestamp":1763751134587,"stage":"RerankingStage","summary":"top=compe-course-CSE1200@CompE score=8.5","durationMs":2,"error":""}
+{"timestamp":1763751134587,"stage":"RerankingStage","summary":"{intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo], hits=5, answer=false, fallback=null}","durationMs":3,"error":""}
+{"timestamp":1763751134591,"stage":"AnswerStage","summary":"citations=true","durationMs":4,"error":""}
+{"timestamp":1763751134591,"stage":"AnswerStage","summary":"{intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=null}","durationMs":4,"error":""}
+{"timestamp":1763751134591,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1763751134591,"stage":"FinalizeStage","summary":"{intent=CourseInfo, terms=[bilgisayar, mühendisliğine, giriş, dersi, course, ders, akts, prerequisite, courseinfo], hits=5, answer=true, fallback=AnswerReady}","durationMs":0,"error":""}
