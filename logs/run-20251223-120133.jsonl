@@ -1,0 +1,12 @@
+{"timestamp":1766480493883,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766480493884,"stage":"QueryWritingStage","summary":"terms=['cse3063', 'nedir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'nedir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"RetrievalStage","summary":"hits=5","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'nedir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"RerankingStage","summary":"top=compe-course-1@CompE score=4.0","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'nedir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766480493884,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766480493885,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'nedir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766480493885,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766480493885,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'nedir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

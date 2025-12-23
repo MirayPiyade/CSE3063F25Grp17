@@ -1,0 +1,48 @@
+{"timestamp":1766481038058,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"QueryWritingStage","summary":"terms=['java', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"AnswerStage","summary":"citations=None","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1766481038058,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=True, fallback=UnknownIntent}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"QueryWritingStage","summary":"terms=['explain', 'python', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"AnswerStage","summary":"citations=None","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1766481038082,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=True, fallback=UnknownIntent}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"QueryWritingStage","summary":"terms=['java', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"AnswerStage","summary":"citations=None","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1766481038106,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['java', 'unknown'], hits=null, answer=True, fallback=UnknownIntent}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"QueryWritingStage","summary":"terms=['explain', 'python', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"RetrievalStage","summary":"hits=0","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"RerankingStage","summary":"top=none","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"AnswerStage","summary":"citations=None","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"FinalizeStage","summary":"fallback=UnknownIntent","durationMs":0,"error":""}
+{"timestamp":1766481038130,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['explain', 'python', 'unknown'], hits=null, answer=True, fallback=UnknownIntent}","durationMs":0,"error":""}

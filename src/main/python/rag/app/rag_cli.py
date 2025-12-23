@@ -26,8 +26,37 @@ def main() -> None:
     config_path: Optional[str] = extract_arg(args, "--config")
     cli_question: Optional[str] = extract_arg(args, "--q")
     cli_reranker: Optional[str] = extract_arg(args, "--reranker")
+    batch_path: Optional[str] = extract_arg(args, "--batch")
 
     base_config: Config = ConfigLoader.load(config_path)
+
+    if batch_path:
+        import json
+        try:
+            with open(batch_path, 'r', encoding='utf-8') as f:
+                batch_data = json.load(f)
+                
+            if isinstance(batch_data, list):
+                for item in batch_data:
+                    if isinstance(item, dict) and "question" in item:
+                        q = item["question"]
+                        print(f"\nProcessing question: {q}")
+                        effective_config = base_config.with_question(q)
+                        if cli_reranker and cli_reranker.strip():
+                            effective_config = effective_config.with_reranker_type(cli_reranker)
+                        
+                        orchestrator = RagOrchestrator(effective_config)
+                        orchestrator.run()
+                    else:
+                         print(f"Skipping invalid item in batch: {item}")
+            else:
+                 print("Batch file must contain a JSON list of objects associated with 'question' key..")
+
+        except Exception as e:
+            print(f"Error processing batch file: {e}")
+            sys.exit(1)
+        return
+
     question: Optional[str] = cli_question if cli_question else base_config.question
     if not question or not question.strip():
         question = prompt_question()

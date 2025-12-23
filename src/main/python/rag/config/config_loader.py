@@ -8,11 +8,28 @@ class ConfigLoader:
     @staticmethod
     def load(path: Optional[str]) -> Config:
         defaults: Config = Config.default_config()
+        
+        # If no path provided, try default locations
         if path is None or not path.strip():
-            return defaults
+            if Path("config/config.yaml").exists():
+                path = "config/config.yaml"
+            elif Path("config.yaml").exists():
+                path = "config.yaml"
+            else:
+                return defaults
+
+        p = Path(path)
+        if not p.exists():
+            # If plain filename provided, check in config/ directory
+            # strict check: properly check if it's not already pointing to config dir
+            if not str(p).startswith("config/") and \
+               not str(p).startswith("config\\") and \
+               (Path("config") / p).exists():
+                p = Path("config") / p
+
         try:
-            raw: str = Path(path).read_text(encoding='utf-8')
-            root: Dict[str, Any] = ConfigLoader._parse_config(raw, path)
+            raw: str = p.read_text(encoding='utf-8')
+            root: Dict[str, Any] = ConfigLoader._parse_config(raw, str(p))
 
             question: Optional[str] = JsonUtils.expect_string(
                 root.get("question", defaults.question),
