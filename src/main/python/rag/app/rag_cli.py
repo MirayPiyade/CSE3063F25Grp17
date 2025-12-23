@@ -14,9 +14,12 @@ def extract_arg(args: List[str], key: str) -> Optional[str]:
     return None
 
 
+from rich.console import Console
+
 def prompt_question() -> Optional[str]:
     try:
-        return input("Question: ")
+        console = Console()
+        return console.input("[bold italic #DA70D6]✨Question✨:[/bold italic #DA70D6] ")
     except (EOFError, KeyboardInterrupt):
         return None
 

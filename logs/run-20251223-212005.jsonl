@@ -1,0 +1,12 @@
+{"timestamp":1766514015884,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766514015884,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766514015884,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766514015884,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766514017630,"stage":"RetrievalStage","summary":"hits=5","durationMs":1746,"error":""}
+{"timestamp":1766514017630,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1746,"error":""}
+{"timestamp":1766514017631,"stage":"RerankingStage","summary":"top=graduate_assistants.md_1@graduate_assistants.md score=2.2402424216270447","durationMs":1,"error":""}
+{"timestamp":1766514017631,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766514018913,"stage":"AnswerStage","summary":"citations=True","durationMs":1282,"error":""}
+{"timestamp":1766514018914,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":1282,"error":""}
+{"timestamp":1766514018914,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766514018914,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'bölüm', 'fakültede', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

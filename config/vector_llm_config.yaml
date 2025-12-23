@@ -1,0 +1,12 @@
+logDir: logs
+intentsPath: config/intents.yaml
+stopwordsPath: config/stopwords.yaml
+docsPath: data/docs.json
+rerankerType: simple
+rerankerPath: config/reranker.yaml
+# Enable Vector Search
+retrieverType: vector
+# Enable LLM Answer Agent
+answerAgentType: llm
+topK: 5
+sourcePriority: [CompE, FoE, MU]

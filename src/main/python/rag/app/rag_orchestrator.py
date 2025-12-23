@@ -16,6 +16,10 @@ from rag.answer.answer import Answer
 from rag.trace.trace_bus import TraceBus
 from rag.trace.console_trace_sink import ConsoleTraceSink
 from rag.trace.jsonl_trace_sink import JsonlTraceSink
+from rich.console import Console
+from rich.markdown import Markdown
+from rich.panel import Panel
+from rich.text import Text
 
 
 class RagOrchestrator:
@@ -53,13 +57,16 @@ class RagOrchestrator:
         if context.get_answer() is None:
             context.set_answer(registry.get_fallback_handler().build_fallback(context))
         answer: Optional[Answer] = context.get_answer()
+        
+        console = Console()
         if answer is not None:
-            print(answer.get_text())
+            console.print(Panel(Markdown(answer.get_text()), title="[bold magenta]Answer[/bold magenta]", border_style="magenta"))
             citations: Optional[List[str]] = answer.get_citations()
             if citations:
-                print(f"Citations: {', '.join(citations)}")
+                citation_text = ", ".join(citations)
+                console.print(Panel(Text(citation_text, style="italic #C8A2C8"), title="[bold #C8A2C8]Citations[/bold #C8A2C8]", border_style="#C8A2C8"))
         else:
-            print("No answer was produced.")
+            console.print(Panel("[bold red]No answer was produced.[/bold red]", title="Error", border_style="red"))
 
 
 

@@ -15,6 +15,8 @@ from rag.answer.answer_agent import AnswerAgent
 from rag.answer.template_answer_agent import TemplateAnswerAgent
 from rag.answer.fallback_handler import FallbackHandler
 from rag.answer._register_ import _register_
+from rag.retrieval.vector_retriever import VectorRetriever
+from rag.answer.llm_answer_agent import LLMAnswerAgent
 
 
 class StrategyRegistry:
@@ -52,6 +54,8 @@ class StrategyRegistry:
                                if self.config.retriever_type else "keyword")
         if retriever_type == "keyword":
             self._retriever = KeywordRetriever(self.config.top_k, self.config.source_priority)
+        elif retriever_type == "vector":
+            self._retriever = VectorRetriever(self.config.top_k)
         else:
             raise ValueError(f"Unsupported retriever type: {self.config.retriever_type}")
         return self._retriever
@@ -80,11 +84,16 @@ class StrategyRegistry:
 
     def get_answer_agent(self) -> AnswerAgent:
         if self._answer_agent is None:
-            agent: Optional[AnswerAgent] = _register_.get("template")
-            if agent is None:
-                self._answer_agent = TemplateAnswerAgent()
+            agent_type = self.config.answer_agent_type.lower()
+            
+            if agent_type == "llm":
+                self._answer_agent = LLMAnswerAgent()
             else:
-                self._answer_agent = agent
+                agent: Optional[AnswerAgent] = _register_.get("template")
+                if agent is None:
+                    self._answer_agent = TemplateAnswerAgent()
+                else:
+                    self._answer_agent = agent
         return self._answer_agent
 
     def get_fallback_handler(self) -> FallbackHandler:

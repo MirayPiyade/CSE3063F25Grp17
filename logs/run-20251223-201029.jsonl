@@ -1,0 +1,12 @@
+{"timestamp":1766509839925,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766509839925,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766509839926,"stage":"QueryWritingStage","summary":"terms=['ganizin', 'ofisi', 'neresi', 'unknown']","durationMs":1,"error":""}
+{"timestamp":1766509839926,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['ganizin', 'ofisi', 'neresi', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766509845830,"stage":"RetrievalStage","summary":"hits=5","durationMs":5904,"error":""}
+{"timestamp":1766509845830,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['ganizin', 'ofisi', 'neresi', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":5904,"error":""}
+{"timestamp":1766509845831,"stage":"RerankingStage","summary":"top=teknik_gezi.txt_0@teknik_gezi.txt score=0.6963635087013245","durationMs":1,"error":""}
+{"timestamp":1766509845831,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['ganizin', 'ofisi', 'neresi', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766509847483,"stage":"AnswerStage","summary":"citations=True","durationMs":1652,"error":""}
+{"timestamp":1766509847484,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['ganizin', 'ofisi', 'neresi', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":1652,"error":""}
+{"timestamp":1766509847484,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766509847484,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['ganizin', 'ofisi', 'neresi', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

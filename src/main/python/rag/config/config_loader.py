@@ -81,6 +81,11 @@ class ConfigLoader:
                 for o in arr:
                     source_priority.append(str(o))
 
+            answer_agent_type: str = JsonUtils.expect_string(
+                root.get("answerAgentType", defaults.answer_agent_type),
+                "answerAgentType must be a string"
+            )
+
             return Config(
                 question=question,
                 log_dir=log_dir,
@@ -91,7 +96,8 @@ class ConfigLoader:
                 reranker_path=reranker_path,
                 retriever_type=retriever_type,
                 top_k=top_k,
-                source_priority=source_priority
+                source_priority=source_priority,
+                answer_agent_type=answer_agent_type
             )
         except Exception as e:
             raise RuntimeError(f"Failed to load config from {path}: {str(e)}") from e

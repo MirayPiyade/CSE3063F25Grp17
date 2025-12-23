@@ -1,0 +1,12 @@
+{"timestamp":1766509971102,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766509971102,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766509971102,"stage":"QueryWritingStage","summary":"terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766509971102,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766509972828,"stage":"RetrievalStage","summary":"hits=5","durationMs":1726,"error":""}
+{"timestamp":1766509972828,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1726,"error":""}
+{"timestamp":1766509972829,"stage":"RerankingStage","summary":"top=yatay_gecis.txt_2@yatay_gecis.txt score=2.2263355255126953","durationMs":1,"error":""}
+{"timestamp":1766509972829,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766509978127,"stage":"AnswerStage","summary":"citations=True","durationMs":5298,"error":""}
+{"timestamp":1766509978127,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":5298,"error":""}
+{"timestamp":1766509978127,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766509978127,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['nasıl', 'yatay', 'geçiş', 'yapabilirim', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

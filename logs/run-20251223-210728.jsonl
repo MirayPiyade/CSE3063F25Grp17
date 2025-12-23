@@ -1,0 +1,12 @@
+{"timestamp":1766513259062,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766513259062,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766513259062,"stage":"QueryWritingStage","summary":"terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766513259062,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766513261787,"stage":"RetrievalStage","summary":"hits=5","durationMs":2725,"error":""}
+{"timestamp":1766513261787,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":2725,"error":""}
+{"timestamp":1766513261788,"stage":"RerankingStage","summary":"top=cse_curriculum.md_0@cse_curriculum.md score=2.2781181931495667","durationMs":1,"error":""}
+{"timestamp":1766513261788,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766513265650,"stage":"AnswerStage","summary":"citations=True","durationMs":3861,"error":""}
+{"timestamp":1766513265650,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=None}","durationMs":3861,"error":""}
+{"timestamp":1766513265650,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766513265650,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['cse', 'dersleri', 'neler', '1', 'dönem', 'için', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

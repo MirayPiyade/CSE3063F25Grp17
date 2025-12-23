@@ -14,6 +14,7 @@ class Config:
     retriever_type: str
     top_k: int
     source_priority: List[str]
+    answer_agent_type: str
 
     def with_question(self, new_question: str) -> 'Config':
         return replace(self, question=new_question)
@@ -33,7 +34,8 @@ class Config:
             reranker_path="config/reranker.yaml",
             retriever_type="keyword",
             top_k=5,
-            source_priority=["CompE", "FoE", "MU"]
+            source_priority=["CompE", "FoE", "MU"],
+            answer_agent_type="template"
         )
 
 
