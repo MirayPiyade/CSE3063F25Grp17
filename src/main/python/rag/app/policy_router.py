@@ -13,35 +13,20 @@ class Policy:
 class PolicyRouter:
     def __init__(self):
         self.policies: Dict[str, Policy] = {
-            "standard": Policy(
-                "standard", 
-                "Keyword Search + Simple Rerank (docs.json)", 
-                "config.yaml"
+            "default": Policy(
+                "default", 
+                "Vector Search + LLM Answer (MongoDB)", 
+                "config/config.yaml"
             ),
-            "vector-llm": Policy(
-                "vector-llm", 
-                "Vector Search + LLM Answer", 
-                "config/vector_llm_config.yaml"
-            ),
-            "hybrid-vector": Policy(
-                "hybrid-vector", 
-                "Vector Search + Hybrid Rerank + LLM", 
-                "config/vector_hybrid_config.yaml"
-            ),
-            "hybrid-keyword": Policy(
-                "hybrid-keyword", 
-                "Keyword Search + Hybrid Rerank (On-the-fly Embed)", 
-                "config/keyword_hybrid_config.yaml"
+            "keyword-simple": Policy(
+                "keyword-simple",
+                "Keyword Search + Simple Rerank",
+                "config/keyword_simple_config.yaml"
             ),
             "offline-stub": Policy(
                 "offline-stub", 
                 "Stub Vector + Stub Embed (Offline Test)", 
                 "config/vector_stub_config.yaml"
-            ),
-            "offline-keyword": Policy(
-                "offline-keyword", 
-                "Keyword Search + Stub Embed (Offline Test)", 
-                "config/keyword_hybrid_stub_config.yaml"
             )
         }
         self.console = Console()

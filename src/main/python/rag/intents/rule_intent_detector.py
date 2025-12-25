@@ -28,7 +28,7 @@ class RuleIntentDetector(IntentDetector):
                 value,
                 f"Intent definition for {key_str} must be an object"
             )
-            priority: int = int(spec.get("priority", float('inf')))
+            priority: int = int(spec.get("priority", 999))
             keywords_node: List[Any] = JsonUtils.expect_array(
                 spec.get("keywords"),
                 f"Intent {key_str} is missing keywords"

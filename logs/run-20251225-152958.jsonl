@@ -1,0 +1,12 @@
+{"timestamp":1766665807795,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766665807795,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665807795,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766665807795,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665810170,"stage":"RetrievalStage","summary":"hits=5","durationMs":2375,"error":""}
+{"timestamp":1766665810170,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":2375,"error":""}
+{"timestamp":1766665810171,"stage":"RerankingStage","summary":"top=graduate_assistants.md_1@graduate_assistants.md score=2.1573187112808228","durationMs":0,"error":""}
+{"timestamp":1766665810171,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665811957,"stage":"AnswerStage","summary":"citations=True","durationMs":1786,"error":""}
+{"timestamp":1766665811957,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":1786,"error":""}
+{"timestamp":1766665811957,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766665811957,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

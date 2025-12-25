@@ -1,6 +1,0 @@
-retrieverType: keyword
-rerankerType: hybrid
-rerankerPath: config/reranker_hybrid.yaml
-embeddingProviderType: openai
-answerAgentType: llm
-topK: 5

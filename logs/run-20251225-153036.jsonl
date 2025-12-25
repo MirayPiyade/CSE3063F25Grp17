@@ -1,0 +1,12 @@
+{"timestamp":1766665836229,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766665836229,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665836229,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766665836229,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"RetrievalStage","summary":"hits=1","durationMs":1,"error":""}
+{"timestamp":1766665836230,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766665836230,"stage":"RerankingStage","summary":"top=compe-assistant-yusuf-ibrahim-matur@CompE score=6.5","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=1, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766665836230,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'kimdir', 'odası', 'unknown'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

@@ -49,6 +49,9 @@ def main() -> None:
 
     cli_question: Optional[str] = extract_arg(args, "--q")
     cli_reranker: Optional[str] = extract_arg(args, "--reranker")
+    cli_retriever: Optional[str] = extract_arg(args, "--retriever")
+    cli_embedding: Optional[str] = extract_arg(args, "--embedding")
+    cli_agent: Optional[str] = extract_arg(args, "--agent")
     batch_path: Optional[str] = extract_arg(args, "--batch")
 
     base_config: Config = ConfigLoader.load(config_path)
@@ -67,6 +70,14 @@ def main() -> None:
                         effective_config = base_config.with_question(q)
                         if cli_reranker and cli_reranker.strip():
                             effective_config = effective_config.with_reranker_type(cli_reranker)
+                        if cli_retriever and cli_retriever.strip():
+                            effective_config = effective_config.with_retriever_type(cli_retriever)
+                        if cli_embedding and cli_embedding.strip():
+                            effective_config = effective_config.with_embedding_provider_type(cli_embedding)
+                        if cli_agent and cli_agent.strip():
+                            effective_config = effective_config.with_answer_agent_type(cli_agent)
+                        if "--no-cache" in args:
+                            effective_config = effective_config.with_cache_disabled()
                         
                         orchestrator = RagOrchestrator(effective_config)
                         orchestrator.run()
@@ -87,6 +98,14 @@ def main() -> None:
     effective_config: Config = base_config.with_question(question or "")
     if cli_reranker and cli_reranker.strip():
         effective_config = effective_config.with_reranker_type(cli_reranker)
+    if cli_retriever and cli_retriever.strip():
+        effective_config = effective_config.with_retriever_type(cli_retriever)
+    if cli_embedding and cli_embedding.strip():
+        effective_config = effective_config.with_embedding_provider_type(cli_embedding)
+    if cli_agent and cli_agent.strip():
+        effective_config = effective_config.with_answer_agent_type(cli_agent)
+    if "--no-cache" in args:
+        effective_config = effective_config.with_cache_disabled()
 
     orchestrator: RagOrchestrator = RagOrchestrator(effective_config)
     orchestrator.run()

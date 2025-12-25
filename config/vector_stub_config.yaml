@@ -3,3 +3,5 @@ embeddingProviderType: stub
 vectorIndexType: stub
 answerAgentType: template
 topK: 1
+rerankerType: hybrid
+rerankerPath: config/reranker_hybrid.yaml

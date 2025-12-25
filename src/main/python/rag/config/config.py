@@ -28,6 +28,15 @@ class Config:
     def with_cache_disabled(self) -> 'Config':
         return replace(self, cache_enabled=False)
 
+    def with_retriever_type(self, new_type: str) -> 'Config':
+        return replace(self, retriever_type=new_type)
+
+    def with_embedding_provider_type(self, new_type: str) -> 'Config':
+        return replace(self, embedding_provider_type=new_type)
+
+    def with_answer_agent_type(self, new_type: str) -> 'Config':
+        return replace(self, answer_agent_type=new_type)
+
     @staticmethod
     def default_config() -> 'Config':
         return Config(

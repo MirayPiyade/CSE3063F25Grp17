@@ -1,0 +1,12 @@
+{"timestamp":1766665389919,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766665389920,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766665389920,"stage":"QueryWritingStage","summary":"terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766665389920,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665399102,"stage":"RetrievalStage","summary":"hits=5","durationMs":9182,"error":""}
+{"timestamp":1766665399103,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":9183,"error":""}
+{"timestamp":1766665399103,"stage":"RerankingStage","summary":"top=cse_curriculum.md_3@cse_curriculum.md score=2.155269145965576","durationMs":0,"error":""}
+{"timestamp":1766665399103,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766665400559,"stage":"AnswerStage","summary":"citations=True","durationMs":1456,"error":""}
+{"timestamp":1766665400559,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo'], hits=5, answer=True, fallback=None}","durationMs":1456,"error":""}
+{"timestamp":1766665400559,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766665400559,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['operating', 'system', 'prerequisite', 'course', 'ders', 'akts', 'courseinfo'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

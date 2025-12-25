@@ -1,0 +1,12 @@
+{"timestamp":1766684857637,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766684857637,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766684857637,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766684857637,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766684857673,"stage":"RetrievalStage","summary":"hits=1","durationMs":36,"error":""}
+{"timestamp":1766684857673,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":36,"error":""}
+{"timestamp":1766684857673,"stage":"RerankingStage","summary":"top=marmara-directive-grad-english-titles@MarmaraUniv score=0.19999999999999996","durationMs":0,"error":""}
+{"timestamp":1766684857673,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766684857674,"stage":"AnswerStage","summary":"citations=True","durationMs":1,"error":""}
+{"timestamp":1766684857674,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown'], hits=1, answer=True, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766684857674,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766684857674,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'odası', 'neresi', 'unknown'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

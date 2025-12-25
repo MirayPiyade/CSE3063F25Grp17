@@ -1,0 +1,12 @@
+{"timestamp":1766683154799,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766683154799,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766683154799,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'matur', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766683154799,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766683160800,"stage":"RetrievalStage","summary":"hits=5","durationMs":6001,"error":""}
+{"timestamp":1766683160801,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":6001,"error":""}
+{"timestamp":1766683162167,"stage":"RerankingStage","summary":"top=graduate_assistants.md_1@graduate_assistants.md score=0.38095259518843716","durationMs":1366,"error":""}
+{"timestamp":1766683162167,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1366,"error":""}
+{"timestamp":1766683164498,"stage":"AnswerStage","summary":"citations=True","durationMs":2331,"error":""}
+{"timestamp":1766683164498,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":2331,"error":""}
+{"timestamp":1766683164498,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766683164498,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'matur', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

@@ -4,9 +4,6 @@ stopwordsPath: config/stopwords.yaml
 docsPath: data/docs.json
 rerankerType: simple
 rerankerPath: config/reranker.yaml
-# Enable Vector Search
-retrieverType: vector
-# Enable LLM Answer Agent
-answerAgentType: llm
+retrieverType: keyword
 topK: 5
 sourcePriority: [CompE, FoE, MU]
