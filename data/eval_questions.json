@@ -1,0 +1,38 @@
+[
+    {
+        "question": "bilgisayar mühendisliğine giriş ders kodu nedir",
+        "expected_doc_ids": [
+            "compe-course-CSE1200",
+            "cse_curriculum.md"
+        ],
+        "expected_keywords": [
+            "CSE1200",
+            "giriş"
+        ]
+    },
+    {
+        "question": "cse3063 kaç kredi ve saat",
+        "expected_doc_ids": [
+            "compe-course-CSE3063",
+            "cse_curriculum.md"
+        ],
+        "expected_keywords": [
+            "kredi",
+            "saat",
+            "5"
+        ]
+    },
+    {
+        "question": "ata121 dersinde ne anlatılır",
+        "expected_doc_ids": [
+            "compe-course-ATA121",
+            "ATA121.md"
+        ],
+        "expected_keywords": [
+            "Atatürk",
+            "İnkılap",
+            "ilkeler",
+            "cumhuriyet"
+        ]
+    }
+]

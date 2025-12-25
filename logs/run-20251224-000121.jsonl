@@ -1,0 +1,12 @@
+{"timestamp":1766523681957,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":1,"error":""}
+{"timestamp":1766523681957,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766523681957,"stage":"QueryWritingStage","summary":"terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766523681957,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766523681957,"stage":"RetrievalStage","summary":"hits=5","durationMs":0,"error":""}
+{"timestamp":1766523681957,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766523683887,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=1.3038684342192068","durationMs":1930,"error":""}
+{"timestamp":1766523683887,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1930,"error":""}
+{"timestamp":1766523685082,"stage":"AnswerStage","summary":"citations=True","durationMs":1195,"error":""}
+{"timestamp":1766523685083,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":1196,"error":""}
+{"timestamp":1766523685083,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766523685083,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

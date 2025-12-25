@@ -1,0 +1,12 @@
+{"timestamp":1766522900653,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766522900653,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522900653,"stage":"QueryWritingStage","summary":"terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766522900653,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522904365,"stage":"RetrievalStage","summary":"hits=5","durationMs":3712,"error":""}
+{"timestamp":1766522904366,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":3713,"error":""}
+{"timestamp":1766522904679,"stage":"RerankingStage","summary":"top=cse_curriculum.md_0@cse_curriculum.md score=0.6001498341420719","durationMs":313,"error":""}
+{"timestamp":1766522904679,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":313,"error":""}
+{"timestamp":1766522906578,"stage":"AnswerStage","summary":"citations=True","durationMs":1899,"error":""}
+{"timestamp":1766522906578,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=None}","durationMs":1899,"error":""}
+{"timestamp":1766522906579,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522906579,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

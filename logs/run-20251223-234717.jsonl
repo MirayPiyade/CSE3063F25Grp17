@@ -1,0 +1,36 @@
+{"timestamp":1766522837434,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766522837434,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837434,"stage":"QueryWritingStage","summary":"terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766522837434,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837470,"stage":"RetrievalStage","summary":"hits=1","durationMs":36,"error":""}
+{"timestamp":1766522837470,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=False, fallback=None}","durationMs":36,"error":""}
+{"timestamp":1766522837470,"stage":"RerankingStage","summary":"top=compe-course-CSE1200@CompE score=3.761116483933547","durationMs":0,"error":""}
+{"timestamp":1766522837470,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837470,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522837471,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=True, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522837471,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522837471,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['bilgisayar', 'mühendisliğine', 'giriş', 'ders', 'kodu', 'course', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522837518,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522837518,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837518,"stage":"QueryWritingStage","summary":"terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522837518,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"RetrievalStage","summary":"hits=1","durationMs":35,"error":""}
+{"timestamp":1766522837553,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":35,"error":""}
+{"timestamp":1766522837553,"stage":"RerankingStage","summary":"top=compe-course-CSE3063@CompE score=3.4103913408340616","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=1, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522837553,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522837603,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766522837603,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837603,"stage":"QueryWritingStage","summary":"terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766522837603,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837638,"stage":"RetrievalStage","summary":"hits=1","durationMs":35,"error":""}
+{"timestamp":1766522837638,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=False, fallback=None}","durationMs":35,"error":""}
+{"timestamp":1766522837638,"stage":"RerankingStage","summary":"top=compe-faculty-kamil-erdayandi@CompE score=2.1091089451179963","durationMs":0,"error":""}
+{"timestamp":1766522837638,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522837638,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522837639,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=True, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522837639,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522837639,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

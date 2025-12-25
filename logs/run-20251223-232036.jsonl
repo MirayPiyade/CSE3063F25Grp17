@@ -1,0 +1,12 @@
+{"timestamp":1766521245633,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766521245633,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766521245633,"stage":"QueryWritingStage","summary":"terms=['yusuf', 'maturun', 'odası', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766521245633,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'maturun', 'odası', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766521247943,"stage":"RetrievalStage","summary":"hits=5","durationMs":2310,"error":""}
+{"timestamp":1766521247943,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'maturun', 'odası', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":2310,"error":""}
+{"timestamp":1766521248477,"stage":"RerankingStage","summary":"top=yaz_okulu.txt_0@yaz_okulu.txt score=0.41619326868681655","durationMs":534,"error":""}
+{"timestamp":1766521248477,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'maturun', 'odası', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":534,"error":""}
+{"timestamp":1766521252282,"stage":"AnswerStage","summary":"citations=True","durationMs":3805,"error":""}
+{"timestamp":1766521252282,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'maturun', 'odası', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":3805,"error":""}
+{"timestamp":1766521252282,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766521252282,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yusuf', 'maturun', 'odası', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

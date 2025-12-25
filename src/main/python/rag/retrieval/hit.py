@@ -1,4 +1,5 @@
 from dataclasses import dataclass, replace
+from typing import Optional, List
 
 
 @dataclass(frozen=True)
@@ -8,6 +9,7 @@ class Hit:
     title: str
     text: str
     score: float
+    embedding: Optional[List[float]] = None
 
     def with_score(self, new_score: float) -> 'Hit':
         return replace(self, score=new_score)

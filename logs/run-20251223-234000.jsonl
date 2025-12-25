@@ -1,0 +1,72 @@
+{"timestamp":1766522400722,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522400722,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400722,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522400722,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"RetrievalStage","summary":"hits=1","durationMs":36,"error":""}
+{"timestamp":1766522400758,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=1, answer=False, fallback=None}","durationMs":36,"error":""}
+{"timestamp":1766522400758,"stage":"RerankingStage","summary":"top=marmara-directive-intern-documents@MarmaraUniv score=1.3123475237772122","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=1, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522400758,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522400805,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522400805,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400805,"stage":"QueryWritingStage","summary":"terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522400805,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400839,"stage":"RetrievalStage","summary":"hits=1","durationMs":34,"error":""}
+{"timestamp":1766522400839,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":34,"error":""}
+{"timestamp":1766522400839,"stage":"RerankingStage","summary":"top=marmara-directive-summer-school-opening@MarmaraUniv score=2.9034732923929645","durationMs":0,"error":""}
+{"timestamp":1766522400839,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400840,"stage":"AnswerStage","summary":"citations=True","durationMs":1,"error":""}
+{"timestamp":1766522400840,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=1, answer=True, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522400840,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522400840,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522400887,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522400887,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400887,"stage":"QueryWritingStage","summary":"terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522400887,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400921,"stage":"RetrievalStage","summary":"hits=1","durationMs":34,"error":""}
+{"timestamp":1766522400921,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":34,"error":""}
+{"timestamp":1766522400921,"stage":"RerankingStage","summary":"top=marmara-directive-grad-preparation@MarmaraUniv score=0.08980265101338746","durationMs":0,"error":""}
+{"timestamp":1766522400921,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=1, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400922,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522400922,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=1, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400922,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522400922,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=1, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522400949,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522400949,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400949,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522400949,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400950,"stage":"RetrievalStage","summary":"hits=5","durationMs":1,"error":""}
+{"timestamp":1766522400950,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522400951,"stage":"RerankingStage","summary":"top=marmara-directive-intern-documents@MarmaraUniv score=0.8186432666440484","durationMs":1,"error":""}
+{"timestamp":1766522400951,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522400951,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522400951,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400951,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522400951,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522400975,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522400975,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400975,"stage":"QueryWritingStage","summary":"terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522400975,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400976,"stage":"RetrievalStage","summary":"hits=5","durationMs":1,"error":""}
+{"timestamp":1766522400976,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522400977,"stage":"RerankingStage","summary":"top=marmara-directive-summer-school-opening@MarmaraUniv score=1.7824313046750753","durationMs":1,"error":""}
+{"timestamp":1766522400977,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522400977,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522400977,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522400977,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522400977,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522401001,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522401001,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522401001,"stage":"QueryWritingStage","summary":"terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522401001,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522401002,"stage":"RetrievalStage","summary":"hits=5","durationMs":1,"error":""}
+{"timestamp":1766522401002,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522401003,"stage":"RerankingStage","summary":"top=compe-course-ATA121@CompE score=0.3","durationMs":1,"error":""}
+{"timestamp":1766522401003,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522401003,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522401003,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522401003,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522401003,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

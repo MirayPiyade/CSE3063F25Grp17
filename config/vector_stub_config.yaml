@@ -1,0 +1,5 @@
+retrieverType: vector
+embeddingProviderType: stub
+vectorIndexType: stub
+answerAgentType: template
+topK: 1

@@ -26,7 +26,7 @@ class RerankingStage(PipelineStage):
             reranked = self.reranker.rerank(
                 context.get_terms() or [],
                 context.get_hits() or [],
-                None
+                {"query": context.get_question()}
             )
             context.set_hits(reranked)
         except Exception as ex:

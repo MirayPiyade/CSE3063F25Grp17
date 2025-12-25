@@ -1,0 +1,12 @@
+{"timestamp":1766522488404,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522488404,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522488404,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522488404,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522488405,"stage":"RetrievalStage","summary":"hits=5","durationMs":1,"error":""}
+{"timestamp":1766522488405,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522490366,"stage":"RerankingStage","summary":"top=marmara-directive-intern-execution@MarmaraUniv score=0.9351931522944777","durationMs":1961,"error":""}
+{"timestamp":1766522490366,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":1961,"error":""}
+{"timestamp":1766522491436,"stage":"AnswerStage","summary":"citations=True","durationMs":1070,"error":""}
+{"timestamp":1766522491437,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=None}","durationMs":1070,"error":""}
+{"timestamp":1766522491437,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522491437,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

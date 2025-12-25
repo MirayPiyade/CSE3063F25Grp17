@@ -2,7 +2,9 @@ import sys
 from typing import Optional, List
 from rag.config.config import Config
 from rag.config.config_loader import ConfigLoader
+from rag.config.config_loader import ConfigLoader
 from rag.app.rag_orchestrator import RagOrchestrator
+from rag.app.policy_router import PolicyRouter
 
 
 def extract_arg(args: List[str], key: str) -> Optional[str]:
@@ -27,6 +29,24 @@ def prompt_question() -> Optional[str]:
 def main() -> None:
     args: List[str] = sys.argv[1:]
     config_path: Optional[str] = extract_arg(args, "--config")
+    mode_name: Optional[str] = extract_arg(args, "--mode")
+    
+    # If no config and no mode provided, and no batch, interactive select
+    if not config_path and not mode_name and not extract_arg(args, "--batch"):
+        router = PolicyRouter()
+        config_path = router.interactive_select()
+    
+    # If mode provided, resolve to config path
+    if mode_name:
+        router = PolicyRouter()
+        resolved = router.get_config_path(mode_name)
+        if resolved:
+            config_path = resolved
+        else:
+             print(f"Unknown mode: {mode_name}")
+             # optional: fallback to interactive? or exit. Exit is safer for scripting.
+             sys.exit(1)
+
     cli_question: Optional[str] = extract_arg(args, "--q")
     cli_reranker: Optional[str] = extract_arg(args, "--reranker")
     batch_path: Optional[str] = extract_arg(args, "--batch")

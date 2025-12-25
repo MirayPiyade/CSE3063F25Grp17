@@ -15,12 +15,18 @@ class Config:
     top_k: int
     source_priority: List[str]
     answer_agent_type: str
+    embedding_provider_type: str
+    vector_index_type: str
+    cache_enabled: bool
 
     def with_question(self, new_question: str) -> 'Config':
         return replace(self, question=new_question)
 
     def with_reranker_type(self, new_type: str) -> 'Config':
         return replace(self, reranker_type=new_type)
+
+    def with_cache_disabled(self) -> 'Config':
+        return replace(self, cache_enabled=False)
 
     @staticmethod
     def default_config() -> 'Config':
@@ -35,7 +41,10 @@ class Config:
             retriever_type="keyword",
             top_k=5,
             source_priority=["CompE", "FoE", "MU"],
-            answer_agent_type="template"
+            answer_agent_type="template",
+            embedding_provider_type="openai",
+            vector_index_type="mongo",
+            cache_enabled=True
         )
 
 

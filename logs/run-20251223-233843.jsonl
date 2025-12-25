@@ -1,0 +1,12 @@
+{"timestamp":1766522331423,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522331423,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522331423,"stage":"QueryWritingStage","summary":"terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522331423,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522334559,"stage":"RetrievalStage","summary":"hits=5","durationMs":3136,"error":""}
+{"timestamp":1766522334560,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":3137,"error":""}
+{"timestamp":1766522334560,"stage":"RerankingStage","summary":"top=yaz_okulu.txt_3@yaz_okulu.txt score=2.2837015986442566","durationMs":0,"error":""}
+{"timestamp":1766522334560,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522338288,"stage":"AnswerStage","summary":"citations=True","durationMs":3727,"error":""}
+{"timestamp":1766522338288,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":3727,"error":""}
+{"timestamp":1766522338288,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522338288,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

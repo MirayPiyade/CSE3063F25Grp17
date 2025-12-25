@@ -1,0 +1,12 @@
+{"timestamp":1766518526213,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766518526213,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766518526213,"stage":"QueryWritingStage","summary":"terms=['yaz', 'okulu', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766518526213,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766518529563,"stage":"RetrievalStage","summary":"hits=5","durationMs":3350,"error":""}
+{"timestamp":1766518529563,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":3350,"error":""}
+{"timestamp":1766518530959,"stage":"RerankingStage","summary":"top=yaz_okulu.txt_3@yaz_okulu.txt score=0.5782073119886171","durationMs":1396,"error":""}
+{"timestamp":1766518530959,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1396,"error":""}
+{"timestamp":1766518533108,"stage":"AnswerStage","summary":"citations=True","durationMs":2149,"error":""}
+{"timestamp":1766518533108,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":2149,"error":""}
+{"timestamp":1766518533108,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766518533108,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

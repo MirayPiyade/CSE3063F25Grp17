@@ -86,6 +86,18 @@ class ConfigLoader:
                 "answerAgentType must be a string"
             )
 
+            embedding_provider_type: str = JsonUtils.expect_string(
+                root.get("embeddingProviderType", defaults.embedding_provider_type),
+                "embeddingProviderType must be a string"
+            )
+
+            vector_index_type: str = JsonUtils.expect_string(
+                root.get("vectorIndexType", defaults.vector_index_type),
+                "vectorIndexType must be a string"
+            )
+
+            cache_enabled: bool = bool(root.get("cacheEnabled", defaults.cache_enabled))
+
             return Config(
                 question=question,
                 log_dir=log_dir,
@@ -97,7 +109,10 @@ class ConfigLoader:
                 retriever_type=retriever_type,
                 top_k=top_k,
                 source_priority=source_priority,
-                answer_agent_type=answer_agent_type
+                answer_agent_type=answer_agent_type,
+                embedding_provider_type=embedding_provider_type,
+                vector_index_type=vector_index_type,
+                cache_enabled=cache_enabled
             )
         except Exception as e:
             raise RuntimeError(f"Failed to load config from {path}: {str(e)}") from e

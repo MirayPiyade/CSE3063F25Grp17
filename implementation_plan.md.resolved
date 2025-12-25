@@ -1,0 +1,46 @@
+# Implementation Plan - Hybrid (Score Fusion) Reranker
+
+## Goal Description
+Implement a `FusionReranker` to achieve Hybrid Search quality without heavy Machine Learning models (like Cross-Encoders).
+This reranker will take the results from the initial retrieval (ideally Vector Retrieval) and re-score them using a lexical algorithm (like BM25 or keyword density).
+The final score will be a weighted combination of the original (Semantic) score and the new (Lexical) score.
+
+**Why Hybrid?**
+- **Vector Search** finds concepts (e.g., "staj parası" -> matches "staj ücreti").
+- **Fusion Reranker** ensures the exact query terms appear (e.g., favors documents specifically mentioning "ücret").
+- **Result:** Best of both worlds (Semantic Understanding + Precision).
+
+## User Review Required
+> [!NOTE]
+> **No Extra Heavy Dependencies**: We will implement a lightweight BM25-like scorer manually or use standard libraries. No huge Pytorch models.
+
+## Proposed Changes
+
+### Reranking
+#### [NEW] [fusion_reranker.py](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/src/main/python/rag/rerank/fusion_reranker.py)
+- Implement [Reranker](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/src/main/python/rag/rerank/reranker.py#5-8) protocol.
+- **Logic**:
+  1. Receive [hits](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/src/main/python/rag/app/context.py#34-36) (which have `vector_score`).
+  2. Compute `keyword_score` for each hit using a simplified BM25 or term-frequency algorithm.
+  3. Normalize both scores (0..1 range).
+  4. Compute `final_score = (alpha * vector_score) + ((1-alpha) * keyword_score)`.
+  5. Re-sort hits.
+
+### App Wiring
+#### [MODIFY] [strategy_registry.py](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/src/main/python/rag/app/strategy_registry.py)
+- Update [get_reranker](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/src/main/python/rag/app/strategy_registry.py#71-84) to support `reranker_type="fusion"`.
+- Load configuration for weighting (alpha).
+
+### Configuration
+#### [NEW] [config/reranker_fusion.yaml](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/config/reranker_fusion.yaml)
+- Define `alpha` (weight balance, e.g., 0.7 vector, 0.3 keyword).
+
+#### [MODIFY] [config/vector_llm_config.yaml](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/config/vector_llm_config.yaml)
+- Set `rerankerType: fusion`.
+
+## Verification Plan
+
+### Manual Verification
+1.  **Config**: Use [config/vector_llm_config.yaml](file:///Users/miraypiyade/Desktop/CSE3063F25Grp17/config/vector_llm_config.yaml).
+2.  **Run**: `python rag.py --config config/vector_llm_config.yaml --q "staj ücreti"`.
+3.  **Trace**: Observe logs showing `FusionReranker` changing the order of results compared to raw Vector search.

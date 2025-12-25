@@ -1,0 +1,12 @@
+{"timestamp":1766522483253,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522483253,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522483253,"stage":"QueryWritingStage","summary":"terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522483253,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522487218,"stage":"RetrievalStage","summary":"hits=5","durationMs":3964,"error":""}
+{"timestamp":1766522487218,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":3965,"error":""}
+{"timestamp":1766522487470,"stage":"RerankingStage","summary":"top=staj.txt_13@staj.txt score=0.4256926069696866","durationMs":252,"error":""}
+{"timestamp":1766522487470,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":252,"error":""}
+{"timestamp":1766522488342,"stage":"AnswerStage","summary":"citations=True","durationMs":872,"error":""}
+{"timestamp":1766522488342,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":872,"error":""}
+{"timestamp":1766522488342,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522488342,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

@@ -1,0 +1,5 @@
+retrieverType: vector
+rerankerType: hybrid
+rerankerPath: config/reranker_hybrid.yaml
+answerAgentType: llm 
+topK: 5

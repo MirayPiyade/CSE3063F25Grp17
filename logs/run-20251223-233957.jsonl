@@ -1,0 +1,48 @@
+{"timestamp":1766522397759,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"RetrievalStage","summary":"hits=5","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"RerankingStage","summary":"top=compe-policy-1@CompE score=6.5","durationMs":0,"error":""}
+{"timestamp":1766522397759,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397760,"stage":"AnswerStage","summary":"citations=True","durationMs":1,"error":""}
+{"timestamp":1766522397760,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522397760,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522397760,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522397783,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522397783,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397783,"stage":"QueryWritingStage","summary":"terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522397783,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"RetrievalStage","summary":"hits=5","durationMs":1,"error":""}
+{"timestamp":1766522397784,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522397784,"stage":"RerankingStage","summary":"top=compe-grad-project-prerequisites@CompE score=7.5","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522397784,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['yaz', 'okulu', 'açılması', 'için', 'kaç', 'öğrenci', 'gerekir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"QueryWritingStage","summary":"terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"RetrievalStage","summary":"hits=5","durationMs":0,"error":""}
+{"timestamp":1766522397808,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397809,"stage":"RerankingStage","summary":"top=compe-course-ATA121@CompE score=3.0","durationMs":1,"error":""}
+{"timestamp":1766522397809,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522397809,"stage":"AnswerStage","summary":"citations=True","durationMs":0,"error":""}
+{"timestamp":1766522397809,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522397809,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522397809,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['çap', 'yapma', 'şartları', 'nelerdir', 'unknown'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}
+{"timestamp":1766522406017,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522406017,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522406017,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522406017,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522408741,"stage":"RetrievalStage","summary":"hits=5","durationMs":2724,"error":""}
+{"timestamp":1766522408741,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":2724,"error":""}
+{"timestamp":1766522408742,"stage":"RerankingStage","summary":"top=staj.txt_12@staj.txt score=2.207310676574707","durationMs":1,"error":""}
+{"timestamp":1766522408742,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766522409537,"stage":"AnswerStage","summary":"citations=True","durationMs":795,"error":""}
+{"timestamp":1766522409537,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=None}","durationMs":795,"error":""}
+{"timestamp":1766522409537,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522409537,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

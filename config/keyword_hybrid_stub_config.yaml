@@ -1,0 +1,6 @@
+retrieverType: keyword
+rerankerType: hybrid
+rerankerPath: config/reranker_hybrid.yaml
+embeddingProviderType: stub
+answerAgentType: template
+topK: 5

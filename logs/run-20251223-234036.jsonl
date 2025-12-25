@@ -1,0 +1,12 @@
+{"timestamp":1766522444512,"stage":"IntentDetectionStage","summary":"intent=Intent.Policy","durationMs":0,"error":""}
+{"timestamp":1766522444512,"stage":"IntentDetectionStage","summary":"{intent=Intent.Policy, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522444512,"stage":"QueryWritingStage","summary":"terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy']","durationMs":0,"error":""}
+{"timestamp":1766522444512,"stage":"QueryWritingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766522449394,"stage":"RetrievalStage","summary":"hits=5","durationMs":4882,"error":""}
+{"timestamp":1766522449394,"stage":"RetrievalStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":4882,"error":""}
+{"timestamp":1766522449673,"stage":"RerankingStage","summary":"top=staj.txt_1@staj.txt score=0.521216019225325","durationMs":279,"error":""}
+{"timestamp":1766522449673,"stage":"RerankingStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=False, fallback=None}","durationMs":279,"error":""}
+{"timestamp":1766522457439,"stage":"AnswerStage","summary":"citations=True","durationMs":7765,"error":""}
+{"timestamp":1766522457439,"stage":"AnswerStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=None}","durationMs":7765,"error":""}
+{"timestamp":1766522457439,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766522457440,"stage":"FinalizeStage","summary":"{intent=Intent.Policy, terms=['staj', 'süresi', 'kaç', 'gündür', 'policy', 'yonerge', 'policy'], hits=5, answer=True, fallback=AnswerReady}","durationMs":1,"error":""}
