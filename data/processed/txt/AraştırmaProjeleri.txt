@@ -1,0 +1,147 @@
+
+
+   
+
+    Fakülte İdari Akademik Bölümler Öğrenci Araştırma İletişim 
+
+Araştırma Projeleri
+
+    Anasayfa Araştırma Araştırma Projeleri 
+
+Araştırma Projeleri
+
+Marmara Üniversitesi Bilgisayar Mühendisliği bölümünde doktora seviyelerindeki araştırmalarda yoğunlaşılan alanlar arasında yazılım mühendisliği, paralel ve dağıtık hesaplama, çok çekirdekli hesaplama, gömülü sistemler, yapay zeka, veri madenciliği, görüntü ve video işleme, bilgisayarlı görme, doğadan esinli hesaplama, makine öğrenimi, doğal dil işleme, bioinformatik, bilgisayar ağları, kablosuz ağlar, araçsal ağlar, optimizasyon ve oyun teorisi yer almaktadır.
+
+Bu alanlara yönelik olarak, bölümümüz öğretim üyelerinin yürütücü olduğu devam eden TÜBİTAK Projeleri, Horizon 2020 Projesi ve BAP Projeleri bulunmaktadır.  Bu bölümde kısaca devam eden ve tamamlanan TÜBİTAK projeleri özetlenmiş olup, bu projelere yönelik yayın çıktıları, BAP projeleri ve diğer projeler için öğretim üyelerinin web sayfaları incelenebilir.
+
+ 
+
+Yürürlükteki Projeler
+
+ 
+
+1. TÜBİTAK 3501 Projesi
+
+Başlık: Bulut Bilişim İçin Enerji Bilinçli Birleşimsel Kaynak Tahsis ve Zamanlama Modelleri
+
+Yürütücü: Dr. Öğr. Üyesi Ali Haydar Özer
+
+Özet: Bulut bilişim çeşitli hesaplama, depolama ve uygulama hizmetlerinin kullanıcıların talebi üzerine neredeyse anlık olarak sunulduğu ve kullandığın-kadar-öde ücretlendirme modelini destekleyen esnek bir platform sağlamaktadır. Bulut hizmetlerinin sunulması için yüksek miktarda enerji kullanan fiziksel altyapılara ihtiyaç̧ duyulmaktadır. Bu enerji kullanımı da beraberinde yüksek karbon emisyonu sorununu getirmektedir. Bilişim teknolojisi sektörü küresel çapta karbon emisyonunun yaklaşık %2’sinden sorumludur. Bulut altyapılarının enerji kullanımının azaltılması, getireceği maliyet avantajının yanı sıra, bulut altyapılarının karbon ayak izlerinin azaltılması neticesinde bulut bilişim hizmetlerinin sürdürülebilirliğinin sağlanması için çok önemlidir. Bu projede bulut altyapılarının karbon ayak izini azaltmak üzere kullanıcıların kompleks sanal kaynak ihtiyaçlarının hem ekonomik verimlilik hem de fiziksel kaynaklarla eşleştirilip enerji verimliği gözetilecek şekilde kullanıcılara tahsis edilmesi ve zamanlanması (çizelgelenmesi) problemleri ele alınmıştır. Bulut altyapılarının küresel iklim değişikliğine sebep olan olumsuz katkısı en aza indirgenerek sürdürülebilir bir kalkınma sağlanması projenin temel hedefidir.
+
+ 
+
+2. TÜBİTAK 1001 Projesi
+
+Başlık:  Çok Kipli Doğal Yüz İfadesi Videolarından Yumuşak Biyometrik Veri Çıkarılması 
+
+Yürütücü: Prof. Dr. Çiğdem Eroğlu Erdem
+
+Özet: Bu projenin amacı, durağan yüz dokusundan yararlanan yüz tanıma sistemlerine destek olmak ve özellikle (düşük çözünürlük, yanıltma atakları vb.) zorlayıcı koşullar altında daha güvenilir olmalarını sağlamak için, yüze ait yumuşak biyometrik verileri de kullanan bir sistem geliştirmektir.  Kullanılacak olan yumuşak biyometrik  veriler, yaş ve cinsiyet ile sınırlı kalmayıp, duygusal bir yüz ifadesi ya da konuşma sırasında oluşan yüz hareketlerindeki kişiye özel biyometrik bileşeni de içerecektir.  Yüzde oluşan biyometrik bilgi taşıyan hareketler, bir nevi kişinin yüz hareketinden elde edilecek "imzası" olarak görülüp, yüz dokusuna eklenerek kimlik bilirleme ve doğrulama için kullanılacaktır. 
+
+ 
+
+3. TÜBİTAK 1001 Projesi
+
+Başlık: Dil İşlemede Eğitimli Ve Yarı-Eğitimli Sınıflandırma İçin Anlamsal İlişkileri Ortaya Çıkartan Bölüşümlü Kelime Temsili Yöntemlerinin Geliştirilmesi
+
+Yürütücü: Dr.Öğr. Üyesi Murat Can Ganiz
+
+Özet: Günümüzde giderek daha fazla görünürlük ve popülerlik kazanan yapay zeka alanında en büyük teknik zorluklardan birisi bilgisayarların oldukça karmaşık bir yapıya sahip olan insan dilini anlayabilmeleridir. Bilgisayarların insan dilini çok az anlamlandırıyor olmaları bilgisayarlarla etkileşimimizi ciddi şekilde kısıtlamaktadır. Bu etkileşimler bir ara dil kullanmadan; bilgisayarlara talimat verebilme, bilgisayarların yaptığı işlemlerin sonucunu bize açıklayabilme ve metin işleme yeteneklerini içermektedir (Turney & Pantel, 2010). Metinlerin anlamsal işlemeye yönelik geliştirilen Vektör Uzayı Modelleri (VUM) alanında son zamanlarda ortaya çıkan gelişmeler yukarıda bahsi geçen sınırlamaları aşmaya yönelik ilerlemeler sağlamaktadır. Bunlardan özellikle Tomas Mikolov ve arkadaşlarının geliştirdiği Word2vec adı verilen bölüşümlü kelime temsili (diğer bir adıyla kelime kalıplama) yöntemleri (Mikolov et al., 2013a, 2013b) son zamanlarda akademik dünyada büyük ilgi görmektedir (Goldberg & Levy, 2014). Bu yöntem eğitim  aşamasında büyük veri kullanarak derin öğrenme olarak da bilinen yapay sinir ağı algoritmaları ile kelimelerin vektör uzayında bölüşümlü temsillerini oluşturmaktadır. Oluşan vektör uzayında anlamsal olarak benzeyen kelimelerin gruplanması sayesinde, bu vektör uzayını kullanan öğrenme algoritmaları daha yüksek bir performansla çalışma olanağına kavuşmaktadır (Mikolov, 2013b). Bu projede daha önceki çalışmalarımızda geliştirdiğimiz anlamsal yöntemlerden de faydalanarak yeni anlamsal makine öğrenmesi algoritmaları geliştirmeyi planlıyoruz.
+
+ 
+
+ 
+
+Tamamlanan Projeler
+
+1. Horizon 2020 Projesi
+
+Başlık: Doğrulanabilir Verimliliği Arttırmak için Üretim Sistemlerinde Yenilikçi Modelleme Yaklaşımları (Improve)
+
+Yürütücü: Doç. Dr. Borahan Tümer
+
+Özet: Sistemin karmaşıklığının artması, tüketicilerin taleplerinin hızlı bir şekilde değişmesi, Avrupa endüstrisinin kaynakların daha iyi kullanılmasıyla daha özel ürünler üretmesini gerektiriyor. Improve'in temel amacı, kullanıcı desteği hizmetleri sunan geleceğin sanal bir fabrikası (Factory of the Future) yaratmaktır. Özellikle optimizasyon ve izleme konusunda, süreçler izleyerek anormal bir davranış, arıza yaşamadan önce tespit edilecek. Böylece, gözlemlerden öğrenilen otomatik olarak üretilen bir modelle sensör gözlemi karşılaştırılarak anormal bir davranış tespit edilir. Öğrenilen modeller, uzman bilgi ile tamamlanacak çünkü modeller tamamen öğrenemiyor. Bu, manuel modelleme yerine ucuz ve doğru bir model yaratmayı garanti eder ve kurar. Optimizasyon yapılacak ve sonuçlar simülasyonlar vasıtasıyla doğrulanacaktır. Bu nedenle, operatörün geniş bir karar verme yanı sıra, üretim sistemini iyileştirecek bir DSS (Karar Destek Sistemi) önerisi vardır. Operatör etkileşimi, güvenilir bir şekilde çok miktarda veri sağlayan yeni geliştirilmiş bir HMI (İnsan Makine Arayüzü) ile gerçekleştirilecektir. Bu amaca ulaşmak için, araştırma sürecinin her aşaması, en az iki tecrübeli konsorsiyum ortağı tarafından kapsanarak, projenin sonuçlarını dört gösterici kullanarak sonuçlandırıyor. Başlıca zorluklar, rampa aşamalarını azaltmak, üretim tesislerini maliyet etkinliğini artırmak için optimize etmek, durum izleme teknikleriyle üretim süresini azaltmak ve bütünsel veriler de dahil olmak üzere tedarik zincirlerini optimize etmektir. Sonuç olarak, kaynak tüketiminde, özellikle imalat faaliyetlerinde enerji tüketimi azaltılabilir. Optimize edilmiş tesisler ve tedarik zincirleri, farklı üretim aşamalarında imalat verimliliğini arttırır.
+
+ 
+
+2. TÜBİTAK 3501 Projesi
+
+Başlık: Kullanıcı Sağlayıcılı Ağlar için Teşvik Mekanizmaları
+
+Yürütücü: Dr.Öğr. Üyesi Ömer Korçak
+
+Özet: Mobil cihazlardaki artan mobil veri gereksinimi kullanıcıların kendi İnternet bağlantılarını paylaşmasına dayanan Kullanıcı Sağlayıcılı Ağ (KSA) kavramını ortaya çıkarmıştır. Bu yaklaşıma göre hücresel ağ bağlantısına sahip olan kullanıcılar, ağ bağlantısı olmayan ya da sınırlı olan kullanıcılarla kendi bağlantılarını paylaşırlar. KSA’larda önemli bir araştırma problemi kullanıcıların sisteme katılmalarını teşvik edilmesi üzerinedir. KSA’lar için teşvik mekanizmaları tasarlamak, son yıllarda hem akademik camianın hem de endüstrinin ilgisini çeken, oldukça yeni bir konudur. Bu projede, hem kendi kendini idame eden otonom KSA’lar, hem de operatör kontrolündeki KSA servisleri için teşvik mekanizmaları üzerinde çalışılacaktır. Enerji tüketimi, veri kullanım maliyeti ve kazanç fonksiyonları, gerçekçi kullanıcı ihtiyaçlarını belirleyerek deneysel ölçüme dayalı çalışmalarla dikkatli bir şekilde modellenecektir. Kullanıcıların ve operatörlerin stratejik kararları oyun teorisi ve mekanizma tasarımı araçları kullanılarak tasarlanacaktır. Bu projedeki amacımız verimliliği, adil paylaşımı, bireysel rasyonelliği, dürüstlüğü (truthfulness) ve güvenilirliği sağlayan teşvik mekanizmaları tasarlamaktır.
+
+ 
+
+3. TÜBİTAK 1001 Projesi
+
+Başlık: Belirsizlik giderme ve etkisizleştirme problemlerinin birleşik çözümü için kesin ve sezgisel çözüm yöntemlerinin geliştirilmesi
+
+Yürütücü: Doç. Dr. Ali Fuat Alkaya
+
+Özet: Belirsizliği Giderme Problemi, BGP, (Random Disambiguation Paths, RDP) problemi askeri birliklerin mayınlı arazide ilerlemesi ve ticari gemilerin buzlu ortamlarda ilerlemesi gibi gerçek hayat problemlerinden esinlendiği için çözümü için üzerinde çokça çalışılan bir problemdir.  Yine son zamanlarda üzerinde çalışılan bir diğer problemde Etkisizleştirme Problemi'dir, EP, (Obstacle Neutralization Problem) ki bu problem de yazında telekomünikasyon yönlendirmesi (routing), eğri yaklaştırmaları (curve approximation), askeri hava taşıtlarının en az riskli rota tayinleri ve çizelgelemesi gibi pratik uygulamalarda ele alınan problemlerle yakından ilgilidir.  Ayrıca her iki problemin de robotik biliminde otonom robot navigasyonu uygulaması vardır. Bu projede ele alınacak problem ise ajanın hem K1 tane belirsizlik giderme, hem de K2 tane etkisizleştirme hakkının olduğu senaryodan ortaya çıkan problemdir.  Adına Belirsizlik Giderme ve Etkisizleştirme Problemi (BGEP) diyeceğimiz bu birleşik problem yazında ilk defa tanımlanmış olacaktır.  BGP ve EP NP-Zor oldukları ispatlanmış problemler oldukları için BGEP'nin de NP-Zor bir problem olduğu rahatlıkla söylenebilir.  BGP ve EP gibi BGEP te gerçek hayatta rastlanabilen bir problemdir.  Isı, radyasyon, kaygan zeminler gibi alanlardan sakınması gereken ve söndürebileceği yangınları söndürerek ilerleyen kurtarıcı robotlar için yol planlama, ya da buzul ortamında kırarak içinden geçebileceği veya kıramayacaklarının etrafında dolaşması gerektiği buzulları ayırt ederek ilerleyen gemiler için yol planlaması yapması bu problemlerden sadece iki tanesidir.  Bizim bu projedeki amacımız hem belirsizliği giderme, hem de etkisizleştirme kabiliyeti olan bir ajanın hedefe güvenli bir şekilde en az masrafla ulaşmasını sağlayacak protokolün belirlenmesini sağlamaktır.  Bu kapsamda öncelikle bir kesin çözüm yöntemi, sonrasında da sezgisel yöntemler geliştirilip bilgisayısal olarak performansları ortaya konacaktır.
+
+ 
+
+4. TÜBİTAK 1001 Projesi
+
+Başlık: Çok-Çekirdekli Mimarilere Yönelik Katmanlar arası Güvenilirlik Optimizasyon Sistemi
+
+Yürütücü:  Prof. Dr. Haluk Rahmi Topcuoglu
+
+Özet:  Modern mimariler küçülen transistör boyutları ve yüksek frekanslara bağlı olarak geçici hatalara karşı savunmasızdır. Özellikle önbellek yapıları yüksek transistör yoğunluğundan dolayı geçici hatalara karşı daha savunmasızdır. Tüm önbellek yapıları için seçici olmaksızın koruma sağlamak, performans ve enerji tüketimi yönünden önemli bir ek yük getirir. Bu nedenle, bu proje kapsamında performans ve enerji kısıtları altında yeterli ek donanım kullanan ve sistemin güvenilirlik ihtiyacını karşılayan asimetrik olarak güvenilir önbelleklere sahip çok çekirdekli bir sistem önerilmiştir. Güvenilirlik eniyilemeyi hedefleyen bu sistemimiz,  L1 önbellek yapılarında ECC korumasına sahip en az bir yüksek güvenilirlikli çekirdek ve hiçbir korumaya sahip olmayan düşük güvenilirlikli çekirdeklerden oluşmaktadır.  Uygulama threadleri, kritik  veri kullanımını esas alan güvenilirlik değerlerine göre farklı çekirdeklere eşlenmektedir. Sistemimizde, güvenilirlik temelli kritik kod bölgeleri, yürütme zamanı yüzdeleri ve programın çağrı grafiğini statik olarak inceleyerek çıkarılan yüksek öncelikli fonksiyonlar olarak iki şekilde ele alınmıştır. Güvenilirlik temelli kritik kod bölümleri çalıştıran uygulama threadleri dinamik olarak korunan çekirdeğe eşlenirken, kritik olmayan bölümleri çalıştıran threadler korunmasız olanlara eşlenir. Yapılan tüm deneylerde seçilmiş uygulamalar için önerilen tekniklerimizin geleneksel güvenilirliği olmayan önbelleklere kıyasla ortalama performans ve enerji yükü ile güvenilirliği artırdığı gözlemlenmiştir. Projenin bir parçası olarak, uygulama threadlerinin yüksek güvenilirlikli çekirdeğe atanması için çeşitli çizelgeleme algoritmaları kullanılmıştır. İlk aşamada First Come First Served (FCFS) tabanlı bir çizelgeleme algoritması kullanılırken, projenin daha sonraki aşamalarında öncelik vermeye dayalı yöntemler ve eşit-zaman geçirmeye dayalı çizelgeleme yöntemleri sunulmuş ve gerçeklenmiştir.
+
+ 
+
+5. TÜBİTAK 3501 Projesi
+
+Başlık: Çözüm Kümesi Programlaması, Tutarsızlık Yönetimi ve Bağıntı Kuramıyla Doğal Dilin Yorumlanması
+
+Yürütücü: Dr.Öğr. Üyesi Peter Schüller
+
+Özet: Inspire projesinde, bilgisayar tarafından doğal dilin yorumlanması (i) hepten gidimsel akıl yürütmeyle, (ii) dağınık dilbilimsel bilgi tabanlarının tutarsızlıklarının yönetimiyle ve (iii) Bağıntı Kuramı’nın uygulanması yöntemlerinin birleştirilmesiyle Natural Language Understanding (NLU, Doğal Dilde Anlama) alanının geliştirilmesi hedeflenmektedir. Doğal dil çok etkili bir iletişim aracıdır: insanlar bir dili kullanırken, başka insanlar kolayca boşlukları doldurabildiği için birçok detayı atlarlar. Örneğin, "sabah kahvesi" "sabah içilen kahve" anlamına gelirken "sabah gazetesi" "sabah okunan gazete" anlamına gelir ve metinde "içilen" ya da "okunan" kelimeleri bulunmamasına rağmen insanlar bunu kolayca anlayabilmektedir. Bu kısmi belirtme, doğal dilin belirsizliğiyle birleşerek NLU sistemleri için büyük bir zorluk oluşturmaktadır. INSPIRE projesi, bilgisayarların doğal dil metnini istenilen anlamına geri kazandırmak amacıyla yorumlayan bilimsel yöntemleri geliştirmeyi amaçlar. Inspire projesinin katkıları yeni bir kuramsal sistemi ve onun analizini, açık kaynak bir ön ürün ile sistemin gerçekleştirilmesini ve yeni yöntemin deneysel değerlendirilmesini kapsamaktadır.
+
+ 
+
+6. TÜBİTAK 1001 Projesi
+
+Başlık: Yongada Çoklu-İşlemcili  Mimariler için Uygulama Çizelgeleme ve Optimizasyon
+
+Yürütücü:  Prof. Dr. Haluk Rahmi Topcuoglu
+
+Özet:  Yongada Çoklu-İşlemcili mimariler için, verilen bir uygulamanın threadlerinin çekirdekler üzerine statik ve dinamik olarak çizelgelenmesini/eşlenmesini sağlayan yeni teknikler geliştirdik.  Statik uygulama eşlemeye yönelik olarak, bir CMP olan Cell Broadband Engine Mimarisi için, bu mimarinin teknik özelliklerini ve limitlerini göz önüne alan iki özgün Barnes-Hut algoritması tasarlanarak gerçeklenmiştir. Yapılan tüm testlerde, algoritmaların Cell mimarisi üzerindeki performansı, karşılaştırma yapılan referans mimarisi olan Intel Xeon tabanlı bir sisteme göre belirgin oranda daha hızlı olduğu görülmüştür. Dinamik uygulama eşlemeye yönelik olarak ilk geliştirdiğimiz sistem, uygulama thread`lerini yonga üzerindeki çekirdeklere atamakta ve threadlerin kullandıkları verileri yonga üzerindeki hafıza bileşenlerine atamaktadır.  Tasarlanan dinamik uygulama eşleme yöntemine ek olarak, benzer veri erişim şekline sahip olan hesaplamaları aynı çekirdeğe atamayı hedefleyen, veri yerelliğini sağlayan bir dinamik eşleme algoritması da tasarlanmıştır. Geliştirilen performans tabanlı uygulama eşleme tekniklerine ek olarak, CMP’ler üzerinde çalışan çok-threadli uygulamaların güvenilirliğinin ölçülebilmesi için, Thread Hasar Görebilirlik Faktörü adlı özgün bir metriği de bu proje kapsamında geliştirdik.  TVF metriği,  çok threadli uygulamalardaki bir threadin olası geçici hatalara karşı hassasiyetini ölçmekte, kendi kod parçasının yanı sıra bu threadin veri paylaşımında bulunduğu diğer threadlerin de kod parçalarını göz önünde bulundurmaktadır. TVF metriğimiz, çok çekirdekli bir uygulamanın hatalara en hassas threadlerini belirlemede etkin bir metrik olması nedeni ile güvenilirlik tabanlı uygulama eşleme tekniklerinin geliştirilmesinde çok önemli bir rol oynayacaktır. 
+
+
+7. TÜBİTAK 1001 Projesi
+
+Başlık: Karma Evrimsel Algoritmalar Yardımı ile Temsili Olarak Üretilmiş Bir Alan Üzerinde Sensörlerin Konumlandırılması ve Parametrelerinin Tayini
+
+Yürütücü:  Prof. Dr. Haluk Rahmi Topcuoglu
+
+Özet:  Sensörlerin bir alan üzerine yerleştirilmesi ve parametrelerinin tayini, bilgisayarla görme, otonom sistemler, robotik gibi bir çok farklı disiplin için en temel araştırma alanlarından biridir. Projemizde, temsili olarak üretilen 3-boyutlu bir arazi için sensör sayısının ve tipinin seçimi, sensörlerin konumlandırılması, yatay ve dikey yönelme açısı gibi temel sensör parametrelerinin tayinini içeren çok ölçütlü fayda teorisi tabanlı yeni bir model tasarlanmış ve buna yönelik bir yazılım mimarisi gerçeklenmiştir. Geliştirdiğimiz modelimizdeki temel varsayım; sensörlerin algılama davranışının birbirleriyle çelişen üç ölçüt arasında rasyonel bir ödünleşmeye dayanması gerektiğidir. Bu üç ölçüt: i) arazide görünen alanın maksimize edilmesi, ii) karşı taraf tarafından tespit edilebilecek bilginin minimize edilmesi ve iii) konumlandırılan sensörlerin toplam maliyetinin minimizasyonudur.  Sensörlerin konumlandırılması problemi için önerilen teorik temellerin yanı sıra özgün bir karma evrimsel algoritma da geliştirilmiştir. Probleme özgü yeni operatörlerin tanımlanarak karma olarak kullanıldığı algoritmamızda, probleme özgü sezgisel yöntemlerle başlangıç popülasyonun oluşturulması, probleme özgü bilgiler içeren yeni varyasyon operatörleri (katkı tabanlı ve komşuluk tabanlı çaprazlama operatörleri) ve yerel arama teknikleri yer almaktadır. Deneysel çalışmamız, görünürlük-ağırlıklı, gizlilik-ağırlıklı ve maliyet ağırlıklı ölçütlerin kendi aralarında en uygun dengenin sonuçta sağlandığını göstermektedir. Projemizde, hareketli sensörlerin güzergah planlama problemi için, çıkılabilecek en yüksek eğim ve en düşük dönüş açısı gibi farklı kısıtların dikkate alındığı, yeni bir karma çözüm de geliştirilmiştir. 
+
+ 
+
+8. TÜBİTAK 3001 Projesi
+
+Başlık:  Omsieve- Çözüm Kümesi Programlama Tabanlı Muhakeme Edilen Eşgönderge Sieve Çözümlenmesi
+
+Yürütücü: Dr.Öğr. Üyesi Peter Schüller
+
+Özet: OmSieve projesinde coreference (eşgönderge) çözümlenmesinin gelişme seviyesini, her dilbilimsel terim düzeyde birden fazla anlama gelen durumlarda var olan yöntemlerden daha esnek muhakeme edebilen vasıtasıyla, geliştirmeyi amaçlamaktadır. Answer Set Programming (ASP, Çözüm Kümesi Programlaması), tekdüze olmayan nedenselleştirme sürecini ve karma bilgi tabanlı nedenselleştirilmesini destekleyen genel amaca uygun mantık programlama yöntemidir. ASP mantık programı (i) potansiyel çözümlerle bir kümeyi, (ii) çözümdeki kavramlarının bağlantıları ve (iii) çözüm kavramlarıyla ilgili kısıtları tanımlamaktadır. Bu hali ile ASP solver (çözücü, yazılım bir aracı), belirtilen kavram bağlantılara ve kısıtlara göre tüm çözümleri hesaplayabilir. Coreference çözümlenmesinin zorlukların nedeni, doğal dillerde birden fazla anlama gelebilen çok sözcükler ve cümleler olmasıdır. Çeşitli yorumlamalar çeşitli temsil seviyelerinde meydana gelir, örneğin biçimbilgisinde, sentaksta ve anlambilimde. İnsanlar, dili anlamak için arka plan bilgisi ve varsayım tabanlı akıl yürütme yöntemini kullanırlar. OmSieve projede, genelleştirilmiş Answer Set Programming tabanlı coreference ilişkileri tekdüze biriktirmenin yerine tekdüze olmayan tahmin-tabanlı nedenselleştirmeyi kullanan bir Sieve yöntemi sunulmaktadır. Temel olarak ASP, Sieve modüllerin varsayımlarına ve metinin ortak gösterimin formüle edilmesine izin verir. Parçalar varsayımları geçersizleştirebilir veya sınırlandırabilir, bu durumdan ötürü OmSieve'in modülleri çift yönlü bir şekilde etkileşebilir. Ayrıca Türkçe için de bir eşgönderge çözümlenmesi yöntemin tasarlamayı hedeflenmektedir.
+
+ 
+
+9. TÜBİTAK 3001 Projesi
+
+Başlık: Etkisizleştirme problemi için kesin ve metasezgisel çözüm metotlarının geliştirilmesi ve uygulanması
+
+Yürütücü: Doç. Dr. Ali Fuat Alkaya
+
+Özet: Bu proje çalışmasında bir askeri deniz senaryosu olarak gerçek hayatta karşılığı olan ve gerçek bir problemden ilham alınarak tanımlanmış Etkisizleştirme Problemi (EP) üzerinde teorik ve deneysel çalışmalar yapılarak yeni çözüm yöntemleri geliştirilmiştir. EP için çevrimiçi olarak uygulanabilecek bir kesin (exact) çözüm yöntemi geliştirilmiştir.  Geliştirilen kesin çözüm yönteminin koşma zamanı performansı ticari olmayan SCIP çözücüsüyle kıyaslanmış ve optimal çözümün bizim geliştirdiğimiz kesin çözüm yöntemiyle çok daha kısa zamanda elde edildiği gözlemlenmiştir. Ele alınan EP problemi NP-Zor bir problem olduğu için kesin çözüm yönteminin koşma zamanı olarak verimsiz kaldığı örneklerin çözümü için metasezgisel yöntemler kullanılmıştır. Karınca kolonisi algoritması, genetik algoritma, göç eden kuşlar algoritması ve benzetimli tavlama metasezgiselleri problemin doğasına uygun olarak tasarlanıp programlanmış ve uygulanmıştır.
+
+ 
+
+ 
+

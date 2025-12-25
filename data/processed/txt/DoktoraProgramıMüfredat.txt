@@ -1,0 +1,141 @@
+Genel Bilgiler
+
+Marmara Üniversitesi Bilgisayar Mühendisliği Doktora Programı, sağladığı üst düzey dersler ve araştırma/geliştirme imkanları ile öğrencilerin bilgi birikimini yeni ve ileri konularda zenginleştirmeyi, onları araştırmaya teşvik etmeyi ve farklı uzmanlık alanlarındaki bilimsel problemleri ve verileri irdeleyerek yorum, analiz ve sentez becerilerini kazandırmayı hedeflemektedir. Doktora programı İngilizce olarak yürütüldüğünden, adayların çok iyi derecede İngilizce bilme­leri gereklidir.  Bölüme kabul için yapılan bilim sınavı İngilizce olarak yapılmaktadır.
+
+Doktora programına giriş şartları ve öğrenci kontenjanları Marmara Üniversitesi Lisansüstü Eğitim-Öğretim ve Sınav Yönet­meliği’ne göre Fen Bilimleri Enstitüsü tarafından belirlenir ve her dönem ilan edilir. Programa kabulde ALES puanı, genel not ortalaması, İngilizce dil puanı, bilim sınavı sonuçları ve sözlü mülakat değerlendirmeye alınmakta olup, bu veriler ışığında bir sıralama çıkarılmaktadır. Fen Bilimleri Enstitüsü tarafından ilan edilen giriş şartlarına ek olarak, bölüm tarafından ALES ve genel not ortalaması için minimum puanlar belirlenmektedir.
+
+Doktora programı iki yıllık Bilgisayar Mühendisliği Yüksek Lisans programlarından mezun olanlar için planlanmıştır. Benzer mühendislik dallarından mezun olanlar, mezun oldukları mühendislik dallarına göre, Bilgisayar Mühendisliği Anabilim dalınca belirlenecek ön koşul derslerini içeren bir yıllık Bilimsel Hazırlık Programına alınmakta olup bu program genel olarak güz ve bahar dönemlerinde toplam sekiz derse kadarlık ders yükü içermektedir. Doktora öğrencileri bilimsel hazırlık programını 1 yıl içerisinde tamamlamak durumundadırlar. Öğrencilerin lisans ve yüksek lisans transkriptleri göz önüne alınarak bazı öğrencilere üç derse kadar fark dersleri verilebilmektedir.
+
+ 
+
+Dersler ve Yeterlik Sınavı
+
+Doktora programı, bilimsel hazırlıkta geçen süre hariç sekiz yarıyıl olup azami tamamlama süresi on iki yarıyıldır. Bu program sekiz ders, yeterlik sınavı, tez önerisi ve tez çalışmasından oluşur. Alınması gereken sekiz dersten yedisi bölüm lisansüstü ders havuzundan, birisi de Fen Bilimleri Enstitüsü ders havuzundan seçilmektedir. Öğrenci kayıt yaptırdığı her yarıyıl en az iki derse, tez önerisi veren öğrenci her yarıyıl teze kayıt yaptırmak zorunda olup,  Yüksek Öğretim Kurulu (20 Nisan 2016 Tarihli) Lisansüstü Eğitim Öğretim Yönetmeliği gereğince kredili dersleri başarıyla tamamlamanın azami süresi dört yarıyıldır. Doktora programı için gerekli dersleri başarıyla tamamlamış olsa dahi GANO’su 3,00’ın altında kalan öğrenci, not ortalamasını sağlayana kadar derslerini tekrar etmeye devam eder.
+
+Yeterlik sınavı, derslerini ve seminerini tamamlayan öğrencinin alanındaki temel konular ve kavramlar ile doktora çalışmasıyla ilgili bilimsel araştırma derinliğine sahip olup olmadığının ölçülmesidir. Bir öğrenci bir yılda en fazla iki kez yeterlik sınavına girebilmekte olup, en geç beşinci yarıyılın sonuna kadar yeterlik sınavına girmek zorundadır. Yeterlik sınavı yazılı ve sözlü olarak iki bölüm halinde yapılır. Yeterlik sınavında başarısız olan öğrenci bir sonraki yarıyılda tekrar sınava alınır. Bu sınavda da başarısız olan öğrencinin doktora programı ile ilişiği kesilir. Yeterlik sınavına yönelik diğer detaylar ilgili yönergede verilmiştir.
+
+Derslerin tamamlanması, yeterlik aşaması ve aşağıda belirtilen yayın şartlarının sağlanmasında sonra, ilgili Fen Bilimleri Enstitüsü yönergelerine göre hazırlanan tezin başarı ile savunulması ile öğrenci programı tamamlamış olup, Bilgisayar Mühendisliği Doktorası derecesini kazanır.
+
+ 
+
+Araştırma Alanları
+
+Marmara Üniversitesi Bilgisayar Mühendisliği bölümünde doktora seviyelerindeki araştırmalarda yoğunlaşılan alanlar arasında yazılım mühendisliği, paralel ve dağıtık hesaplama, çok çekirdekli hesaplama, gömülü sistemler, yapay zeka, veri madenciliği, görüntü ve video işleme, bilgisayarlı görme, doğadan esinli hesaplama, makine öğrenimi, doğal dil işleme, bioinformatik, bilgisayar ağları, kablosuz ağlar, araçsal ağlar, optimizasyon ve oyun teorisi yer almaktadır. Tez çalışmaları bölüm öğretim üyeleri tarafından yürütülmekte olan TÜBİTAK ve Avrupa Birliği destekli projeler kapsamında da yapılabilmektedir. Doktora öğrencileri ve tez danışmanları tarafından yürütülecek AR-GE çalışmaları sonucunda teknik dergilerde makaleler, konferanslarda bildiriler ve patentler çıkması hedeflenmektedir. Araştırma alanlarına yönelik detaylar için öğretim üyelerinin web sayfalarının incelenmesi yararlı olacaktır.
+
+ 
+
+Mezuniyet için Yayın Şartları
+
+Doktora programından mezun olabilmek için tez çalışmalarından üretilmiş;
+
+* en az bir adet dergi makalesi (SCI-E tarafından endekslenmiş dergiler tarafından kabul edilerek DOI numarası verilmiş olmalıdır) ve
+
+* en az bir adet uluslararası konferans tam bildiri yayınlamış olmak zorunludur.
+
+Marmara Üniversitesi - Fen Bilimleri Enstitüsü
+Bilgisayar Mühendisliği Bölümü - Doktora Müfredatı
+1. DÖNEM 2. DÖNEM
+No Ders Kodu Ders Adı T U ECTS No Ders Kodu Ders Adı T U ECTS
+1 CSExxxx Seçmeli - 1 3 0 8 1 CSExxxx Seçmeli - 5 3 0 8
+2 CSExxxx Seçmeli - 2 3 0 8 2 CSExxxx Seçmeli – 6 3 0 8
+3 CSExxxx Seçmeli - 3 3 0 8 3 CSExxxx Seçmeli - 7 3 0 8
+4 CSExxxx Seçmeli - 4 3 0 8 4 FBE-ES Enstitü Seçmeli 3 0 4
+TOPLAM 12 0 32 TOPLAM 9 2 28
+Bilimsel Hazırlık: 1. DÖNEM
+No Ders Kodu Ders Adı T U ECTS
+1 CSE2025 Veri Yapıları 3 2 8
+2 CSE3015 Sayısal Mantık Tasarımı 3 2 7
+3 CSE3033 İşletim Sistemleri 3 2 7
+4 CSE3055 Veritabanı Sistemleri 3 2 7
+5 CSE2023 Ayrık Hesaplamalı Yapılar 3 0 6
+Bilimsel Hazırlık: 2. DÖNEM
+No Ders Kodu Ders Adı T U ECTS
+1 CSE2038 Sistem Programlama 2 2 7
+2 CSE2046 Algoritma Analizi 3 0 6
+3 CSE3038 Bilgisayar Organizasyonu 3 2 7
+4 CSE3044 Yazılım Mühendisliği 3 2 7
+5 CSE3064 Formal Diller ve Otomata Teorisi 3 0 6
+SEÇMELİ DERSLER (7xxx)
+No Ders Kodu Ders T U ECTS
+1 CSE7001 İleri Veritabanı Sistemleri 3 0 8
+2 CSE7002 Yazılım Süreçleri 3 0 8
+3 CSE7003 Nesneye Yönelik Tasarım Ve Programlama 3 0 8
+4 CSE7004 Birleşimsel Optimizasyon 3 0 8
+5 CSE7005 Bilgisayar Bilimleri için Matematik 3 0 8
+6 CSE7006 Algoritma Tasarım Ve Çözümü 3 0 8
+7 CSE7007 İleri Mühendislik Matematiği 3 0 8
+8 CSE7009 Hesaplamada Karmaşıklık 3 0 8
+9 CSE7010 Olasılık ve Rassal Süreçler 3 0 8
+10 CSE7011 Kriptografi 3 0 8
+11 CSE7013 Sayısal İşaret İşleme 3 0 8
+12 CSE7014 Kablosuz Ağ Protokolleri 3 0 8
+13 CSE7015 Sayısal Görüntü İşleme 3 0 8
+14 CSE7016 Bilgisayarlı Görme 3 0 8
+15 CSE7017 Otomata Kuramı 3 0 8
+16 CSE7018 Bilgisayar Ağlarının Performans Analizi 3 0 8
+17 CSE7019 Bilgisayar Mimarisi 3 0 8
+SEÇMELİ DERSLER (7xxx)
+No Ders Kodu Ders Adı T U ECTS
+18 CSE7020 İleri Bilgisayar Ağları 3 0 8
+19 CSE7021 Paralel İşlem 3 0 8
+20 CSE7022 İleri İşletim Sistemleri 3 0 8
+21 CSE7024 Dağıtık Sistemler 3 0 8
+22 CSE7025 Doğadan Esinlemeli Hesaplama 3 0 8
+23 CSE7026 Dağıtık Sistemlerde Görev Dağıtımı 3 0 8
+24 CSE7027 Optik Ağlar 3 0 8
+25 CSE7028 Küme Hesaplaması 3 0 8
+26 CSE7029 Makine Öğrenmesi 3 0 8
+27 CSE7030 Metin İşleme 3 0 8
+28 CSE7031 Programlama Dilleri Semantiği 3 0 8
+29 CSE7033 İleri Bilgisayar Grafiği 3 0 8
+30 CSE7034 Sinir Ağları 3 0 8
+31 CSE7035 Çoklu Ortam Sistemleri 3 0 8
+32 CSE7036 Örüntü Tanıma 3 0 8
+33 CSE7037 Elektronik Ticaret Teknolojileri 3 0 8
+34 CSE7038 Biyolojiden Esinlenmiş Yapay Zeka 3 0 8
+SEÇMELİ DERSLER (7xxx)
+No Ders Kodu Ders Adı T U ECTS
+35 CSE7039 Adli Bilişim 3 0 8
+36 CSE7041 Gömülü Sistemler 3 0 8
+37 CSE7045 Veri Madenciliği 3 0 8
+38 CSE7046 Biyoinformatik 3 0 8
+39 CSE7047 Bilgi Çıkarımı ve Web Arama 3 0 8
+40 CSE7048 Web Madenciliği 3 0 8
+41 CSE7049 Hata Toleranslı Hesaplama 3 0 8
+42 CSE7050 Yapay Zeka 3 0 8
+43 CSE7051 Bilgi Tabanlı Sistemler 3 0 8
+44 CSE7052 Doğal Dil İşleme 3 0 8
+45 CSE7053 Sosyal Ağ Analizi 3 0 8
+46 CSE7054 Bulut Bilişim Konuları 3 0 8
+47 CSE7056 Blok-Zincir Programlama 3 0 8
+48 CSE7057 İşlemsel Genomik 3 0 8
+49 CSE7059 Çok-Etmenli Sistemler 3 0 8
+50 CSE7096 Bilgisayar Mühendisliğinde Özel Konular I 3 0 8
+51 CSE7097 Bilgisayar Mühendisliğinde Özel Konular II 3 0 8
+52 CSE7098 Bilgisayar Mühendisliğinde Özel Konular III 3 0 8
+53 CSE7099 Bilgisayar Mühendisliğinde Özel Konular IV 3 0 8
+SEÇMELİ DERSLER (8xxx)
+No Ders Kodu Ders Adı T U ECTS
+1 CSE8001 Olasılıksal Süreç 3 0 8
+2 CSE8002 Algılama ve Tahmin Etme 3 0 8
+3 CSE8003 Öğrenen Otamata 3 0 8
+4 CSE8004 Güçlendirme Öğrenmesi 3 0 8
+5 CSE8005 Veri Ambarları ve Olap 3 0 8
+6 CSE8006 Evrimsel Hesaplama 3 0 8
+7 CSE8007 Çok-Çekirdekli Hesaplama 3 0 8
+8 CSE8009 Doğrusal Olmayan Programlama 3 0 8
+9 CSE8010 Kuyruk Teorisi 3 0 8
+10 CSE8011 Çizge Teorisi 3 0 8
+11 CSE8012 Paralel Mimariler için Çizelgeleme 3 0 8
+12 CSE8014 Hesaplamalı Moleküler Biyoloji 3 0 8
+13 CSE8015 İleri Internet Servisleri 3 0 8
+14 CSE8016 Taşıtsal Ağlar 3 0 8
+15 CSE8017 Bilgisayar Mühendisliğinde Oyun Teorisi 3 0 8
+16 CSE8018 Kombinatorik Teorisi 3 0 8
+17 CSE8019 Derin Öğrenme 3 0 8
+18 CSE8096 Bilgisayar Müh. İleri Konular I 3 0 8
+19 CSE8097 Bilgisayar Müh. İleri Konular II 3 0 8
+ENSTİTÜ SEÇMELİ (8xxx)
+No Ders Kodu Ders Adı T U ECTS
+1 FBE8002 İleri Araştırma Metotları 3 0 4
+2 FBE8004 Fen ve Mühendislikte Öğretim ve Öğrenme 3 0 4
