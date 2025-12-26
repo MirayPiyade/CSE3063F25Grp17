@@ -1,7 +1,76 @@
 # RAG Project (CSE3063F25Grp17)
 
 This project implements a Retrieval-Augmented Generation (RAG) system for university course information (Computer Engineering, Marmara University).
+Use Case 4 — Context-Aware Answer Generation Using AI
+Primary Actor
 
+User (Student / Staff)
+
+Goal
+
+To obtain a clear and reliable answer to a university-related question by combining information found across multiple relevant documents.
+
+Preconditions
+
+The system is running and accessible via the command-line interface.
+
+Relevant university documents are available in the system.
+
+The system is configured to generate meaningful answers based on stored content.
+
+Postconditions
+
+The user receives a concise and well-organized answer to the question.
+
+The answer is supported by references to the source documents.
+
+Trigger
+
+The user enters a question that requires understanding and summarizing information spread across multiple documents
+(e.g., “How does the internship report submission process work?”).
+
+Main Success Scenario
+
+The user enters a question through the command-line interface.
+
+The system identifies what the question is about.
+
+The system determines key phrases related to the question.
+
+Relevant documents are selected from the available document set.
+
+The selected content is ordered based on its relevance to the question.
+
+The system analyzes the selected content and produces a context-aware answer.
+
+The final answer is presented to the user along with its supporting references.
+
+Extensions / Alternative Flows
+E1. Insufficient Information Available
+
+4a. The selected documents do not contain enough information to confidently answer the question.
+
+4b. The system returns a polite response indicating that the question cannot be answered.
+
+E2. Multiple Relevant Information Sources
+
+6a. Several documents contain partial but related information.
+
+6b. The system combines the most relevant information into a single, coherent answer.
+
+E3. Answer Generation Failure
+
+6a. The system is unable to produce a valid answer.
+
+6b. A predefined fallback message is shown to the user.
+
+Special Requirements
+
+Answers must be generated solely from the information available in the system.
+
+Responses must remain concise and directly relevant to the user’s question.
+
+References to information sources must always be included.
 ## 🚀 Setup
 
 ### 1. Initialize Virtual Environment
@@ -169,3 +238,27 @@ Proje aşağıdaki modüller için kapsamlı unit testlere sahiptir:
 - **rag/retrieval**: Keyword ve Vector retrieval
 - **rag/vector**: Embedding providerlar ve Vector indexler
 - **rag/utils**: Yardımcı araçlar
+
+---
+
+## 📊 Değerlendirme (Evaluation)
+
+RAG sisteminin başarımını ölçmek için `evaluate.py` scripti kullanılır. Bu script, belirlenen soru-cevap setleri üzerinden doğruluk (hit rate) ve cevap kalitesi (answer match rate) ölçümlerini yapar.
+
+### Kullanım
+
+```bash
+# Tüm modları karşılaştırmalı olarak değerlendirmek için:
+python evaluate.py --mode all
+
+# Belirli bir modu test etmek için (örn: vector-llm):
+python evaluate.py --mode vector-llm
+
+# Farklı bir test veri seti kullanmak için:
+python evaluate.py --mode all --input data/my_eval_questions.json
+```
+
+### Metrikler
+- **Hit Rate**: Doğru dokümanın getirilip getirilmediği.
+- **Answer Match Rate**: Üretilen cevabın beklenen cevaba ne kadar benzediği (fuzzy match/LLM eval).
+- **Latency**: Ortalama cevap süresi.

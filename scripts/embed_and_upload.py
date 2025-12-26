@@ -15,7 +15,7 @@ db = mongo["oosdRAG_db"]
 collection = db["chunks"]
 
 # (opsiyonel) temiz başlangıç
-# collection.delete_many({})
+collection.delete_many({})
 
 with open("data/chunks/chunks.jsonl", "r", encoding="utf-8") as f:
     for line in f:
