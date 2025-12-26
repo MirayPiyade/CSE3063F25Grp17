@@ -1,0 +1,13 @@
+1- Multicore Computing Research Group
+
+2- Evolutionary Computing and Metaheuristics Research Group
+
+3- Wireless Networks and Systems Research Group (WiNS-RG)
+
+4- Vehicular Networking and Intelligent Transportation Systems Research Group (VeNIT-RG)
+
+5- Knowledge in Natural Language Processing (KnowLP)
+
+6- Big Data and Text Analytics (BIGD&TA) Research Lab.
+
+7- Intelligence Designery (MInD) Research Group
