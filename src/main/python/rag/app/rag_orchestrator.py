@@ -83,8 +83,7 @@ class RagOrchestrator:
         except Exception as ex:
             print(f"Pipeline aborted: {str(ex)}", file=__import__('sys').stderr)
 
-        if context.get_answer() is None:
-            context.set_answer(registry.get_fallback_handler().build_fallback(context))
+
         answer: Optional[Answer] = context.get_answer()
         
         # Save to Cache
