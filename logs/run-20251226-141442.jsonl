@@ -1,0 +1,12 @@
+{"timestamp":1766747691146,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766747691146,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766747691147,"stage":"QueryWritingStage","summary":"terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo']","durationMs":1,"error":""}
+{"timestamp":1766747691147,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766747697992,"stage":"RetrievalStage","summary":"hits=5","durationMs":6845,"error":""}
+{"timestamp":1766747697993,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":6846,"error":""}
+{"timestamp":1766747697994,"stage":"RerankingStage","summary":"top=ATA121.md_0@ATA121.md score=2.2282954454421997","durationMs":1,"error":""}
+{"timestamp":1766747697994,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766747699645,"stage":"AnswerStage","summary":"citations=True","durationMs":1651,"error":""}
+{"timestamp":1766747699645,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=None}","durationMs":1651,"error":""}
+{"timestamp":1766747699645,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766747699645,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersi', 'ne', 'anlatır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=5, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

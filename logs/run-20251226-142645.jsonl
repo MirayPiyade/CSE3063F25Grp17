@@ -1,0 +1,12 @@
+{"timestamp":1766748414097,"stage":"IntentDetectionStage","summary":"intent=Intent.CourseInfo","durationMs":0,"error":""}
+{"timestamp":1766748414097,"stage":"IntentDetectionStage","summary":"{intent=Intent.CourseInfo, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766748414097,"stage":"QueryWritingStage","summary":"terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo']","durationMs":0,"error":""}
+{"timestamp":1766748414097,"stage":"QueryWritingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766748416350,"stage":"RetrievalStage","summary":"hits=10","durationMs":2253,"error":""}
+{"timestamp":1766748416350,"stage":"RetrievalStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=10, answer=False, fallback=None}","durationMs":2253,"error":""}
+{"timestamp":1766748416352,"stage":"RerankingStage","summary":"top=CSE1200.md_0@CSE1200.md score=2.2654974460601807","durationMs":2,"error":""}
+{"timestamp":1766748416352,"stage":"RerankingStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=10, answer=False, fallback=None}","durationMs":2,"error":""}
+{"timestamp":1766748418884,"stage":"AnswerStage","summary":"citations=True","durationMs":2532,"error":""}
+{"timestamp":1766748418884,"stage":"AnswerStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=10, answer=True, fallback=None}","durationMs":2532,"error":""}
+{"timestamp":1766748418884,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766748418884,"stage":"FinalizeStage","summary":"{intent=Intent.CourseInfo, terms=['ata121', 'dersinde', 'ne', 'anlatılır', 'course', 'ders', 'akts', 'prerequisite', 'courseinfo'], hits=10, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

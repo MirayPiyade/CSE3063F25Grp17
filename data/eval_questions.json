@@ -3,6 +3,7 @@
         "question": "bilgisayar mühendisliğine giriş ders kodu nedir",
         "expected_doc_ids": [
             "compe-course-CSE1200",
+            "CSE1200.md",
             "cse_curriculum.md"
         ],
         "expected_keywords": [

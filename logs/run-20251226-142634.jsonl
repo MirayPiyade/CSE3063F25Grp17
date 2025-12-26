@@ -1,0 +1,12 @@
+{"timestamp":1766748402273,"stage":"IntentDetectionStage","summary":"intent=Intent.Unknown","durationMs":0,"error":""}
+{"timestamp":1766748402273,"stage":"IntentDetectionStage","summary":"{intent=Intent.Unknown, terms=None, hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766748402273,"stage":"QueryWritingStage","summary":"terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown']","durationMs":0,"error":""}
+{"timestamp":1766748402273,"stage":"QueryWritingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=null, answer=False, fallback=None}","durationMs":0,"error":""}
+{"timestamp":1766748404918,"stage":"RetrievalStage","summary":"hits=10","durationMs":2645,"error":""}
+{"timestamp":1766748404918,"stage":"RetrievalStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=10, answer=False, fallback=None}","durationMs":2645,"error":""}
+{"timestamp":1766748404919,"stage":"RerankingStage","summary":"top=DoktoraProgramıMüfredat.txt_7@DoktoraProgramıMüfredat.txt score=0.7607631683349609","durationMs":1,"error":""}
+{"timestamp":1766748404919,"stage":"RerankingStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=10, answer=False, fallback=None}","durationMs":1,"error":""}
+{"timestamp":1766748405957,"stage":"AnswerStage","summary":"citations=True","durationMs":1038,"error":""}
+{"timestamp":1766748405957,"stage":"AnswerStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=10, answer=True, fallback=None}","durationMs":1038,"error":""}
+{"timestamp":1766748405957,"stage":"FinalizeStage","summary":"answer-ready","durationMs":0,"error":""}
+{"timestamp":1766748405957,"stage":"FinalizeStage","summary":"{intent=Intent.Unknown, terms=['cse3063', 'kaç', 'kredi', 'saat', 'unknown'], hits=10, answer=True, fallback=AnswerReady}","durationMs":0,"error":""}

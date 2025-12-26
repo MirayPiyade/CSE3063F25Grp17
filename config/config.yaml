@@ -8,5 +8,5 @@ rerankerPath: config/reranker.yaml
 retrieverType: vector
 # Enable LLM Answer Agent
 answerAgentType: llm
-topK: 5
+topK: 10
 sourcePriority: [CompE, FoE, MU]
